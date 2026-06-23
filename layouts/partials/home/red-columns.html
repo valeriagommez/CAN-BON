@@ -1,0 +1,10 @@
+{{ $d := .Site.Data.home.two_columns }}
+<div class="two-columns-red">
+    <div class="column left">
+        <h2 style="color: white">{{ $d.left_title }}</h2>
+        <p>{{ $d.left_text | markdownify }}</p>
+    </div>
+    <div class="column right">
+        {{ $d.right_text | markdownify }}
+    </div>
+</div>

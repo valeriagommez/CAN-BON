@@ -1,0 +1,5 @@
+{{ $d := .Site.Data.home.introduction }}
+<div class="introduction-container main-content">
+    <h2>{{ $d.introduction_title }}</h2>
+    <p>{{ $d.introduction_text | markdownify }}</p>
+</div>

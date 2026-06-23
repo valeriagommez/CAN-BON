@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.svg">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <!-- {{ partial "shared/header-pages.html" . }} -->
+    {{ block "main" . }}{{ end }}
+    {{ partial "shared/footer.html" . }}
+</body>
+</html>

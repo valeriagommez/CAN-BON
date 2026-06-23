@@ -1,0 +1,10 @@
+{{ $d := .Site.Data.home.about_section }}
+<div class="about-section-container">
+    <div class="about-section main-content">
+        <h1>{{ $d.about_title }}</h1>
+        <p>{{ $d.about_text | markdownify }}</p>
+        <div class="button-container">
+            <a class="button" href="/about">{{ $d.about_button_text }}</a>
+        </div>
+    </div>
+</div>

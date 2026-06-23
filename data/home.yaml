@@ -1,0 +1,21 @@
+introduction : 
+  introduction_title : "A Canadian Biodiversity Observation Network is essential"
+  introduction_text : "It will aid in **coordinating biodiversity monitoring efforts** and providing decision-makers with **credible and timely relevant information**. CAN BON is a vital layer that will inform decisions and projections in the near and long term."
+
+two_columns:
+  left_title: "The 30x30 initiative"
+  left_text: "Protecting **30%** of Canadian lands and waters by **2030**"
+  right_text: | # NEEDED to preserve the line breaks
+    Canada is advancing an ambitious [**"Force for Nature" strategy**](https://www.canada.ca/en/services/environment/nature/nature-strategy.html), with a commitment of $3.8 billion for the 30x30 initiative.
+
+    This is in alignment with the UN Convention on Biological Diversity (CBD) [**Kunming-Montreal Global Biodiversity Framework (KMGBF)**](https://www.cbd.int/gbf/targets).
+
+about_section: 
+  about_title: "About CAN BON"
+  about_text: | # NEEDED to preserve the line breaks
+    Nature is undergoing a major transformation due to climate change. Biodiversity loss is accelerating and with it the many economic and cultural benefits we derive from healthy ecosystems.
+    
+    At the same time, demand for decision-useful data is increasing and there is a great need to mainstream information to support investment decisions.
+
+    Achieving these aforementioned goals requires reliable, coordinated data on the changing state of Canada's biodiversity.
+  about_button_text : "Learn more"
