@@ -1,0 +1,13 @@
+{{ $d := .Site.Data.about.canadian_bon }}
+
+<div class="about-page-canadian-bon main-content">
+    <div class="columns">
+        <div class="column-left">
+            <img class="column-img" src="/images/canmore.png">
+        </div>
+        <div class="column-right">
+            <h2 class="section-title">{{ $d.title }}</h2>
+            <p>{{ $d.text | markdownify}}</p>
+        </div>
+    </div>
+</div>

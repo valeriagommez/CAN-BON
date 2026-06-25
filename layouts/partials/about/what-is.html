@@ -1,0 +1,21 @@
+{{ $d := .Site.Data.about.what_is }}
+
+<div class="about-page-what-is">
+    <div class="container">
+        <div class=" main-content">
+            <div class="columns">
+                <div class="column-left">
+                    <h2 class="section-title">{{ $d.title }}</h2>
+                    <p>{{ $d.text | markdownify}}</p>
+                </div>
+
+                <div class="column-right">
+                    <img class="column-img" src="/images/geobon-bird.png">
+                    <div class="button-container">
+                        <a class="button" href="https://geobon.org/">{{ $d.button_text }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

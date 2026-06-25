@@ -1,0 +1,13 @@
+{{ $d := .Site.Data.about.introduction }}
+<div class="about-page-introduction main-content">
+    <h1 class="page-title">{{ $d.title }}</h1>
+    <div class="columns">
+        <div class="about-page-introduction column-left">
+            <img class="about-page-introduction column-img" src="/images/canadian-geese.png">
+        </div>
+        <div class="about-page-introduction column-right">
+            <p class="about-page-introduction subtitle">{{ $d.subtitle | markdownify}}</p>
+            <p>{{ $d.text | markdownify}}</p>
+        </div>
+    </div>
+</div>
