@@ -1,0 +1,32 @@
+introduction: 
+  title: "About CAN BON"
+  subtitle: "Nature is undergoing a major transformation due to <span style='color:var(--red)'>**climate change**</span>."
+  text: |
+    Biodiversity loss is accelerating and with it the many economic and cultural benefits we derive from healthy ecosystems. At the same time, demand for decision-useful data is increasing and there is a great need to mainstream information to support investment decisions.
+
+    However, **information is fragmented** across universities, governments, NGOs, Indigenous organizations, and private organizations, making it difficult to effectively inform policy and meet targets.
+
+what_is: 
+  title: "What is a BON?"
+  text: |
+    A **Biodiversity Observation Network (BON)** is a system of observation sites and groups who produce and use biodiversity data for different needs. Other countries (Colombia, France, China, Japan) and regions (Europe, Asia-Pacific, Arctic) have established BONs to support nature policy and environmental legislation.
+
+    The **Group on Earth Observations Biodiversity Observation Network (GEO BON)** Secretariat is currently headquartered in Canada, positioning it well to support the development of CAN BON.
+  button_text: "Learn more"
+
+canadian_bon : 
+  title: "A Canadian BON would..."
+  text: |
+    - Build a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
+    - Support modelling and forecasting of biodiversity trends
+    - Improve biodiversity monitoring standards and data accessibility
+    - Generate decision-useful information for conservation policy and investment
+    - Enhance capacity to meet national priorities (30x30, species-at-risk protection, water security, and natural capital accounting,) and international commitments
+
+development_plan:
+  title: "Development plan"
+  text: "A CAN BON will be developed following the BON process:"
+  first_step: "Assessment"
+  second_step: "Engagement"
+  third_step: "Design"
+  fourth_step: "Implementation"

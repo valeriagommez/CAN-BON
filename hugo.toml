@@ -1,3 +1,7 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'CAN BON'
+
+# allows html in the yaml file to be rendered
+[markup.goldmark.renderer]
+unsafe = true
