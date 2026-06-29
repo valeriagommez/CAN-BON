@@ -1,20 +1,22 @@
 introduction: 
   title: "Our network"
 
-secretariat : 
+secretariat:
   title: "Secretariat"
-  name_1: "Name"
-  position_1: "Position"
-  institution_1: "Institution"
-  name_2: "Name"
-  position_2: "Position"
-  institution_2: "Institution"
-  name_3: "Name"
-  position_3: "Position"
-  institution_3: "Institution"
-  name_4: "Name"
-  position_4: "Position"
-  institution_4: "Institution"
+  members:
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+      image_name: "geobon-bird.png"
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
 
 partners : 
   title: "Contributing partners"

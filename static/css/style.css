@@ -411,3 +411,48 @@ strong {
         font-weight: 600;
     }
 }
+
+/* OUR NETWORK */
+.network-page-introduction {
+    .container {
+        margin-top: 24px;
+        padding-bottom: 24px;
+        background-color: var(--beige);
+    }
+
+    .secretariat-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .secretariat-card {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        aspect-ratio: 1/1;        
+        object-fit: cover; 
+        border-radius: 50%; 
+        width: 144px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .name {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .name, .position, .institution {
+        text-align: center;
+        margin: 0;
+    }
+
+}
