@@ -485,7 +485,7 @@ strong {
     }
 
     .main-content {
-        padding: 1px;
+        padding: 12px;
     }
 
     .divider {
@@ -496,18 +496,21 @@ strong {
     }
 
     .cards-container {
-        justify-content: space-around;
+        padding-top: 24px;
+        justify-content: left;
+        row-gap: 48px;
+        gap: 48px;
     }
 
     .group-card {
-        width: 40%;
+        width: 46%;
     }
 
     .group-thumbnail {
         border-radius: 15px;
         background-size: cover;
         background-position: center;
-        height: 124px;
+        height: 152px;
         display: flex;
         align-items: center;
         justify-content: center;
