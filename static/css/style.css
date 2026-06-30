@@ -459,6 +459,10 @@ strong {
         text-align: center;
         margin: 0;
     }
+
+    .institution {
+        font-style: italic;
+    }
 }
 
 .network-page-partners {
