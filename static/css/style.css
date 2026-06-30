@@ -256,7 +256,7 @@ strong {
 }
 
 .section-title {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .columns {
@@ -413,19 +413,24 @@ strong {
 }
 
 /* OUR NETWORK */
-.network-page-introduction {
+
+.secretariat-cards, .logos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.network-page-secretariat {
+    .main-content{ 
+        padding: 12px 0;
+    }
+
     .container {
         margin-top: 24px;
         padding-bottom: 24px;
         background-color: var(--beige);
-    }
-
-    .secretariat-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        row-gap: 24px;
     }
 
     .secretariat-card {
@@ -454,5 +459,16 @@ strong {
         text-align: center;
         margin: 0;
     }
+}
 
+.network-page-partners {
+    .partner-logo {
+        max-height: 125px;
+    }
+
+    .logos-container {
+        align-items: center;
+        gap: 40px;
+        margin: 24px 0;
+    }
 }

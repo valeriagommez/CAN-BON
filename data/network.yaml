@@ -18,5 +18,15 @@ secretariat:
       position: "Position"
       institution: "Institution"
 
-partners : 
+partners: 
   title: "Contributing partners"
+  logos: 
+  - name: "GEO BON"
+    image_name: "logo-geobon.png"
+    link: "https://geobon.org/"
+  - name: "Marine BON"
+    image_name: "logo-mbon.png"
+    link: "https://marinebon.org/"
+  - name: "BON in a Box"
+    image_name: "logo-bon-in-a-box.png"
+    link: "https://boninabox.geobon.org/"

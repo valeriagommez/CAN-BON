@@ -1,5 +1,15 @@
-{{ $d := .Site.Data.network.secretariat }}
+{{ $d := .Site.Data.network.partners }}
 
-<div>
-
+<div class="network-page-partners main-content">
+    <div class="container">
+        <h2 class="section-title">{{ $d.title }}</h2>
+        <div class="logos-container">
+            <!-- will loop through every logo and display it -->
+            {{ range $d.logos }} 
+                <a href="{{ .link | default "" }}">
+                    <img class="partner-logo" src="/images/{{ .image_name }}" alt="{{ .name }}">
+                </a>
+            {{ end }}
+        </div>
+    </div>
 </div>
