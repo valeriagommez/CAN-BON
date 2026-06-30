@@ -79,6 +79,7 @@ strong {
     justify-content: space-between;
     align-items: center;
     padding: 12px 10%;
+    z-index: 999;
 
     color: white;
     font-family: "Geologica", sans-serif;
@@ -610,4 +611,48 @@ strong {
 .our-work-page-resources {
     color: white;
     
+    p{
+        font-family: "Geologica", sans-serif;
+        font-size: 16px;
+    }
+    
+    .container {
+        background-color: var(--red);
+    }
+
+    .columns, .main-content{
+        padding-bottom: 48px;
+    }
+
+    .section-title {
+        color: white;
+    }
+
+    .view-more {
+        color: white;
+    }
+
+    .column-title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .resource-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 0;
+        color: white;
+        text-decoration: none;
+        border-bottom: 3px solid #ED616F;
+    }
+
+    .resource-item:last-child {
+        border-bottom: none;
+    }
+
+    .resource-icon {
+        width: auto;
+        height: 24px;
+    }
 }

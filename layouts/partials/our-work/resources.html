@@ -1,0 +1,39 @@
+{{ $d := .Site.Data.our_work.resources }}
+
+<div class="our-work-page-resources">
+    <div class="container">
+        <div class="main-content">
+            <h2 class="section-title">{{ $d.title }}</h2>
+            <p>{{ $d.subtitle }}</p>
+            <div class="columns">
+                <div class="column">
+                    <p class="column-title">{{ $d.title_reports }}</p>
+                    <div class="reports">
+                        {{ range $d.reports }}
+                            {{ partial "our-work/report-item.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="column">
+                    <p class="column-title">{{ $d.title_toolkits }}</p>
+                    <div class="toolkits">
+                        {{ range $d.toolkits }}
+                            {{ partial "our-work/toolkit-item.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="column">
+                    <p class="column-title">{{ $d.title_webinars }}</p>
+                    <div class="webinars">
+                        {{ range $d.webinars }}
+                            {{ partial "our-work/webinar-item.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a class="view-more" href="{{ $d.button.link }}">{{ $d.button.text }}</a>
+            </div>
+        </div>
+    </div>
+</div>

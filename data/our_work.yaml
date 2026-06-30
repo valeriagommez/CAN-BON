@@ -32,9 +32,10 @@ data_tools:
     link: ""
   button: 
     text: "View all products >"
-    link: "\\products"
+    link: "products"
 
 resources: 
+  title: "Resources"
   subtitle: "Our reports, toolkits, and webinars - all in one place."
 
   title_reports: "Reports"
@@ -66,4 +67,4 @@ resources:
 
   button: 
     text: "View all resources >"
-    link: "\\products"
+    link: "resources"
