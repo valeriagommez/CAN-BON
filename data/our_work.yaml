@@ -18,19 +18,20 @@ working_groups:
         link: ""
 
 data_tools: 
+  title: "Data tools"
   subtitle: "Products developed by CAN BON and its contributing partners."
   cards: 
   - name: "MBON Data Portal"
-    image_name: ""
+    image_name: "mbon-portal.png"
     link: ""
   - name: "CoastWatch OBIS Indicator Explorer"
-    image_name: ""
+    image_name: "coast-watch.png"
     link: ""
   - name: "Climate Change for Sanctuaries"
-    image_name: ""
+    image_name: "climate-change.png"
     link: ""
-  action_button: 
-    text: "View all products"
+  button: 
+    text: "View all products >"
     link: "\\products"
 
 resources: 
@@ -63,6 +64,6 @@ resources:
   - title: "Webinar 3"
     link : ""
 
-  action_button: 
-    text: "View all resources"
+  button: 
+    text: "View all resources >"
     link: "\\products"
