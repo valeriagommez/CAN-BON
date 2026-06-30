@@ -256,7 +256,7 @@ strong {
 }
 
 .section-title {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .columns {
@@ -409,5 +409,70 @@ strong {
     .step-name {
         font-size : 20px;
         font-weight: 600;
+    }
+}
+
+/* OUR NETWORK */
+
+.secretariat-cards, .logos-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.network-page-secretariat {
+    .main-content{ 
+        padding: 12px 0;
+    }
+
+    .container {
+        margin-top: 24px;
+        padding-bottom: 24px;
+        background-color: var(--beige);
+    }
+
+    .secretariat-card {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        aspect-ratio: 1/1;        
+        object-fit: cover; 
+        border-radius: 50%; 
+        width: 144px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .name {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .name, .position, .institution {
+        text-align: center;
+        margin: 0;
+    }
+
+    .institution {
+        font-style: italic;
+    }
+}
+
+.network-page-partners {
+    .partner-logo {
+        max-height: 125px;
+    }
+
+    .logos-container {
+        align-items: center;
+        gap: 40px;
+        margin: 24px 0;
     }
 }
