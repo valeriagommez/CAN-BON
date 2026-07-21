@@ -2,7 +2,7 @@
 {{ $d := index .Site.Data $lang "home" "header" }}
 
 <div class="hero-home">
-    <a href="/"><img class="navbar-logo home" src="/images/logo-red.png"></a>
+    <a href="{{ $d.logo_link }}"><img class="navbar-logo home" src="/images/logo-red.png"></a>
     <div class="navbar-home">
         <div class="navbar-items left">
             <a class="navbar-items left" style="visibility: hidden;" href="/">

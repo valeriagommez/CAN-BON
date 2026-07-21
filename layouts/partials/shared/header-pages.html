@@ -2,16 +2,16 @@
 {{ $d := index .Site.Data $lang "home" "header" }}
 
 <div class="navbar-pages">
-    <a class="navbar-items left" href="/">
+    <a class="navbar-items left" href="{{ $d.logo_link }}">
         <img class="navbar-logo" src="/images/logo-white.png">
-        <p class="navbar-title">CAN BON</p>
+        <p class="navbar-title">{{ $d.canbon }}</p>
     </a>
     <div class="navbar-items right">
         {{ range .Translations }}
             <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Label }}</a>
-        {{ end }}<a href="/" class="navbar-link">Home</a>
-        <a href="/about" class="navbar-link">About</a>
-        <a href="/network" class="navbar-link">Network</a>
-        <a href="/our-work" class="navbar-link">Our work</a>
+        {{ end }}<a href="/" class="navbar-link">{{ $d.home }}</a>
+        <a href="/about" class="navbar-link">{{ $d.about }}</a>
+        <a href="/network" class="navbar-link">{{ $d.network }}</a>
+        <a href="/our-work" class="navbar-link">{{ $d.our_work }}</a>
     </div>
 </div>

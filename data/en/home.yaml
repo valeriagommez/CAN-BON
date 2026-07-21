@@ -4,6 +4,7 @@ header:
   about: "About"
   network: "Network"
   our_work: "Our work"
+  logo_link: "/"
 
 introduction : 
   introduction_title : "A Canadian Biodiversity Observation Network is essential"
@@ -26,3 +27,4 @@ about_section:
 
     Achieving these aforementioned goals requires reliable, coordinated data on the changing state of Canada's biodiversity.
   about_button_text : "Learn more"
+  about_button_link : "/about"

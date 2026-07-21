@@ -4,25 +4,27 @@ header:
   about: "À propos"
   network: "Notre réseau"
   our_work: "Nos projets"
+  logo_link: "/fr"
 
 introduction : 
-  introduction_title : "A Canadian Biodiversity Observation Network is essential"
-  introduction_text : "It will aid in **coordinating biodiversity monitoring efforts** and providing decision-makers with **credible and timely relevant information**. CAN BON is a vital layer that will inform decisions and projections in the near and long term."
+  introduction_title : "Un réseau canadien d'observation de la biodiversité est essentiel"
+  introduction_text : "Il contribuera à **coordonner les efforts de suivi de la biodiversité** et à fournir aux décideurs des **informations crédibles et pertinentes en temps opportun**. CAN BON est un outil essentiel qui éclairera les décisions et les projections à court et à long terme."
 
 two_columns:
-  left_title: "The 30x30 initiative"
-  left_text: "Protecting **30%** of Canadian lands and waters by **2030**"
+  left_title: "L'initiative 30x30"
+  left_text: "Protéger **30 %** des terres et des eaux canadiennes d'ici **2030**"
   right_text: | # NEEDED to preserve the line breaks
-    Canada is advancing an ambitious [**"Force for Nature" strategy**](https://www.canada.ca/en/services/environment/nature/nature-strategy.html), with a commitment of $3.8 billion for the 30x30 initiative.
+    Le Canada met en œuvre une stratégie ambitieuse [**« Force pour la nature »**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), avec un engagement de 3,8 milliards de dollars pour l'initiative 30x30.
 
-    This is in alignment with the UN Convention on Biological Diversity (CBD) [**Kunming-Montreal Global Biodiversity Framework (KMGBF)**](https://www.cbd.int/gbf/targets).
+    Cette initiative est conforme à la Convention des Nations Unies sur la diversité biologique (CDB) et le [**cadre mondial de Kunming-Montréal pour la biodiversité (CMMBB)**](https://www.cbd.int/gbf/targets).
 
 about_section: 
-  about_title: "About CAN BON"
+  about_title: "À propos"
   about_text: | # NEEDED to preserve the line breaks
-    Nature is undergoing a major transformation due to climate change. Biodiversity loss is accelerating and with it the many economic and cultural benefits we derive from healthy ecosystems.
-    
-    At the same time, demand for decision-useful data is increasing and there is a great need to mainstream information to support investment decisions.
+    La nature subit une transformation majeure en raison des changements climatiques. La perte de biodiversité s'accélère, et avec elle les nombreux avantages économiques et culturels que nous retirons d'écosystèmes sains.
 
-    Achieving these aforementioned goals requires reliable, coordinated data on the changing state of Canada's biodiversity.
-  about_button_text : "Learn more"
+    Parallèlement, la demande de données utiles à la prise de décision augmente et il est crucial de généraliser l'information afin d'appuyer les décisions d'investissement.
+
+    Pour atteindre ces objectifs, il faut disposer de données fiables et coordonnées sur l'évolution de la biodiversité au Canada.
+  about_button_text : "En savoir plus"
+  about_button_link : "/fr/about"
