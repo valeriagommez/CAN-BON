@@ -7,7 +7,9 @@
         <p class="navbar-title">CAN BON</p>
     </a>
     <div class="navbar-items right">
-        <a href="/" class="navbar-link">Home</a>
+        {{ range .Translations }}
+            <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Label }}</a>
+        {{ end }}<a href="/" class="navbar-link">Home</a>
         <a href="/about" class="navbar-link">About</a>
         <a href="/network" class="navbar-link">Network</a>
         <a href="/our-work" class="navbar-link">Our work</a>

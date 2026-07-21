@@ -1,3 +1,10 @@
+header: 
+  canbon: "CAN BON"
+  home: "Accueil"
+  about: "À propos"
+  network: "Notre réseau"
+  our_work: "Nos projets"
+
 introduction : 
   introduction_title : "A Canadian Biodiversity Observation Network is essential"
   introduction_text : "It will aid in **coordinating biodiversity monitoring efforts** and providing decision-makers with **credible and timely relevant information**. CAN BON is a vital layer that will inform decisions and projections in the near and long term."

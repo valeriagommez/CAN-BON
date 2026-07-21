@@ -1,39 +1,32 @@
-header: 
-  canbon: "CAN BON"
-  home: "Accueil"
-  about: "À propos"
-  network: "Notre réseau"
-  our_work: "Nos projets"
-
 introduction: 
-  title: "About CAN BON"
-  subtitle: "Nature is undergoing a major transformation due to <span style='color:var(--red)'>**climate change**</span>."
+  title: "À propos"
+  subtitle: "La nature subit une transformation majeure en raison du <span style='color:var(--red)'>**changement climatique**</span>."
   text: |
-    Biodiversity loss is accelerating and with it the many economic and cultural benefits we derive from healthy ecosystems. At the same time, demand for decision-useful data is increasing and there is a great need to mainstream information to support investment decisions.
+    La perte de biodiversité s'accélère, entraînant avec elle les nombreux avantages économiques et culturels que nous tirons d'écosystèmes sains. Parallèlement, la demande de données exploitables pour la prise de décision augmente et il est crucial de généraliser l'information afin d'éclairer les décisions d'investissement.
 
-    However, **information is fragmented** across universities, governments, NGOs, Indigenous organizations, and private organizations, making it difficult to effectively inform policy and meet targets.
+    Cependant, **l'information est fragmentée** entre les universités, les gouvernements, les ONG, les organisations autochtones et les entreprises privées, ce qui complique l'élaboration de politiques efficaces et l'atteinte des objectifs.
 
 what_is: 
-  title: "What is a BON?"
+  title: "Qu'est-ce qu'un BON?"
   text: |
-    A **Biodiversity Observation Network (BON)** is a system of observation sites and groups who produce and use biodiversity data for different needs. Other countries (Colombia, France, China, Japan) and regions (Europe, Asia-Pacific, Arctic) have established BONs to support nature policy and environmental legislation.
+    Un **réseau d'observation de la biodiversité (BON)** est un système de sites et de groupes d'observation qui produisent et utilisent des données sur la biodiversité pour répondre à différents besoins. D'autres pays (Colombie, France, Chine, Japon) et régions (Europe, Asie-Pacifique, Arctique) ont mis en place des BON pour appuyer les politiques de protection de la nature et la législation environnementale.
 
-    The **Group on Earth Observations Biodiversity Observation Network (GEO BON)** Secretariat is currently headquartered in Canada, positioning it well to support the development of CAN BON.
+    Le secrétariat du **Group on Earth Observations Biodiversity Observation Network (GEO BON)** est actuellement basé au Canada, ce qui lui permet de soutenir efficacement le développement du CAN BON.
   button_text: "Learn more"
 
 canadian_bon : 
-  title: "A Canadian BON would..."
+  title: "Un BON canadien pourrait..."
   text: |
-    - Build a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
-    - Support modelling and forecasting of biodiversity trends
-    - Improve biodiversity monitoring standards and data accessibility
-    - Generate decision-useful information for conservation policy and investment
-    - Enhance capacity to meet national priorities (30x30, species-at-risk protection, water security, and natural capital accounting,) and international commitments
+    - Mettre en place un système national coordonné de suivi de la biodiversité en reliant les systèmes d'observation, l'infrastructure de données et les savoirs autochtones.
+    - Appuyer la modélisation et la prévision des tendances de la biodiversité.
+    - Améliorer les normes de suivi de la biodiversité et l'accessibilité des données.
+    - Générer des informations utiles à la prise de décision pour les politiques et les investissements en matière de conservation.
+    - Renforcer les capacités pour répondre aux priorités nationales (30x30, protection des espèces menacées, sécurité de l'eau et comptabilité du capital naturel) et aux engagements internationaux.
 
 development_plan:
-  title: "Development plan"
-  text: "A CAN BON will be developed following the BON process:"
-  first_step: "Assessment"
+  title: "Plan de développement"
+  text: "Un CAN BON sera développé selon le processus BON :"
+  first_step: "Évaluation"
   second_step: "Engagement"
-  third_step: "Design"
-  fourth_step: "Implementation"
+  third_step: "Conception"
+  fourth_step: "Mise en œuvre"

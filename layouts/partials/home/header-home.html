@@ -7,11 +7,14 @@
         <div class="navbar-items left">
             <a class="navbar-items left" style="visibility: hidden;" href="/">
                 <img class="navbar-logo" src="/images/logo-white.png">
-                <p class="navbar-title">CAN BON</p>
+                <p class="navbar-title">{{ $d.canbon }}</p>
             </a>
         </div>
         <div class="hero-right">
             <div class="navbar-items right"> 
+                {{ range .Translations }}
+                    <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Label }}</a>
+                {{ end }}
                 <a href="/" class="navbar-link">Home</a>
                 <a href="/about" class="navbar-link">About</a>
                 <a href="/network" class="navbar-link">Network</a>
