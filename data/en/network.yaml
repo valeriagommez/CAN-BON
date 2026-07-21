@@ -1,0 +1,39 @@
+header: 
+  canbon: "CAN BON"
+  home: "Home"
+  about: "About"
+  network: "Network"
+  our_work: "Our work"
+
+introduction: 
+  title: "Our network"
+
+secretariat:
+  title: "Secretariat"
+  members:
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+      image_name: "geobon-bird.png"
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+    - name: "Name"
+      position: "Position"
+      institution: "Institution"
+
+partners: 
+  title: "Contributing partners"
+  logos: 
+  - name: "GEO BON"
+    image_name: "logo-geobon.png"
+    link: "https://geobon.org/"
+  - name: "Marine BON"
+    image_name: "logo-mbon.png"
+    link: "https://marinebon.org/"
+  - name: "BON in a Box"
+    image_name: "logo-bon-in-a-box.png"
+    link: "https://boninabox.geobon.org/"

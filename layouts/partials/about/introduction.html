@@ -1,4 +1,6 @@
-{{ $d := .Site.Data.about.introduction }}
+{{ $lang := .Site.Language.Name }}
+{{ $d := index .Site.Data $lang "about" "introduction" }}
+
 <div class="about-page-introduction main-content">
     <h1 class="page-title">{{ $d.title }}</h1>
     <div class="columns">

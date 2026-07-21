@@ -1,0 +1,16 @@
+{{ $lang := .Site.Language.Name }}
+{{ $d := index .Site.Data $lang "our_work" "working_groups" }}
+
+<div class="our-work-page-working-groups">
+    <div class="container">
+        <div class="main-content">
+            <h2 class="section-title">{{ $d.title }}</h2>
+            <div class="cards-container">
+                <!-- will loop through every working group and display a card for each -->
+                {{ range $d.groups }} 
+                    {{ partial "our-work/working-groups-card.html" . }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

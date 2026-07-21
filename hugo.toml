@@ -5,3 +5,15 @@ title = 'CAN BON'
 # allows html in the yaml file to be rendered
 [markup.goldmark.renderer]
 unsafe = true
+
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/english"
+    weight = 1
+  [languages.fr]
+    languageName = "Français"
+    contentDir = "content/french"
+    weight = 2

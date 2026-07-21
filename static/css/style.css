@@ -6,6 +6,9 @@
 :root {
     --grey: #222725; 
     --beige: #F9F3EB;
+    --beige-75: #f9f3ebbf;
+    --beige-50: #F9F3EB80;
+    --bright-red: #df001e;
     --red: #B82F3D;
     --dark-red: #931214;
     --darker-red: #760415;
@@ -72,19 +75,16 @@ strong {
 }
 
 /* navigation bar for the pages (red) */
-.navbar-pages, .navbar-home {
+.navbar-pages, .navbar-home, .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 10%;
+    padding: 12px 10vw;
+    z-index: 99;
 
     color: white;
     font-family: "Geologica", sans-serif;
-}
-
-.navbar-home {
-
 }
 
 .navbar-pages {
@@ -158,8 +158,26 @@ strong {
     transform: translateY(-2px);
 }
 
-.navbar-link:active {
+.navbar-link:active, .navbar-link.active {
     font-weight: 500;
+}
+
+.lang-link { 
+    border-radius: 8px;
+    padding: 8px;
+    width: 24px;
+    text-align: center;
+    /* background-color: var(--beige); */
+    /* color: var(--red); */
+    border: 3px white solid;
+    color: white;
+    font-weight: 500;
+    transition: all ease-in-out 0.3s;
+    text-transform: uppercase;
+}
+
+.lang-link:hover {
+    background-color: var(--dark-red);
 }
 
 /* HOME PAGE */
@@ -221,6 +239,11 @@ strong {
 .about-section {
     width: 45%;
     margin-left: 15%;
+    padding-bottom: 60px;
+
+    .button-container {
+        margin-top: 32px;
+    }
 }
 
 /* button */
@@ -256,7 +279,7 @@ strong {
 }
 
 .section-title {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .columns {
@@ -280,6 +303,8 @@ strong {
     }
 
     .column-img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
         width: 85%;
         border-radius: 25px;
         margin: auto;
@@ -321,6 +346,8 @@ strong {
     }
 
     .column-img {
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
         border-radius: 25px;
         width: 80%;
         margin: 0;
@@ -379,7 +406,7 @@ strong {
         height: 375px;
         background-color: var(--red);
         background-image: url(/images/dotted-line.png);
-
+        /* for parallax */
         background-attachment: fixed;
         background-position: top;
         background-size: contain;
@@ -414,7 +441,7 @@ strong {
 
 /* OUR NETWORK */
 
-.secretariat-cards, .logos-container {
+.secretariat-cards, .logos-container, .cards-container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -474,5 +501,198 @@ strong {
         align-items: center;
         gap: 40px;
         margin: 24px 0;
+    }
+}
+
+/* OUR WORK PAGE */
+
+.view-more-container {
+    display: flex;
+    justify-content: end;
+}
+
+.view-more {
+    font-family: "Geologica", sans-serif;
+    color: var(--red);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.our-work-page-working-groups {
+    .container {
+        margin-top: 24px;
+        background-color: var(--beige);
+        padding-bottom: 24px;
+    }
+
+    .main-content {
+        padding: 12px;
+    }
+
+    .divider {
+        margin-top: 24px;
+        width: 8px;
+        border-radius: 2px;
+        background-color: var(--red);
+    }
+
+    .cards-container {
+        padding-top: 24px;
+        justify-content: left;
+        row-gap: 48px;
+        gap: 48px;
+    }
+
+    .group-card {
+        width: 46%;
+    }
+
+    .group-thumbnail {
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        height: 152px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+
+        p {
+            color: white;
+            font-weight: 600;
+            font-family: "Geologica", sans-serif;
+            font-size: 24px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+    }
+
+    .group-description {
+        padding: 0 16px;
+        margin-bottom: 16px;
+    }
+}
+
+.our-work-page-data-tools {
+    .container {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url(/images/hexagons-bg.png);
+        background-attachment: fixed;
+        background-position: 0% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 24px;
+    }
+
+    .cards-container {
+        padding-top: 24px;
+        justify-content: left;
+        row-gap: 48px;
+        justify-content: space-between;
+        margin-bottom: 36px;
+    }
+
+    .data-tool-card {
+        border-radius: 15px;
+        border: 3px solid var(--red);
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 30%;
+        height: fit-content;
+        box-shadow: 0 4px 4px #00000030;
+        background-color: white;
+        backdrop-filter: blur(3px);
+
+        transition: all ease-in-out 0.3s;
+    }
+
+    .data-tool-card:hover {
+        transform: translateY(-6px);
+        border-color: var(--bright-red);
+        box-shadow: 0 4px 4px #00000080;
+    }
+
+    .data-tool-thumbnail {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2 / 1;
+        object-fit: cover;   
+        border-radius: 12px;
+    }
+
+    .data-tool-name {
+        padding: 12px;
+        text-align: center;
+        font-family: "Geologica", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--red);
+        margin: auto;
+    }
+
+}
+
+.our-work-page-resources {
+    color: white;
+    
+    p{
+        font-family: "Geologica", sans-serif;
+        font-size: 16px;
+    }
+    
+    .container {
+        background-color: var(--red);
+    }
+
+    .columns, .main-content{
+        padding-bottom: 48px;
+    }
+
+    .section-title {
+        color: white;
+    }
+
+    .view-more {
+        color: white;
+    }
+
+    .column-title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .resource-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 0;
+        color: white;
+        text-decoration: none;
+        border-bottom: 3px solid #ED616F;
+    }
+
+    .resource-item:last-child {
+        border-bottom: none;
+    }
+
+    .resource-icon {
+        width: auto;
+        height: 24px;
+    }
+}
+
+.footer {
+    background-color: var(--blue);
+    color: white;
+    font-family: "Geologica", sans-serif;
+    /* font-family: "Crimson Text", serif; */
+    color: var(--beige);
+    padding: 48px 10vw;
+    align-items: center;
+
+    .lang-link {
+        color: var(--beige);
+        border-color: var(--beige);
     }
 }

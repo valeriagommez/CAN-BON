@@ -1,12 +1,18 @@
+{{ $lang := .Site.Language.Name }}
+{{ $d := index .Site.Data $lang "home" "header" }}
+
 <div class="navbar-pages">
-    <a class="navbar-items left" href="/">
+    <a class="navbar-items left" href="{{ $d.home_link }}">
         <img class="navbar-logo" src="/images/logo-white.png">
-        <p class="navbar-title">CAN BON</p>
+        <p class="navbar-title">{{ $d.canbon }}</p>
     </a>
     <div class="navbar-items right">
-        <a href="/" class="navbar-link">Home</a>
-        <a href="/about" class="navbar-link">About</a>
-        <a href="/network" class="navbar-link">Network</a>
-        <a href="/our-work" class="navbar-link">Our work</a>
+        <a href="{{ $d.home_link }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.home }}</a>
+        <a href="{{ $d.about_link }}" class="navbar-link {{ if eq .RelPermalink $d.about_link }}active{{ end }}">{{ $d.about }}</a>
+        <a href="{{ $d.network_link }}" class="navbar-link {{ if eq .RelPermalink $d.network_link }}active{{ end }}">{{ $d.network }}</a>
+        <a href="{{ $d.our_work_link }}" class="navbar-link {{ if eq .RelPermalink $d.our_work_link }}active{{ end }}">{{ $d.our_work }}</a>
+        {{ range .Translations }}
+            <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
+        {{ end }}
     </div>
 </div>

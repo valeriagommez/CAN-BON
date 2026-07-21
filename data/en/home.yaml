@@ -1,3 +1,14 @@
+header: 
+  canbon: "CAN BON"
+  home: "Home"
+  about: "About"
+  network: "Network"
+  our_work: "Our work"
+  home_link: "/"
+  about_link: "/about/"
+  network_link: "/network/"
+  our_work_link: "/our-work/"
+
 introduction : 
   introduction_title : "A Canadian Biodiversity Observation Network is essential"
   introduction_text : "It will aid in **coordinating biodiversity monitoring efforts** and providing decision-makers with **credible and timely relevant information**. CAN BON is a vital layer that will inform decisions and projections in the near and long term."
@@ -19,3 +30,4 @@ about_section:
 
     Achieving these aforementioned goals requires reliable, coordinated data on the changing state of Canada's biodiversity.
   about_button_text : "Learn more"
+  about_button_link : "/about"

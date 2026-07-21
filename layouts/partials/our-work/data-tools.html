@@ -1,0 +1,20 @@
+{{ $lang := .Site.Language.Name }}
+{{ $d := index .Site.Data $lang "our_work" "data_tools" }}
+
+<div class="our-work-page-data-tools">
+    <div class="container">
+        <div class="main-content">
+            <h2 class="section-title">{{ $d.title }}</h2>
+            <p>{{ $d.subtitle }}</p>
+            <div class="cards-container">
+                <!-- will loop through every data tool and display a card for each -->
+                {{ range $d.cards }} 
+                    {{ partial "our-work/data-tools-card.html" . }}
+                {{ end }}
+            </div>
+            <div class="view-more-container">
+                <a class="view-more" href="{{ $d.button.link }}">{{ $d.button.text }}</a>
+            </div>
+        </div>
+    </div>
+</div>
