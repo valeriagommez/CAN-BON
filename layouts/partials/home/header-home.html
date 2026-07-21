@@ -2,7 +2,7 @@
 {{ $d := index .Site.Data $lang "home" "header" }}
 
 <div class="hero-home">
-    <a href="{{ $d.logo_link }}"><img class="navbar-logo home" src="/images/logo-red.png"></a>
+    <a href="{{ $d.home_link }}"><img class="navbar-logo home" src="/images/logo-red.png"></a>
     <div class="navbar-home">
         <div class="navbar-items left">
             <a class="navbar-items left" style="visibility: hidden;" href="/">
@@ -12,13 +12,13 @@
         </div>
         <div class="hero-right">
             <div class="navbar-items right"> 
+                <a href="{{ $d.home_link }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.home }}</a>
+                <a href="{{ $d.about_link }}" class="navbar-link {{ if eq .RelPermalink $d.about_link }}active{{ end }}">{{ $d.about }}</a>
+                <a href="{{ $d.network_link }}" class="navbar-link {{ if eq .RelPermalink $d.network_link }}active{{ end }}">{{ $d.network }}</a>
+                <a href="{{ $d.our_work_link }}" class="navbar-link {{ if eq .RelPermalink $d.our_work_link }}active{{ end }}">{{ $d.our_work }}</a>
                 {{ range .Translations }}
                     <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Label }}</a>
                 {{ end }}
-                <a href="/" class="navbar-link">Home</a>
-                <a href="/about" class="navbar-link">About</a>
-                <a href="/network" class="navbar-link">Network</a>
-                <a href="/our-work" class="navbar-link">Our work</a>
             </div>
         </div>
     </div>

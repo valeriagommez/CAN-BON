@@ -6,6 +6,8 @@
 :root {
     --grey: #222725; 
     --beige: #F9F3EB;
+    --beige-75: #f9f3ebbf;
+    --beige-50: #F9F3EB80;
     --bright-red: #df001e;
     --red: #B82F3D;
     --dark-red: #931214;
@@ -79,14 +81,10 @@ strong {
     justify-content: space-between;
     align-items: center;
     padding: 12px 10%;
-    z-index: 999;
+    z-index: 99;
 
     color: white;
     font-family: "Geologica", sans-serif;
-}
-
-.navbar-home {
-
 }
 
 .navbar-pages {
@@ -160,8 +158,23 @@ strong {
     transform: translateY(-2px);
 }
 
-.navbar-link:active {
+.navbar-link:active, .navbar-link.active {
     font-weight: 500;
+}
+
+.lang-link { 
+    border-radius: 8px;
+    padding: 8px 12px;
+    /* background-color: var(--beige); */
+    /* color: var(--red); */
+    border: 3px white solid;
+    color: white;
+    font-weight: 500;
+    transition: all ease-in-out 0.3s;
+}
+
+.lang-link:hover {
+    background-color: var(--dark-red);
 }
 
 /* HOME PAGE */

@@ -4,7 +4,10 @@ header:
   about: "À propos"
   network: "Notre réseau"
   our_work: "Nos projets"
-  logo_link: "/fr"
+  home_link: "/fr/"
+  about_link: "/fr/about/"
+  network_link: "/fr/network/"
+  our_work_link: "/fr/our-work/"
 
 introduction : 
   introduction_title : "Un réseau canadien d'observation de la biodiversité est essentiel"

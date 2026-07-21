@@ -1,25 +1,25 @@
 introduction: 
-  title: "Our network"
+  title: "Notre réseau"
 
 secretariat:
   title: "Secretariat"
   members:
-    - name: "Name"
+    - name: "Nom"
       position: "Position"
       institution: "Institution"
       image_name: "geobon-bird.png"
-    - name: "Name"
+    - name: "Nom"
       position: "Position"
       institution: "Institution"
-    - name: "Name"
+    - name: "Nom"
       position: "Position"
       institution: "Institution"
-    - name: "Name"
+    - name: "Nom"
       position: "Position"
       institution: "Institution"
 
 partners: 
-  title: "Contributing partners"
+  title: "Partenaires"
   logos: 
   - name: "GEO BON"
     image_name: "logo-geobon.png"
