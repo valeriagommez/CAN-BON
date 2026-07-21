@@ -75,12 +75,12 @@ strong {
 }
 
 /* navigation bar for the pages (red) */
-.navbar-pages, .navbar-home {
+.navbar-pages, .navbar-home, .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 10%;
+    padding: 12px 10vw;
     z-index: 99;
 
     color: white;
@@ -164,13 +164,16 @@ strong {
 
 .lang-link { 
     border-radius: 8px;
-    padding: 8px 12px;
+    padding: 8px;
+    width: 24px;
+    text-align: center;
     /* background-color: var(--beige); */
     /* color: var(--red); */
     border: 3px white solid;
     color: white;
     font-weight: 500;
     transition: all ease-in-out 0.3s;
+    text-transform: uppercase;
 }
 
 .lang-link:hover {
@@ -236,6 +239,11 @@ strong {
 .about-section {
     width: 45%;
     margin-left: 15%;
+    padding-bottom: 60px;
+
+    .button-container {
+        margin-top: 32px;
+    }
 }
 
 /* button */
@@ -295,6 +303,8 @@ strong {
     }
 
     .column-img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
         width: 85%;
         border-radius: 25px;
         margin: auto;
@@ -336,6 +346,8 @@ strong {
     }
 
     .column-img {
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
         border-radius: 25px;
         width: 80%;
         margin: 0;
@@ -667,5 +679,20 @@ strong {
     .resource-icon {
         width: auto;
         height: 24px;
+    }
+}
+
+.footer {
+    background-color: var(--blue);
+    color: white;
+    font-family: "Geologica", sans-serif;
+    /* font-family: "Crimson Text", serif; */
+    color: var(--beige);
+    padding: 48px 10vw;
+    align-items: center;
+
+    .lang-link {
+        color: var(--beige);
+        border-color: var(--beige);
     }
 }

@@ -1,7 +1,7 @@
-{{ $lang := .Site.Language.Lang }}
+{{ $lang := .Site.Language.Name }}
 {{ $d := index .Site.Data $lang "network" "partners" }}
 
-<div class="network-page-partners main-content">
+<div class="network-page-partners main-content" style="padding-bottom: 48px;">
     <div class="container">
         <h2 class="section-title">{{ $d.title }}</h2>
         <div class="logos-container">

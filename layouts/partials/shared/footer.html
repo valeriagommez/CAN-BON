@@ -1,0 +1,13 @@
+{{ $lang := .Site.Language.Name }}
+{{ $d := index .Site.Data $lang "home" "footer" }}
+
+<div class="footer">
+    <div class="navbar-items left">
+        <p>CAN BON - COPYRIGHT 2026</p>
+    </div>
+    <div class="navbar-items right">
+        {{ range .Translations }}
+            <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
+        {{ end }}
+    </div>
+</div>

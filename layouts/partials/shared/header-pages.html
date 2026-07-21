@@ -1,4 +1,4 @@
-{{ $lang := .Site.Language.Lang }}
+{{ $lang := .Site.Language.Name }}
 {{ $d := index .Site.Data $lang "home" "header" }}
 
 <div class="navbar-pages">
@@ -12,7 +12,7 @@
         <a href="{{ $d.network_link }}" class="navbar-link {{ if eq .RelPermalink $d.network_link }}active{{ end }}">{{ $d.network }}</a>
         <a href="{{ $d.our_work_link }}" class="navbar-link {{ if eq .RelPermalink $d.our_work_link }}active{{ end }}">{{ $d.our_work }}</a>
         {{ range .Translations }}
-            <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Label }}</a>
+            <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
         {{ end }}
     </div>
 </div>
