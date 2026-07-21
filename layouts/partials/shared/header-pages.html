@@ -1,3 +1,6 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "home" "header" }}
+
 <div class="navbar-pages">
     <a class="navbar-items left" href="/">
         <img class="navbar-logo" src="/images/logo-white.png">

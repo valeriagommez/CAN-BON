@@ -1,4 +1,6 @@
-{{ $d := .Site.Data.home.about_section }}
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "home" "about_section" }}
+
 <div class="about-section-container">
     <div class="about-section main-content">
         <h1 class="section-title">{{ $d.about_title }}</h1>

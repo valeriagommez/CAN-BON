@@ -1,4 +1,6 @@
-{{ $d := .Site.Data.home.two_columns }}
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "home" "two_columns" }}
+
 <div class="two-columns-red">
     <div class="column left">
         <h3 style="color: white; margin-bottom: 0;">{{ $d.left_title }}</h3>

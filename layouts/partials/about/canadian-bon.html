@@ -1,4 +1,5 @@
-{{ $d := .Site.Data.about.canadian_bon }}
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "about" "canadian_bon" }}
 
 <div class="about-page-canadian-bon main-content">
     <div class="columns">

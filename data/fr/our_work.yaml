@@ -1,0 +1,70 @@
+introduction: 
+  title: "Our work"
+
+working_groups: 
+  title: "Working groups"
+  groups: 
+  - title : "Science Advisory"
+    image_name: "beaver.png"
+    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+    button : 
+      text: "Learn more"
+      link: ""
+  - title: "Steering Committee"
+    image_name: "canadian-geese-2.png"
+    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+    button : 
+        text: "Learn more"
+        link: ""
+
+data_tools: 
+  title: "Data tools"
+  subtitle: "Products developed by CAN BON and its contributing partners."
+  cards: 
+  - name: "MBON Data Portal"
+    image_name: "mbon-portal.png"
+    link: ""
+  - name: "CoastWatch OBIS Indicator Explorer"
+    image_name: "coast-watch.png"
+    link: ""
+  - name: "Climate Change for Sanctuaries"
+    image_name: "climate-change.png"
+    link: ""
+  button: 
+    text: "View all products >"
+    link: "products"
+
+resources: 
+  title: "Resources"
+  subtitle: "Our reports, toolkits, and webinars - all in one place."
+
+  title_reports: "Reports"
+  reports: 
+  - title: "GEO BON Technical Series No. 1"
+    link : ""
+  - title: "GEO BON Technical Series No. 2"
+    link : ""
+  - title: "Global Biodiversity Change Indicators"
+    link : ""
+
+  title_toolkits: "Toolkits"
+  toolkits: 
+  - title: "Toolkit 1"
+    link : ""
+  - title: "Toolkit 2"
+    link : ""
+  - title: "Toolkit 3"
+    link : ""
+
+  title_webinars: "Webinars"
+  webinars: 
+  - title: "Webinar 1"
+    link : ""
+  - title: "Webinar 2"
+    link : ""
+  - title: "Webinar 3"
+    link : ""
+
+  button: 
+    text: "View all resources >"
+    link: "resources"

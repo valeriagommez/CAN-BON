@@ -1,4 +1,5 @@
-{{ $d := .Site.Data.our_work.resources }}
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "our_work" "resources" }}
 
 <div class="our-work-page-resources">
     <div class="container">

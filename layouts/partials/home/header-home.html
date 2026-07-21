@@ -1,3 +1,6 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "home" "header" }}
+
 <div class="hero-home">
     <a href="/"><img class="navbar-logo home" src="/images/logo-red.png"></a>
     <div class="navbar-home">
@@ -14,7 +17,6 @@
                 <a href="/network" class="navbar-link">Network</a>
                 <a href="/our-work" class="navbar-link">Our work</a>
             </div>
-            <!-- <p class="hero-title">CAN BON</p> -->
         </div>
     </div>
 </div>

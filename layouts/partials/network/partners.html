@@ -1,4 +1,5 @@
-{{ $d := .Site.Data.network.partners }}
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index .Site.Data $lang "network" "partners" }}
 
 <div class="network-page-partners main-content">
     <div class="container">
