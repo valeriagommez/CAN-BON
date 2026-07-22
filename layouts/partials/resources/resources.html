@@ -1,4 +1,4 @@
-{{ $lang := .Site.Language.Name }}
+{{ $lang := .Site.Language.Lang }}
 {{ $d := index hugo.Data $lang "resources" "introduction" }}
 {{ $reports := index hugo.Data $lang "resources" "reports" }}
 {{ $toolkits := index hugo.Data $lang "resources" "toolkits" }}

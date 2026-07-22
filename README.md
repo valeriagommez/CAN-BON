@@ -43,7 +43,7 @@
 
     - `partials` folder : contains the HTML files detailing how we want the content to be rendered. Partials fetch content from the YAML files in the `data` folder. In general, each HTML file should have the following lines at the very start : 
     ```
-    {{ $lang := .Site.Language.Name }}
+    {{ $lang := .Site.Language.Lang }}
     {{ $d := index hugo.Data $lang "name of the YAML file corresponding to this page" "name of the key corresponding to this partial" }}
     ...
     ```

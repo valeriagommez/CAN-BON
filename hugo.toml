@@ -10,10 +10,10 @@ unsafe = true
 defaultContentLanguage = "en"
 [languages]
   [languages.en]
-    label = "English"
+    params = "English"
     contentDir = "content/english"
     weight = 1
   [languages.fr]
-    label = "Français"
+    params = "Français"
     contentDir = "content/french"
     weight = 2
