@@ -1,0 +1,15 @@
+introduction : 
+  title: "Our products"
+  subtitle: "These are all the **products and data tools** developed by CAN BON and its contributing partners."
+
+data_tools: 
+  cards: 
+  - name: "MBON Data Portal"
+    image_name: "mbon-portal.png"
+    link: ""
+  - name: "CoastWatch OBIS Indicator Explorer"
+    image_name: "coast-watch.png"
+    link: ""
+  - name: "Climate Change for Sanctuaries"
+    image_name: "climate-change.png"
+    link: ""

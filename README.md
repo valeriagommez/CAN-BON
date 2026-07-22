@@ -32,7 +32,7 @@ xyz
     For simplicity, I have categorized each YAML file in different "sections", corresponding to each **partial** under the `partials/page/` folder. The above example is a snippet of the `about.yaml` page, and it contains the text that will be fetched by the HTML file located under `partials/about/introduction.html`. You don't necessarily need to keep the same formatting, but it makes it simpler when you're creating a new page.
 
 - `layouts` folder : contains the layout for each page. Each page has its own folder, and the `_default` folder is used for elements that appear in every page (ex.: the footer).
-    - `list.html` file : contains a list of all the elements (called _partials_) that compose a certain page. This file fetches the partials using their path, and Hugo will render them in order.
+    - `list.html` file : contains a list of all the elements (called **partials**) that compose a certain page. This file fetches the partials using their path, and Hugo will render them in order.
     
     **Example :** 
     ```
@@ -48,7 +48,7 @@ xyz
     - `partials` folder : contains the HTML files detailing how we want the content to be rendered. Partials fetch content from the YAML files in the `data` folder. In general, each HTML file should have the following lines at the very start : 
     ```
     {{ $lang := .Site.Language.Name }}
-    {{ $d := index hugo.Data $lang "[name of the YAML file corresponding to this page]" "[name of the key corresponding to this partial]" }}
+    {{ $d := index hugo.Data $lang "name of the YAML file corresponding to this page" "name of the key corresponding to this partial" }}
     ...
     ```
     This makes it easier to "plug-in" the content from the YAML data file into this HTML file. This can be done using the following syntax : 
@@ -114,7 +114,8 @@ xyz
         │   │   ├── ...
     ```
     
-
+## Editing a page
+To edit the content of a page, you really only need to modify its YAML file.
 
 # To-do
 - The `View all products >` and `View all resources >` buttons in the **Our work** page currently lead to blank pages. Eventually, these will be populated with actual content.

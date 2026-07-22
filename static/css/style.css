@@ -581,56 +581,6 @@ strong {
         background-repeat: no-repeat;
         padding-bottom: 24px;
     }
-
-    .cards-container {
-        padding-top: 24px;
-        justify-content: left;
-        row-gap: 48px;
-        justify-content: space-between;
-        margin-bottom: 36px;
-    }
-
-    .data-tool-card {
-        border-radius: 15px;
-        border: 3px solid var(--red);
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 30%;
-        height: fit-content;
-        box-shadow: 0 4px 4px #00000030;
-        background-color: white;
-        backdrop-filter: blur(3px);
-
-        transition: all ease-in-out 0.3s;
-    }
-
-    .data-tool-card:hover {
-        transform: translateY(-6px);
-        border-color: var(--bright-red);
-        box-shadow: 0 4px 4px #00000080;
-    }
-
-    .data-tool-thumbnail {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 2 / 1;
-        object-fit: cover;   
-        border-radius: 12px;
-    }
-
-    .data-tool-name {
-        padding: 12px;
-        text-align: center;
-        font-family: "Geologica", sans-serif;
-        font-size: 15px;
-        font-weight: 600;
-        color: var(--red);
-        margin: auto;
-    }
-
 }
 
 .our-work-page-resources {
@@ -680,6 +630,61 @@ strong {
         width: auto;
         height: 24px;
     }
+}
+
+/* 
+these are rendered in two different pages 
+ - .products-page-data-tools
+ - .our-work-page-data-tools 
+*/
+
+.cards-container {
+    padding-top: 24px;
+    justify-content: left;
+    row-gap: 48px;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.data-tool-card {
+    border-radius: 15px;
+    border: 3px solid var(--red);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+    box-shadow: 0 4px 4px #00000030;
+    background-color: white;
+    backdrop-filter: blur(3px);
+
+    transition: all ease-in-out 0.3s;
+}
+
+.data-tool-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--bright-red);
+    box-shadow: 0 4px 4px #00000080;
+}
+
+.data-tool-thumbnail {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;   
+    border-radius: 12px;
+}
+
+.data-tool-name {
+    padding: 12px;
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--red);
+    margin: auto;
 }
 
 .footer {
