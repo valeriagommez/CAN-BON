@@ -1,5 +1,6 @@
 {{ $lang := .Site.Language.Name }}
 {{ $d := index hugo.Data $lang "our_work" "data_tools" }}
+{{ $products := index hugo.Data $lang "products" "data_tools" }}
 
 <div class="our-work-page-data-tools">
     <div class="container">
@@ -8,8 +9,8 @@
             <p>{{ $d.subtitle }}</p>
             <div class="cards-container">
                 <!-- will loop through every data tool and display a card for each -->
-                {{ range $d.cards }} 
-                    {{ partial "our-work/data-tools-card.html" . }}
+                {{ range first 3 $products.cards }} 
+                    {{ partial "products/data-tools-card.html" . }}
                 {{ end }}
             </div>
             <div class="view-more-container">

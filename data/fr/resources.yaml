@@ -1,0 +1,28 @@
+introduction : 
+  title: "Nos ressources"
+  subtitle : "Nos rapports, nos outils et nos webinaires - tout au même endroit."
+
+
+reports: 
+  - title: "GEO BON Technical Series No. 1"
+    link : ""
+  - title: "GEO BON Technical Series No. 2"
+    link : ""
+  - title: "Global Biodiversity Change Indicators"
+    link : ""
+
+toolkits: 
+  - title: "Toolkit 1"
+    link : ""
+  - title: "Toolkit 2"
+    link : ""
+  - title: "Toolkit 3"
+    link : ""
+
+webinars: 
+  - title: "Webinar 1"
+    link : ""
+  - title: "Webinar 2"
+    link : ""
+  - title: "Webinar 3"
+    link : ""

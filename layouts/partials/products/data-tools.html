@@ -1,0 +1,13 @@
+{{ $lang := .Site.Language.Name }}
+{{ $d := index hugo.Data $lang "products" "data_tools" }}
+
+<div class="products-page-data-tools">
+    <div class="container">
+        <div class="main-content cards-container">
+            <!-- will loop through every data tool and display a card for each -->
+            {{ range $d.cards }} 
+                {{ partial "products/data-tools-card.html" . }}
+            {{ end }}
+        </div>
+    </div>
+</div>

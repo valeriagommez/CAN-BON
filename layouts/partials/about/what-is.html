@@ -6,7 +6,7 @@
         <div class=" main-content">
             <div class="columns">
                 <div class="column-left">
-                    <h2 class="section-title">{{ $d.title }}</h2>
+                    <h2 class="section-title">{{ $d.title | markdownify}}</h2>
                     <p>{{ $d.text | markdownify}}</p>
                 </div>
 
