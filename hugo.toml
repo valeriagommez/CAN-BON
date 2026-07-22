@@ -1,19 +1,15 @@
 baseURL = "https://valeriagommez.github.io/CAN-BON/"
-locale = 'en-us'
-title = 'CAN BON'
-
-# allows html in the yaml file to be rendered
-[markup.goldmark.renderer]
-unsafe = true
-
-# handling languages
 defaultContentLanguage = "en"
+
 [languages]
   [languages.en]
-    params = "English"
+    languageName = "English"
     contentDir = "content/english"
     weight = 1
   [languages.fr]
-    params = "Français"
+    languageName = "Français"
     contentDir = "content/french"
     weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true
