@@ -4,10 +4,10 @@ header:
   about: "About"
   network: "Network"
   our_work: "Our work"
-  home_link: ""
-  about_link: "about/"
-  network_link: "network/"
-  our_work_link: "our-work/"
+  home_link: "/"
+  about_link: "/about/"
+  network_link: "/network/"
+  our_work_link: "/our-work/"
 
 introduction : 
   introduction_title : "A Canadian Biodiversity Observation Network is essential"
