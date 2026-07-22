@@ -20,51 +20,16 @@ working_groups:
 data_tools: 
   title: "Outils de données"
   subtitle: "Produits développés par CAN BON et ses partenaires."
-  cards: 
-  - name: "MBON Data Portal"
-    image_name: "mbon-portal.png"
-    link: ""
-  - name: "CoastWatch OBIS Indicator Explorer"
-    image_name: "coast-watch.png"
-    link: ""
-  - name: "Climate Change for Sanctuaries"
-    image_name: "climate-change.png"
-    link: ""
   button: 
-    text: "View all products >"
-    link: "fr/products"
+    text: "Voir tous les produits >"
+    link: "/fr/products/"
 
 resources: 
   title: "Ressources"
   subtitle: "Nos rapports, nos outils et nos webinaires - tout au même endroit."
-
   title_reports: "Rapports"
-  reports: 
-  - title: "GEO BON Technical Series No. 1"
-    link : ""
-  - title: "GEO BON Technical Series No. 2"
-    link : ""
-  - title: "Global Biodiversity Change Indicators"
-    link : ""
-
   title_toolkits: "Outils"
-  toolkits: 
-  - title: "Outil 1"
-    link : ""
-  - title: "Outil 2"
-    link : ""
-  - title: "Outil 3"
-    link : ""
-
   title_webinars: "Webinaires"
-  webinars: 
-  - title: "Webinaire 1"
-    link : ""
-  - title: "Webinaire 2"
-    link : ""
-  - title: "Webinaire 3"
-    link : ""
-
   button: 
     text: "Voir toutes les ressources >"
-    link: "fr/resources"
+    link: "/resources/"

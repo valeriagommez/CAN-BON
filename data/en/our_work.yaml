@@ -22,39 +22,14 @@ data_tools:
   subtitle: "Products developed by CAN BON and its contributing partners."
   button: 
     text: "View all products >"
-    link: "products/"
+    link: "/products"
 
 resources: 
   title: "Resources"
   subtitle: "Our reports, toolkits, and webinars - all in one place."
-
   title_reports: "Reports"
-  reports: 
-  - title: "GEO BON Technical Series No. 1"
-    link : ""
-  - title: "GEO BON Technical Series No. 2"
-    link : ""
-  - title: "Global Biodiversity Change Indicators"
-    link : ""
-
   title_toolkits: "Toolkits"
-  toolkits: 
-  - title: "Toolkit 1"
-    link : ""
-  - title: "Toolkit 2"
-    link : ""
-  - title: "Toolkit 3"
-    link : ""
-
   title_webinars: "Webinars"
-  webinars: 
-  - title: "Webinar 1"
-    link : ""
-  - title: "Webinar 2"
-    link : ""
-  - title: "Webinar 3"
-    link : ""
-
   button: 
     text: "View all resources >"
-    link: "/resources"
+    link: "/resources/"

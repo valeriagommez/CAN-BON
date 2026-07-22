@@ -1,0 +1,7 @@
+{{ $lang := .Site.Language.Name }}
+{{ $d := index hugo.Data $lang "resources" "introduction" }}
+
+<div class="resources-page-introduction main-content">
+    <h1 class="page-title">{{ $d.title }}</h1>
+    <p>{{ $d.subtitle }}</p>
+</div>

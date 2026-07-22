@@ -10,9 +10,11 @@
     --beige-50: #F9F3EB80;
     --bright-red: #df001e;
     --red: #B82F3D;
+    --red-50: #d72b3c80;
     --dark-red: #931214;
     --darker-red: #760415;
     --blue: #1D3D64;
+    --blue-50: #1D3D6480;
 }
 
 body {
@@ -583,7 +585,7 @@ strong {
     }
 }
 
-.our-work-page-resources {
+.our-work-page-resources, .resources-page-resources {
     color: white;
     
     p{
@@ -685,6 +687,16 @@ these are rendered in two different pages
     font-weight: 600;
     color: var(--red);
     margin: auto;
+}
+
+.resources-page-resources {
+    p {
+        color: var(--grey);
+    }
+
+    .resource-item {
+        border-bottom: 3px solid var(--red-50);
+    }
 }
 
 .footer {
