@@ -3,11 +3,11 @@
 {{ $d := index hugo.Data $lang "home" "header" }}
 
 <div class="hero-home">
-    <a href="{{ $d.home_link }}"><img class="navbar-logo home" src="{{ "/images/logo-red.png" | relURL }}"></a>
+    <a href="{{ $d.home_link }}"><img class="navbar-logo home" src="{{ "images/logo-red.png" | relURL }}"></a>
     <div class="navbar-home">
         <div class="navbar-items left">
             <a class="navbar-items left" style="visibility: hidden;" href="/">
-                <img class="navbar-logo" src="{{ "/images/logo-white.png" | relURL }}">
+                <img class="navbar-logo" src="{{ "images/logo-white.png" | relURL }}">
                 <p class="navbar-title">{{ $d.canbon }}</p>
             </a>
         </div>
