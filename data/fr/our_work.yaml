@@ -32,4 +32,4 @@ resources:
   title_webinars: "Webinaires"
   button: 
     text: "Voir toutes les ressources >"
-    link: "/resources/"
+    link: "resources/"

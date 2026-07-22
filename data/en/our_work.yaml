@@ -22,7 +22,7 @@ data_tools:
   subtitle: "Products developed by CAN BON and its contributing partners."
   button: 
     text: "View all products >"
-    link: "/products"
+    link: "products"
 
 resources: 
   title: "Resources"
@@ -32,4 +32,4 @@ resources:
   title_webinars: "Webinars"
   button: 
     text: "View all resources >"
-    link: "/resources/"
+    link: "resources"
