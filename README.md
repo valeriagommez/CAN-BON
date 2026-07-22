@@ -1,8 +1,4 @@
 # CAN BON
-xyz
-
-# Introduction to Hugo
-
 ## File structure
 - `content` folder : necessary for Hugo to render the website. It's made up of two folders : `english` and `french`. This is where the pages' information is kept.
     - Each page has it's own folder and `_index.md` file. As it stands now, this file doesn't contain much -- just the basic information for Hugo to recognize it as a page. 
