@@ -1,0 +1,725 @@
+
+/* for the Geologica + Crimson Text fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Geologica:wght,CRSV@100..900,0&display=swap');
+
+/* color variables */
+:root {
+    --grey: #222725; 
+    --beige: #F9F3EB;
+    --beige-75: #f9f3ebbf;
+    --beige-50: #F9F3EB80;
+    --bright-red: #df001e;
+    --red: #B82F3D;
+    --red-50: #d72b3c80;
+    --dark-red: #931214;
+    --darker-red: #760415;
+    --blue: #1D3D64;
+    --blue-50: #1D3D6480;
+}
+
+body {
+    font-family: "Crimson Text", serif;
+    color: var(--grey);
+    margin: 0;
+}
+
+p {
+    line-height: 20pt;
+    text-align: justify;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+li {
+    font-size: 18px;
+    line-height: 20pt;
+}
+
+.main-content {
+    max-width: 70%;
+    margin: auto;
+    padding-top: 32px;
+}
+
+
+p {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Geologica", sans-serif;
+    color: var(--red)
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px
+}
+
+h3 {
+    font-size: 32px;
+}
+
+/* h4 {
+    color: white
+} */
+
+strong {
+    font-weight: 700;
+}
+
+/* navigation bar for the pages (red) */
+.navbar-pages, .navbar-home, .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10vw;
+    z-index: 99;
+
+    color: white;
+    font-family: "Geologica", sans-serif;
+}
+
+.navbar-pages {
+    background-color: var(--red);
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 15px #00000060;
+}
+
+.hero-home {
+    height: 250px;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        /* url('/images/logo-red.png'), */
+        url('/images/hero.png');
+    background-size: cover;
+    background-position: 100% 100%;
+    position: relative;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* testing stuff out */
+    gap: 100px; 
+}
+
+.hero-title {
+    font-size: 7vw;
+    color: white;
+    font-family: "Geologica", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    line-height: 10px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+.navbar-items.left {
+    gap: 20px;
+}
+
+.navbar-logo {
+    height: 48px;
+}
+
+.navbar-logo.home {
+    position: absolute;
+    height: 150px;
+    bottom: 20%;
+    left: 15%;
+}
+
+.navbar-title {
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-bottom: 16px; */
+}
+
+.navbar-link {
+    transition: all ease-in-out 0.2s;
+}
+
+.navbar-link:hover {
+    transform: translateY(-2px);
+}
+
+.navbar-link:active, .navbar-link.active {
+    font-weight: 500;
+}
+
+.lang-link { 
+    border-radius: 8px;
+    padding: 8px;
+    width: 24px;
+    text-align: center;
+    /* background-color: var(--beige); */
+    /* color: var(--red); */
+    border: 3px white solid;
+    color: white;
+    font-weight: 500;
+    transition: all ease-in-out 0.3s;
+    text-transform: uppercase;
+}
+
+.lang-link:hover {
+    background-color: var(--dark-red);
+}
+
+/* HOME PAGE */
+.introduction-container {
+    padding-bottom: 12px;
+}
+
+/* 30x30 initiative --> creating two columns */
+.two-columns-red {
+    font-family: "Geologica", sans-serif;
+    background-color: var(--red);
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding: 24px 15%;
+    margin-top: 24px;
+}
+
+.two-columns-red p {
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 175%;
+}
+
+.two-columns-red h3 {
+    color: white;
+}
+
+.column {
+    width: 50%;
+}
+
+.column.left {
+    border: 2px solid white;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column.right {
+    padding: 12px;
+}
+
+/* about section */
+.about-section-container {
+    background-color: var(--beige);
+    padding: 24px 0;
+    background-image: url(../images/hexagons.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 110% 15%;
+}
+
+.about-section {
+    width: 45%;
+    margin-left: 15%;
+    padding-bottom: 60px;
+
+    .button-container {
+        margin-top: 32px;
+    }
+}
+
+/* button */
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-flex;
+    padding: 10px 16px;
+    color: var(--red);
+    font-family: "Geologica", sans-serif;
+    font-weight: 500;
+    border: var(--red) 3px solid;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+.button:hover {
+    color: white;
+    background-color: var(--red);
+}
+
+.button:active {
+    background-color: var(--dark-red);
+    border: var(--dark-red) 3px solid;
+}
+
+/* SHARED CSS FOR PAGES */
+.page-title {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.section-title {
+    margin-bottom: 24px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-top: 24px;
+}
+
+/* ABOUT PAGE */
+.about-page-introduction {
+    .column-left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .column-right {
+        width: 50%;
+    }
+
+    .column-img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        width: 85%;
+        border-radius: 25px;
+        margin: auto;
+    }
+
+    .subtitle {
+        font-family: "Geologica", sans-serif;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        margin-bottom: 24px;;
+    }
+}
+
+.about-page-what-is {
+
+    .columns {
+        padding: 0;
+        align-items: center;
+    }
+
+    .container {
+        margin-top: 32px;
+        padding-bottom: 32px;
+        background-color: var(--beige);
+    }
+
+    .column-left {
+        margin: 0;
+        width: 65%;
+    }
+
+    .column-right {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .column-img {
+        aspect-ratio: 5 / 4;
+        object-fit: cover;
+        border-radius: 25px;
+        width: 80%;
+        margin: 0;
+    }
+
+    .button {
+        background-color: var(--red);
+        color: var(--beige);
+        border-color: var(--beige);
+        text-align: center;
+    }
+
+    .button:hover {
+        background-color: var(--dark-red);
+    }
+
+    .button:active {
+        background-color: var(--darker-red);
+    }
+
+    .button-container {
+        margin-top: -24px;
+    }
+}
+
+.about-page-canadian-bon {
+    .columns {
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    .column-left {
+        width: 33%;
+    }
+
+    .column-right {
+        width: 66%;
+    }
+
+    .column-img {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+.about-page-development-plan {
+    color: white !important;
+    font-family: "Geologica", sans-serif;
+
+    p {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .container {
+        height: 375px;
+        background-color: var(--red);
+        background-image: url(/images/dotted-line.png);
+        /* for parallax */
+        background-attachment: fixed;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .section-title {
+        color: white;
+    }
+
+    .columns {
+        margin-top: 40px;
+        justify-content: space-between;
+    }  
+
+    .step {
+        width: 25%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .step-icon {
+        height: 40px;
+        width: auto;
+    }
+
+    .step-name {
+        font-size : 20px;
+        font-weight: 600;
+    }
+}
+
+/* OUR NETWORK */
+
+.secretariat-cards, .logos-container, .cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.network-page-secretariat {
+    .main-content{ 
+        padding: 12px 0;
+    }
+
+    .container {
+        margin-top: 24px;
+        padding-bottom: 24px;
+        background-color: var(--beige);
+    }
+
+    .secretariat-card {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        aspect-ratio: 1/1;        
+        object-fit: cover; 
+        border-radius: 50%; 
+        width: 144px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+
+    .name {
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .name, .position, .institution {
+        text-align: center;
+        margin: 0;
+    }
+
+    .institution {
+        font-style: italic;
+    }
+}
+
+.network-page-partners {
+    .partner-logo {
+        max-height: 125px;
+    }
+
+    .logos-container {
+        align-items: center;
+        gap: 40px;
+        margin: 24px 0;
+    }
+}
+
+/* OUR WORK PAGE */
+
+.view-more-container {
+    display: flex;
+    justify-content: end;
+}
+
+.view-more {
+    font-family: "Geologica", sans-serif;
+    color: var(--red);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.our-work-page-working-groups {
+    .container {
+        margin-top: 24px;
+        background-color: var(--beige);
+        padding-bottom: 24px;
+    }
+
+    .main-content {
+        padding: 12px;
+    }
+
+    .divider {
+        margin-top: 24px;
+        width: 8px;
+        border-radius: 2px;
+        background-color: var(--red);
+    }
+
+    .cards-container {
+        padding-top: 24px;
+        justify-content: left;
+        row-gap: 48px;
+        gap: 48px;
+    }
+
+    .group-card {
+        width: 46%;
+    }
+
+    .group-thumbnail {
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+        height: 152px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+
+        p {
+            color: white;
+            font-weight: 600;
+            font-family: "Geologica", sans-serif;
+            font-size: 24px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+    }
+
+    .group-description {
+        padding: 0 16px;
+        margin-bottom: 16px;
+    }
+}
+
+.our-work-page-data-tools {
+    .container {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url(/images/hexagons-bg.png);
+        background-attachment: fixed;
+        background-position: 0% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 24px;
+    }
+}
+
+.our-work-page-resources, .resources-page-resources {
+    color: white;
+    
+    p{
+        font-family: "Geologica", sans-serif;
+        font-size: 16px;
+    }
+    
+    .container {
+        background-color: var(--red);
+    }
+
+    .columns, .main-content{
+        padding-bottom: 48px;
+    }
+
+    .section-title {
+        color: white;
+    }
+
+    .view-more {
+        color: white;
+    }
+
+    .column-title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .resource-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 0;
+        color: white;
+        text-decoration: none;
+        border-bottom: 3px solid #ED616F;
+    }
+
+    .resource-item:last-child {
+        border-bottom: none;
+    }
+
+    .resource-icon {
+        width: auto;
+        height: 24px;
+    }
+}
+
+/* 
+these are rendered in two different pages 
+ - .products-page-data-tools
+ - .our-work-page-data-tools 
+*/
+
+.cards-container {
+    padding-top: 24px;
+    justify-content: left;
+    row-gap: 48px;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.data-tool-card {
+    border-radius: 15px;
+    border: 3px solid var(--red);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+    box-shadow: 0 4px 4px #00000030;
+    background-color: white;
+    backdrop-filter: blur(3px);
+
+    transition: all ease-in-out 0.3s;
+}
+
+.data-tool-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--bright-red);
+    box-shadow: 0 4px 4px #00000080;
+}
+
+.data-tool-thumbnail {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;   
+    border-radius: 12px;
+}
+
+.data-tool-name {
+    padding: 12px;
+    text-align: center;
+    font-family: "Geologica", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--red);
+    margin: auto;
+}
+
+.resources-page-resources {
+    p {
+        color: var(--grey);
+    }
+
+    .resource-item {
+        border-bottom: 3px solid var(--red-50);
+    }
+}
+
+.footer {
+    /* background-color: var(--blue); */
+    /* font-family: "Crimson Text", serif; */
+    background-color: var(--grey);
+    color: white;
+    font-family: "Geologica", sans-serif;
+    color: var(--beige);
+    padding: 48px 10vw;
+    align-items: center;
+
+    p {
+        font-size: 14px;
+    }
+
+    .lang-link {
+        color: var(--beige);
+        border-color: var(--beige);
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        height: 48px;
+    }
+}
