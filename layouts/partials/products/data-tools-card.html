@@ -1,6 +1,6 @@
 <div class="data-tool-card">
     <a href="{{ .link }}">
-        <img class="data-tool-thumbnail" src="{{ printf "/images/%s" (.image_name | default "default-bg.png") | relURL }}">
+        <img class="data-tool-thumbnail" src="{{ printf "images/%s" (.image_name | default "default-bg.png") | relURL }}">
         <p class="data-tool-name">{{ .name }}</p>
     </a>
 </div>
