@@ -8,7 +8,7 @@
             <!-- will loop through every logo and display it -->
             {{ range $d.logos }} 
                 <a href="{{ .link | default "" }}">
-                    <img class="partner-logo" src="/images/{{ .image_name }}" alt="{{ .name }}">
+                    <img class="partner-logo" src="{{ "/images/{{ .image_name }}" | relURL }}" alt="{{ .name }}">
                 </a>
             {{ end }}
         </div>

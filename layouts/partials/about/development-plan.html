@@ -8,19 +8,19 @@
             <p>{{ $d.text}}</p>
             <div class="columns">
                 <div class="step">
-                    <img class="step-icon" src="/images/1.png">
+                    <img class="step-icon" src="{{ "/images/1.png" | relURL }}">
                     <p class="step-name">{{ $d.first_step}}</p>
                 </div>
                 <div class="step">
-                    <img class="step-icon" src="/images/2.png">
+                    <img class="step-icon" src="{{ "/images/2.png" | relURL }}">
                     <p class="step-name">{{ $d.second_step}}</p>
                 </div>
                 <div class="step">
-                    <img class="step-icon" src="/images/3.png">
+                    <img class="step-icon" src="{{ "/images/3.png" | relURL }}">
                     <p class="step-name">{{ $d.third_step}}</p>
                 </div>
                 <div class="step">
-                    <img class="step-icon" src="/images/4.png">
+                    <img class="step-icon" src="{{ "/images/4.png" | relURL }}">
                     <p class="step-name">{{ $d.fourth_step}}</p>
                 </div>
             </div>

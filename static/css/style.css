@@ -100,7 +100,6 @@ strong {
     height: 250px;
     background-image: 
         linear-gradient(to bottom, rgba(0, 0, 0, 0.6),  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-        /* url('/images/logo-red.png'), */
         url('/images/hero.png');
     background-size: cover;
     background-position: 100% 100%;
