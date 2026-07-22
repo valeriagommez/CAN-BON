@@ -17,7 +17,7 @@ xyz
 
 - `data` folder : contains the data for each page. It is also divided in two folders: `en` and `fr`. Each page has its own YAML file (ex.: `about.yaml`), and this is where the content of the page can be edited.
 
-    **Example : **
+    **Example :**
     ```
     introduction: 
         title: "About CAN BON"
