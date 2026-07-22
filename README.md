@@ -113,5 +113,5 @@
 ## Editing a page
 To edit the content of a page, you really only need to modify its YAML file.
 
-# To-do
-- The `View all products >` and `View all resources >` buttons in the **Our work** page currently lead to blank pages. Eventually, these will be populated with actual content.
+# Notes
+- The `View all products >` and `View all resources >` buttons in the **Our work** page currently lead to dummy pages. Eventually, these will be populated with actual content.
