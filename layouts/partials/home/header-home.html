@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Name }}
-{{ $d := index .Site.Data $lang "home" "header" }}
+{{ $d := index hugo.Data $lang "home" "header" }}
 
 <div class="hero-home">
     <a href="{{ $d.home_link }}"><img class="navbar-logo home" src="/images/logo-red.png"></a>

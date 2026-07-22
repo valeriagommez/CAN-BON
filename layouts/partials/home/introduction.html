@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Name }}
-{{ $d := index .Site.Data $lang "home" "introduction" }}
+{{ $d := index hugo.Data $lang "home" "introduction" }}
 
 <div class="introduction-container main-content">
     <h2>{{ $d.introduction_title }}</h2>

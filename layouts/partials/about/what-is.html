@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Name }}
-{{ $d := index .Site.Data $lang "about" "what_is" }}
+{{ $d := index hugo.Data $lang "about" "what_is" }}
 
 <div class="about-page-what-is">
     <div class="container">
@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="column-right">
-                    <img class="column-img" src="/images/geobon-bird.png">
+                    <img class="column-img" src="/images/american-kestrel.jpg">
                     <div class="button-container">
                         <a class="button" href="https://geobon.org/">{{ $d.button_text }}</a>
                     </div>

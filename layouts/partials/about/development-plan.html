@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Name }}
-{{ $d := index .Site.Data $lang "about" "development_plan" }}
+{{ $d := index hugo.Data $lang "about" "development_plan" }}
 
 <div class="about-page-development-plan">
     <div class="container">
