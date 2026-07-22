@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Name }}
-{{ $d := index .Site.Data $lang "home" "two_columns" }}
+{{ $d := index hugo.Data $lang "home" "two_columns" }}
 
 <div class="two-columns-red">
     <div class="column left">

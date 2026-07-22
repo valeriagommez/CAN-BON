@@ -346,7 +346,7 @@ strong {
     }
 
     .column-img {
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 5 / 4;
         object-fit: cover;
         border-radius: 25px;
         width: 80%;
@@ -683,16 +683,26 @@ strong {
 }
 
 .footer {
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
+    /* font-family: "Crimson Text", serif; */
+    background-color: var(--grey);
     color: white;
     font-family: "Geologica", sans-serif;
-    /* font-family: "Crimson Text", serif; */
     color: var(--beige);
     padding: 48px 10vw;
     align-items: center;
 
+    p {
+        font-size: 14px;
+    }
+
     .lang-link {
         color: var(--beige);
         border-color: var(--beige);
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        height: 48px;
     }
 }

@@ -6,8 +6,8 @@ title = 'CAN BON'
 [markup.goldmark.renderer]
 unsafe = true
 
+# handling languages
 defaultContentLanguage = "en"
-
 [languages]
   [languages.en]
     languageName = "English"
