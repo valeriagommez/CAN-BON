@@ -7,7 +7,7 @@
         <p class="navbar-title">{{ $d.canbon }}</p>
     </a>
     <div class="navbar-items right">
-        <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
+        <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if eq .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
         <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
         <a href="{{ $d.network_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.network_link | absLangURL) }}active{{ end }}">{{ $d.network }}</a>
         <a href="{{ $d.our_work_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.our_work_link | absLangURL) }}active{{ end }}">{{ $d.our_work }}</a>
