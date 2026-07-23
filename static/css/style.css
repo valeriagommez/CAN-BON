@@ -609,6 +609,7 @@ strong {
     }
 
     .column-title {
+        color: var(--red);
         font-size: 24px;
         font-weight: 600;
     }
@@ -871,6 +872,7 @@ these are rendered in two different pages
     
     .navbar-items {
         flex-wrap: wrap;
+        gap: 20px;
     }
 
     .hero-home {

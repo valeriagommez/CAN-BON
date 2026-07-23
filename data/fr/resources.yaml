@@ -1,6 +1,9 @@
 introduction : 
   title: "Nos ressources"
   subtitle : "Nos rapports, nos outils et nos webinaires - tout au même endroit."
+  title_reports: "Rapports"
+  title_toolkits: "Outils"
+  title_webinars: "Webinaires"
 
 
 reports: 

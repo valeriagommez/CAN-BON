@@ -1,6 +1,9 @@
 introduction : 
   title: "Our resources"
   subtitle : "Our reports, toolkits, and webinars - all in one place."
+  title_reports: "Reports"
+  title_toolkits: "Toolkits"
+  title_webinars: "Webinars"
 
 reports: 
 - title: "GEO BON Technical Series No. 1"
