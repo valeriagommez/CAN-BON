@@ -13,10 +13,11 @@
         </div>
         <div class="hero-right">
             <div class="navbar-items right"> 
-                <a href="{{ $d.about_link | relURL }}" class="navbar-link">{{ $d.about }}</a>
-                <a href="{{ $d.network_link | relURL }}" class="navbar-link">{{ $d.network }}</a>
-                <a href="{{ $d.our_work_link | relURL }}" class="navbar-link">{{ $d.our_work }}</a>
+                <!-- test -->
+                <a href="{{ relURL "" }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.home }}</a>
+                <a href="{{ relURL "about" }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.about }}</a>
 
+                <!-- actual header -->
                 <a href="{{ $d.home_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.home }}</a>
                 <a href="{{ $d.about_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.about_link }}active{{ end }}">{{ $d.about }}</a>
                 <a href="{{ $d.network_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.network_link }}active{{ end }}">{{ $d.network }}</a>
