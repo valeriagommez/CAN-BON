@@ -104,7 +104,7 @@ strong {
 }
 
 .hero-home {
-    height: 250px;
+    min-height: 250px;
     background-size: cover;
     background-position: 100% 100%;
     position: relative;
@@ -500,6 +500,7 @@ strong {
 
     .logos-container {
         align-items: center;
+        justify-content: center;
         gap: 40px;
         margin: 24px 0;
     }
@@ -724,6 +725,7 @@ these are rendered in two different pages
 }
 
 .error-404 {
+
     p {
         font-family: "Geologica", sans-serif;
         font-size: 20px;
@@ -741,4 +743,247 @@ these are rendered in two different pages
         font-size: 18px;
         margin-top: 40px;
     }
+}
+
+
+/* for phones AND tablets */
+/* @media (max-width: 980px) {
+
+} */
+
+
+/* for phones only */
+@media (max-width: 480px) {
+    .main-content {
+        max-width: 90vw;
+    }
+
+    a {
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size : 36px !important;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+
+    .lang-link {
+        padding: 6px;
+        width: 20px;
+    }
+    
+    /* HOME PAGE */
+
+    .navbar-home, .navbar-pages {
+        justify-content: space-between;
+        padding: 24px 5vw;
+    }
+    
+    .navbar-items {
+        flex-wrap: wrap;
+    }
+
+    .hero-home {
+        .navbar-items.left {
+            display: none;
+        }
+    }
+
+    .navbar-items.right {
+        justify-content: space-around;
+    }
+
+    .navbar-logo.home {
+        height: 128px;
+        left: 5vw;
+    }
+    
+    .hero-home {
+        min-height: 50vh;
+        background-position: 30% 0;
+    }
+
+    .two-columns-red {
+        flex-direction: column;
+        gap: 0;
+        padding: 20px 5vw;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .column.left, .column.right {
+        padding: 0;
+    }
+
+    .column.left {
+        h2, p {
+            padding: 0 12px;
+        }
+    }
+
+    .about-section.main-content {
+        width: 94vw;
+        margin: auto;
+    }
+
+    .about-section-container {
+        background-size: 500px;
+        background-position: 32vw -20vh;
+        padding: 0;
+    }
+    
+    .columns {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* ABOUT PAGE */
+    .about-page-introduction {
+        .column-img {
+            width: 90vw;
+        }
+    }
+
+    .about-page-introduction, .about-page-what-is {
+        .columns {
+            gap: 24px;
+            align-items: center;
+        }
+
+        .column-left, .column-right {
+            width: 100%;
+        }
+
+        .column-img {
+            width: 90vw;
+            margin: auto;
+        }
+    }
+
+    .about-page-canadian-bon {
+
+        h2 {
+            margin: 0;
+        }
+
+        .columns {
+            flex-direction: column;
+            gap: 0px;
+            align-items: center;
+        }
+
+        .column-left, .column-right {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .column-left {
+            order: 2;
+        }
+
+        .column-right {
+            order: 1;
+        }
+
+        .column-img {
+            margin-top: 18px;
+        }
+    }
+
+    .about-page-development-plan {
+        .container {
+            height: auto;
+            background-size: 1024px;
+            padding-bottom: 32px;
+        }
+
+        .step {
+            width: 40%;
+        }
+
+        .columns {
+            margin-top: 0;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+
+    /* NETWORK PAGE */
+    .network-page-secretariat {
+        .secretariat-card {
+            width: 50%;
+        }
+    }
+
+    .network-page-partners {
+        .partner-logo {
+            max-width: 100% ;
+        }
+    }
+
+    /* WORK PAGE */
+    .our-work-page-working-groups {
+        .group-card {
+            width: 100%;
+            gap: 60px;
+        }
+    }
+
+    .our-work-page-data-tools {
+        .container {
+            background-size: 1024px;
+            background-position: 10px;
+        }
+    }
+
+    .data-tool-card {
+        width: 100%;
+    }
+
+    .our-work-page-resources {
+        .columns {
+            gap: 24px;
+        }
+    }
+
+    /* PRODUCTS PAGE */
+
+    .products-page-data-tools {
+        .data-tool-thumbnail {
+            aspect-ratio: 3 / 2;
+        }
+
+        .data-tool-card {
+            width: 45%;
+        }
+    }
+
+    /* RESOURCES PAGE */
+    .resources-page-resources {
+        .columns {
+            padding: 0;
+            gap: 24px;
+        }
+    }
+
+    /* FOOTER */
+
+    .footer {
+        .navbar-items.left {
+            gap: 8px;
+        }
+
+        .footer-logo {
+            height: 36px;
+        }
+    }
+
+
 }
