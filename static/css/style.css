@@ -325,7 +325,7 @@ strong {
 
     .columns {
         padding: 0;
-        align-items: center;
+        align-items: end;
     }
 
     .container {
@@ -746,16 +746,103 @@ these are rendered in two different pages
 }
 
 
-/* for phones AND tablets */
-/* @media (max-width: 980px) {
+/* for tablets only*/
+@media (min-width:481px) and (max-width:1024px) {
+    .main-content {
+        max-width: 86vw !important;
+    }
 
-} */
+    /* HOME PAGE */
+
+    .navbar-logo.home {
+        height: 128px;
+        left: 5vw;
+        top: 75px;
+    }
+
+    .two-columns-red {
+        padding: 24px 7vw;
+
+        .column.right {
+            padding: 0;
+        }
+    }
+
+    .about-section {
+        width: 70%;
+        margin-left: 5vw;
+    }
+
+    .about-section-container {
+        padding: 0;
+        background-size : 512px;
+        background-position: 170% -20%;
+    }
+
+    .navbar-pages, .navbar-home, .footer {
+        padding: 24px 5vw;
+    }
+
+    .navbar-items.left {
+        gap: 8px;
+    }
+
+    /* ABOUT PAGE */
+    .about-page-introduction, .about-page-introduction, .about-page-canadian-bon{
+        .columns {
+            gap: 32px;
+        }
+    }
+
+    .about-page-introduction {
+        .column-img {
+            aspect-ratio: 4 / 5;
+            object-position: 80% top; 
+            width: 100%;
+        }
+    }
+
+    .about-page-what-is {
+        .column-img {
+            aspect-ratio: 5 / 6;
+            object-position: center top; 
+            width: 100%;
+        }
+    }
+
+    .about-page-canadian-bon {
+
+        .columns {
+            flex-direction: column;
+        }
+
+        .column-left {
+            width: 60%;
+            order: 2;
+        }
+
+        .column-img {
+            margin: 0;
+        }
+
+        .column-right {
+            width: 100%;
+            order: 1;
+        }
+    }
+
+    .about-page-development-plan {
+        .container {
+            background-size: 1536px;
+        }
+    }
+}
 
 
 /* for phones only */
 @media (max-width: 480px) {
     .main-content {
-        max-width: 90vw;
+        max-width: 90vw !important;
     }
 
     a {
