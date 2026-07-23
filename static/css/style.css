@@ -609,7 +609,6 @@ strong {
     }
 
     .column-title {
-        color: var(--red);
         font-size: 24px;
         font-weight: 600;
     }
@@ -631,6 +630,12 @@ strong {
     .resource-icon {
         width: auto;
         height: 24px;
+    }
+}
+
+.resources-page-resources {
+    .column-title {
+        color: var(--red);
     }
 }
 
