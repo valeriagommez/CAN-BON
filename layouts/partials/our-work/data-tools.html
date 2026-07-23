@@ -3,7 +3,8 @@
 {{ $products := index hugo.Data $lang "products" "data_tools" }}
 
 <div class="our-work-page-data-tools">
-    <div class="container">
+    <div class="container"
+        style="background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url('{{ "images/hexagons-bg.png" | relURL }}');">
         <div class="main-content">
             <h2 class="section-title">{{ $d.title }}</h2>
             <p>{{ $d.subtitle }}</p>

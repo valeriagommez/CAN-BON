@@ -1,6 +1,6 @@
 <div class="group-card">
     <div class="group-thumbnail"
-        style='background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/{{ .image_name | default "default-bg.png" }})'>
+    style='background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url({{ printf "images/%s" (.image_name | default "default-bg.png") | relURL }})'>
         <p>{{ .title }}</p>
     </div>
     <p class="group-description">{{ .description }}</p>
@@ -8,4 +8,3 @@
         <a class="button" href="{{ .button.link }}">{{ .button.text }}</a>
     </div>
 </div>
-

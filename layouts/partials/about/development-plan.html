@@ -2,7 +2,8 @@
 {{ $d := index hugo.Data $lang "about" "development_plan" }}
 
 <div class="about-page-development-plan">
-    <div class="container">
+    <div class="container" 
+        style="background-image: url('{{ "images/dotted-line.png" | relURL }}');">
         <div class="main-content">
             <h2 class="section-title">{{ $d.title}}</h2>
             <p>{{ $d.text}}</p>
