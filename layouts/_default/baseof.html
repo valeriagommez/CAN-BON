@@ -7,7 +7,9 @@
     <title>{{ .Title }}</title>
 </head>
 <body>
-    {{ block "main" . }}{{ end }}
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
     {{ partial "shared/footer.html" . }}
 </body>
 </html>

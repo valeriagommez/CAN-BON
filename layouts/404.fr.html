@@ -1,9 +1,12 @@
 {{ define "main" }}
-    <h1>404</h1>
-    <p>La page que vous cherchez n'existe plus.</p>
-    <p>
-        <a href="{{ .Site.Home.RelPermalink }}">
-            Retourner à la page d'accueil
-        </a>
-    </p>
+    {{ partial "shared/header-pages.html" . }}
+    <div class="error-404 main-content">
+        <h1>404</h1>
+        <p>La page que vous cherchez n'existe plus.</p>
+        <p>
+            <a class="button" href="{{ .Site.Home.RelPermalink }}">
+                Retourner à la page d'accueil
+            </a>
+        </p>
+    </div>
 {{ end }}

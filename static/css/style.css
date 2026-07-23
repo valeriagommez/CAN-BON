@@ -21,6 +21,13 @@ body {
     font-family: "Crimson Text", serif;
     color: var(--grey);
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 p {
@@ -697,7 +704,8 @@ these are rendered in two different pages
     color: white;
     font-family: "Geologica", sans-serif;
     color: var(--beige);
-    padding: 48px 10vw;
+    padding: 0 10vw;
+    min-height: 128px;
     align-items: center;
 
     p {
@@ -712,5 +720,25 @@ these are rendered in two different pages
 
     .footer-logo {
         height: 48px;
+    }
+}
+
+.error-404 {
+    p {
+        font-family: "Geologica", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 72px;
+        margin-bottom: 12px;
+    }
+
+    .button {
+        font-size: 18px;
+        margin-top: 40px;
     }
 }
