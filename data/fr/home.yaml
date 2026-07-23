@@ -4,10 +4,10 @@ header:
   about: "À propos"
   network: "Notre réseau"
   our_work: "Nos projets"
-  home_link: "/"
-  about_link: "/about/"
-  network_link: "/network/"
-  our_work_link: "/our-work/"
+  home_link: ""
+  about_link: "about/"
+  network_link: "network/"
+  our_work_link: "our-work/"
 
 introduction : 
   introduction_title : "Un réseau canadien d'observation de la biodiversité est essentiel"
@@ -30,4 +30,4 @@ about_section:
 
     Pour atteindre ces objectifs, il faut disposer de données fiables et coordonnées sur l'évolution de la biodiversité au Canada.
   about_button_text : "En savoir plus"
-  about_button_link : "about"
+  about_button_link : "about/"
