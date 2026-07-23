@@ -3,31 +3,16 @@
 {{ $d := index hugo.Data $lang "home" "header" }}
 
 <div class="hero-home">
-    <a href="{{ $d.home_link }}"><img class="navbar-logo home" src="{{ "images/logo-red.png" | relURL }}"></a>
+    <a href="{{ $d.home_link | absLangURL }}"><img class="navbar-logo home" src="{{ "images/logo-red.png" | relURL }}"></a>
     <div class="navbar-home">
         <div class="navbar-items left">
-            <a class="navbar-items left" style="visibility: hidden;" href="/">
+            <a class="navbar-items left" style="visibility: hidden;" href="{{ $d.home_link | absLangURL }}">
                 <img class="navbar-logo" src="{{ "images/logo-white.png" | relURL }}">
                 <p class="navbar-title">{{ $d.canbon }}</p>
             </a>
         </div>
         <div class="hero-right">
             <div class="navbar-items right"> 
-                <!-- test -->
-                <!-- this works but doesn't support the french -> french page nav -->
-                <!-- <a href="{{ relURL "" }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.home }}</a>
-                <a href="{{ relURL "about" }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.about }}</a> -->
-
-                <!-- actual header -->
-                <!-- <a href="{{ $d.home_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.home_link }}active{{ end }}">{{ $d.home }}</a>
-                <a href="{{ $d.about_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.about_link }}active{{ end }}">{{ $d.about }}</a>
-                <a href="{{ $d.network_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.network_link }}active{{ end }}">{{ $d.network }}</a>
-                <a href="{{ $d.our_work_link | relURL }}" class="navbar-link {{ if eq .RelPermalink $d.our_work_link }}active{{ end }}">{{ $d.our_work }}</a>
-                {{ range .Translations }}
-                    <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
-                {{ end }} -->
-
-                <!-- second test -->
                 <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
                 <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
                 <a href="{{ $d.network_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.network_link | absLangURL) }}active{{ end }}">{{ $d.network }}</a>
