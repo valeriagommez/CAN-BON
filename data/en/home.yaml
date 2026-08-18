@@ -1,5 +1,6 @@
 header: 
   canbon: "CAN BON"
+  hero_name: "hero.png"
   home: "Home"
   about: "About"
   network: "Network"
@@ -24,7 +25,7 @@ two_columns:
 about_section: 
   about_title: "Join CAN BON"
   about_text: | # NEEDED to preserve the line breaks
-    Interested in joining CAN BON? There are many ways you can contribute to our cause :
+    Interested in joining CAN BON? There are many ways you can contribute to the cause :
     <ol>
       <li>Contribute nature data</li>
       <li>Join as an advisor</li>

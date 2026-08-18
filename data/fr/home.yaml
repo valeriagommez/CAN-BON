@@ -1,5 +1,6 @@
 header: 
-  canbon: "CAN BON"
+  canbon: "ROB CAN"
+  hero_name: "hero-fr.png"
   home: "Accueil"
   about: "À propos"
   network: "Notre réseau"
@@ -10,8 +11,8 @@ header:
   our_work_link: "our-work/"
 
 introduction : 
-  introduction_title : "Un réseau canadien d'observation de la biodiversité est essentiel"
-  introduction_text : "Il contribuera à **coordonner les efforts de suivi de la biodiversité** et à fournir aux décideurs des **informations crédibles et pertinentes en temps opportun**. CAN BON est un outil essentiel qui éclairera les décisions et les projections à court et à long terme."
+  introduction_title : "Un Réseau d'Observation de la Biodiversité du Canada est essentiel"
+  introduction_text : "Il contribuera à **coordonner les efforts de suivi de la biodiversité** et à fournir aux décideurs des **informations crédibles et pertinentes en temps opportun**. ROB CAN est un outil essentiel qui éclairera les décisions et les projections à court et à long terme."
 
 two_columns:
   left_title: "L'initiative 30x30"
@@ -22,12 +23,13 @@ two_columns:
     Cette initiative est conforme à la Convention des Nations Unies sur la diversité biologique (CDB) et le [**cadre mondial de Kunming-Montréal pour la biodiversité (CMMBB)**](https://www.cbd.int/gbf/targets).
 
 about_section: 
-  about_title: "À propos"
+  about_title: "Rejoignez ROB CAN"
   about_text: | # NEEDED to preserve the line breaks
-    La nature subit une transformation majeure en raison des changements climatiques. La perte de biodiversité s'accélère, et avec elle les nombreux avantages économiques et culturels que nous retirons d'écosystèmes sains.
-
-    Parallèlement, la demande de données utiles à la prise de décision augmente et il est crucial de généraliser l'information afin d'appuyer les décisions d'investissement.
-
-    Pour atteindre ces objectifs, il faut disposer de données fiables et coordonnées sur l'évolution de la biodiversité au Canada.
+    Vous souhaitez rejoindre ROB CAN? Il existe de nombreuses façons de contribuer à notre cause :
+    <ol>
+      <li>Contribuer en fournissant des données sur la nature</li>
+      <li>Devenir conseiller</li>
+      <li>Soutenir notre mission</li>
+    </ol>
   about_button_text : "En savoir plus"
   about_button_link : "about/"
