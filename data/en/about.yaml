@@ -14,6 +14,14 @@ what_is:
     The **Group on Earth Observations Biodiversity Observation Network (GEO BON)** Secretariat is currently headquartered in Canada, positioning it well to support the development of CAN BON.
   button_text: "Learn more"
 
+video: 
+  title: "At a glance"
+  description: |
+    A Canadian Biodiversity Observation Network is a plan for a national framework to systematically monitor the state of Canada's biodiversity and determine how it has changed and is changing. 
+    
+    CAN BON would consolidate scientific, personal, and cultural observations at different scales, and there are ways to participate in existing monitoring schemes which could inform CAN BON in the future.
+  call_to_action: "Watch our video to learn more!"
+
 canadian_bon : 
   title: "A Canadian BON would..."
   text: |

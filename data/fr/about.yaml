@@ -14,6 +14,15 @@ what_is:
     Le secrétariat du **Group on Earth Observations Biodiversity Observation Network (GEO BON)** est actuellement basé au Canada, ce qui lui permet de soutenir efficacement le développement du CAN BON.
   button_text: "En savoir plus"
 
+video: 
+  title: "En bref"
+  description: |
+    Le Réseau d'observation de la biodiversité du Canada (**ROB CAN**) est un projet de cadre national visant à surveiller systématiquement l'état de la biodiversité du Canada et à déterminer son évolution passée et présente.
+
+    ROB CAN regrouperait les observations scientifiques, personnelles et culturelles à différentes échelles. Il existe des façons de participer aux programmes de surveillance existants, qui pourraient alimenter les travaux du ROB CAN à l'avenir.
+  call_to_action: "Regardez notre vidéo pour en savoir plus!"
+
+
 canadian_bon : 
   title: "Un BON canadien pourrait..."
   text: |

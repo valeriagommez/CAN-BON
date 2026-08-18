@@ -22,12 +22,13 @@ two_columns:
     This is in alignment with the UN Convention on Biological Diversity (CBD) [**Kunming-Montreal Global Biodiversity Framework (KMGBF)**](https://www.cbd.int/gbf/targets).
 
 about_section: 
-  about_title: "About CAN BON"
+  about_title: "Join CAN BON"
   about_text: | # NEEDED to preserve the line breaks
-    Nature is undergoing a major transformation due to climate change. Biodiversity loss is accelerating and with it the many economic and cultural benefits we derive from healthy ecosystems.
-    
-    At the same time, demand for decision-useful data is increasing and there is a great need to mainstream information to support investment decisions.
-
-    Achieving these aforementioned goals requires reliable, coordinated data on the changing state of Canada's biodiversity.
+    Interested in joining CAN BON? There are many ways you can contribute to our cause :
+    <ol>
+      <li>Contribute nature data</li>
+      <li>Join as an advisor</li>
+      <li>Invest in our mission</li>
+    </ol>
   about_button_text : "Learn more"
   about_button_link : "about/"

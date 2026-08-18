@@ -4,7 +4,7 @@ introduction:
 working_groups: 
   title: "Working groups"
   groups: 
-  - title : "Science Advisory"
+  - title : "Scienctific Advisory Group"
     image_name: "beaver.png"
     description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
     button : 

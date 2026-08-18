@@ -1,0 +1,32 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index hugo.Data $lang "about" "video" }}
+
+<div class="about-page-video">
+    <div class="container">
+        <div class=" main-content">
+            <div class="columns">
+                <div class="column-left">
+                    <h2 class="section-title">{{ $d.title | markdownify}}</h2>
+                    <p>{{ $d.description | markdownify}}</p>
+                    <a href="https://www.youtube.com/watch?v=Qs68bEIbJmw">
+                        <p class="call-to-action">{{ $d.call_to_action | markdownify}}</p>
+                    </a>
+                </div>
+                
+                <div class="column-right">
+                    <iframe 
+                        class="video"
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/Qs68bEIbJmw?si=-Vf8n9K3cSkExHvg" 
+                        title="Dr. Mary O'Connor and Dr. Andrew Gonzalez - Canadian Biodiversity Observation Network | UBC" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

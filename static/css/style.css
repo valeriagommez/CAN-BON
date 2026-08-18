@@ -312,13 +312,14 @@ strong {
         margin: auto;
     }
 
-    .subtitle {
-        font-family: "Geologica", sans-serif;
-        font-size: 24px;
-        line-height: 150%;
-        text-align: center;
-        margin-bottom: 24px;;
-    }
+}
+
+.subtitle {
+    font-family: "Geologica", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 24px;;
 }
 
 .about-page-what-is {
@@ -372,6 +373,29 @@ strong {
 
     .button-container {
         margin-top: -24px;
+    }
+}
+
+.about-page-video {
+    .container {
+        margin-top: 32px;
+        padding-bottom: 32px;
+        background-color: var(--beige);
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .column-left, .column-right {
+        width: 50%;
+    }
+
+    .call-to-action {
+        font-weight: 600;;
+        font-family: "Geologica", sans-serif; 
+        color:var(--red); 
+        text-align: center;
     }
 }
 
@@ -491,17 +515,23 @@ strong {
     .institution {
         font-style: italic;
     }
+
+    .university-logo {
+        max-height: 75px;
+        margin-top: 24px;
+    }
 }
 
 .network-page-partners {
     .partner-logo {
         max-height: 125px;
+        max-width: 350px;
     }
 
     .logos-container {
         align-items: center;
         justify-content: center;
-        gap: 40px;
+        gap: 48px;
         margin: 24px 0;
     }
 }
@@ -682,6 +712,7 @@ these are rendered in two different pages
     aspect-ratio: 2 / 1;
     object-fit: cover;   
     border-radius: 12px;
+    object-position: top right;
 }
 
 .data-tool-name {
@@ -1018,7 +1049,7 @@ these are rendered in two different pages
 
     .network-page-partners {
         .partner-logo {
-            max-width: 100% ;
+            max-width: 70vw ;
         }
     }
 
