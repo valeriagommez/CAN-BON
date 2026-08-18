@@ -19,7 +19,7 @@ working_groups:
 
 data_tools: 
   title: "Outils de données"
-  subtitle: "Produits développés par CAN BON et ses partenaires."
+  subtitle: "Produits développés par ROB CAN et ses partenaires."
   button: 
     text: "Voir tous les produits >"
     link: "products/"

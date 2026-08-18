@@ -11,7 +11,7 @@ what_is:
   text: |
     Un **réseau d'observation de la biodiversité (BON)** est un système de sites et de groupes d'observation qui produisent et utilisent des données sur la biodiversité pour répondre à différents besoins. D'autres pays (Colombie, France, Chine, Japon) et régions (Europe, Asie-Pacifique, Arctique) ont mis en place des BON pour appuyer les politiques de protection de la nature et la législation environnementale.
 
-    Le secrétariat du **Group on Earth Observations Biodiversity Observation Network (GEO BON)** est actuellement basé au Canada, ce qui lui permet de soutenir efficacement le développement du CAN BON.
+    Le secrétariat du **Group on Earth Observations Biodiversity Observation Network (GEO BON)** est actuellement basé au Canada, ce qui lui permet de soutenir efficacement le développement du ROB CAN.
   button_text: "En savoir plus"
 
 video: 
@@ -34,7 +34,7 @@ canadian_bon :
 
 development_plan:
   title: "Plan de développement"
-  text: "Un CAN BON sera développé selon le processus BON :"
+  text: "Un ROB CAN sera développé selon le processus ROB:"
   first_step: "Évaluation"
   second_step: "Engagement"
   third_step: "Conception"
