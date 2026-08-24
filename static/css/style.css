@@ -272,8 +272,9 @@ strong {
 .join-section-container {
     background-color: var(--beige);
     padding: 24px 0;
-    /* background-size: 100%; */
-    background-position: 0% 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 30% 50%;
 }
 
 .join-section {
