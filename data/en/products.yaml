@@ -1,18 +1,13 @@
 introduction : 
   title: "Our products"
-  subtitle: "These are all the **products and data tools** developed by CAN BON and its contributing partners."
+  subtitle: "These are all the **products and data tools** developed by CAN BON and its partners."
 
 data_tools: 
   cards: 
-  - name: "MBON Data Portal"
-    image_name: "mbon-portal.png"
-    link: ""
-  - name: "CoastWatch OBIS Indicator Explorer"
-    image_name: "coast-watch.png"
-    link: ""
+  # template : 
+  # - name: "example"
+  #   image_name: "example.png"
+  #   link: "example.com"
   - name: "Bon in a Box"
     image_name: "bon-in-a-box.jpeg"
     link: "https://boninabox.geobon.org/"
-  - name: "Climate Change for Sanctuaries"
-    image_name: "climate-change.png"
-    link: ""

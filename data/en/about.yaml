@@ -1,29 +1,17 @@
 introduction: 
   title: "About CAN BON"
-  subtitle: "Nature is undergoing a major transformation due to <span style='color:var(--red)'>**climate change**</span>."
+  subtitle: "Biodiversity loss is <span style='color:var(--red)'>**accelerating**</span>."
   text: |
-    Biodiversity loss is accelerating and with it the many economic and cultural benefits we derive from healthy ecosystems. At the same time, demand for decision-useful data is increasing and there is a great need to mainstream information to support investment decisions.
+    At the same time, demand for decision-useful nature data is increasing. 
 
-    However, **information is fragmented** across universities, governments, NGOs, Indigenous organizations, and private organizations, making it difficult to effectively inform policy and meet targets.
+    Currently, information is fragmented across universities, governments, NGOs, Indigenous communities, and private organisations, making it difficult to understand the state of Canada’s nature. 
 
-what_is: 
-  title: "What is a BON?"
-  text: |
-    A **Biodiversity Observation Network (BON)** is a system of observation sites and groups who produce and use biodiversity data for different needs. Other countries (Colombia, France, China, Japan) and regions (Europe, Asia-Pacific, Arctic) have established BONs to support nature policy and environmental legislation.
-
-    The **Group on Earth Observations Biodiversity Observation Network (GEO BON)** Secretariat is currently headquartered in Canada, positioning it well to support the development of CAN BON.
-  button_text: "Learn more"
-
-video: 
-  title: "At a glance"
-  description: |
-    A Canadian Biodiversity Observation Network is a plan for a national framework to systematically monitor the state of Canada's biodiversity and determine how it has changed and is changing. 
-    
-    CAN BON would consolidate scientific, personal, and cultural observations at different scales, and there are ways to participate in existing monitoring schemes which could inform CAN BON in the future.
-  call_to_action: "Watch our video to learn more!"
+    A **Canadian Biodiversity Observation Network (CAN BON)** would provide a key role in coordinating biodiversity monitoring efforts and providing decision-makers with credible and timely relevant information. 
+  video_link: "https://www.youtube.com/watch?v=Qs68bEIbJmw"
+  video_call_to_action: "Watch our video to learn more!"
 
 canadian_bon : 
-  title: "A Canadian BON would..."
+  title: "A Canadian BON would"
   text: |
     - Build a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
     - Support modelling and forecasting of biodiversity trends
@@ -33,7 +21,7 @@ canadian_bon :
 
 development_plan:
   title: "Development plan"
-  text: "A CAN BON will be developed following the BON process:"
+  text: "CAN BON will be developed following the BON process:"
   first_step: "Assessment"
   second_step: "Engagement"
   third_step: "Design"

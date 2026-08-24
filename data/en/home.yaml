@@ -11,25 +11,31 @@ header:
   our_work_link: "our-work/"
 
 introduction : 
-  introduction_title : "A Canadian Biodiversity Observation Network is essential"
-  introduction_text : "It will aid in **coordinating biodiversity monitoring efforts** and providing decision-makers with **credible and timely relevant information**. CAN BON is a vital layer that will inform decisions and projections in the near and long term."
+  introduction_title : "Canada's Biodiversity Observation Network"
+  introduction_text : "A coordinated national system to monitor biodiversity across Canada's lands, waters, and coasts."
 
 two_columns:
+  title: "CAN BON will help deliver on Canada's national and international commitments"
   left_title: "The 30x30 initiative"
   left_text: "Protecting **30%** of Canadian lands and waters by **2030**"
   right_text: | # NEEDED to preserve the line breaks
-    Canada is advancing an ambitious [**"Force for Nature" strategy**](https://www.canada.ca/en/services/environment/nature/nature-strategy.html), with a commitment of $3.8 billion for the 30x30 initiative.
+    Canada is advancing an ambitious [**"A Force of Nature" strategy**](https://www.canada.ca/en/services/environment/nature/nature-strategy.html), with a commitment of $3.8 billion for the 30x30 initiative.
 
     This is in alignment with the UN Convention on Biological Diversity (CBD) [**Kunming-Montreal Global Biodiversity Framework (KMGBF)**](https://www.cbd.int/gbf/targets).
+  force_of_nature_text: "Canada's \"A Force of Nature\""
+  force_of_nature_link: "https://www.canada.ca/en/services/environment/nature/nature-strategy.html"
+  # kunming_text: "Kunming-Montreal Global Biodiversity Framework"
+  kunming_text: "KMGBF"
+  kunming_link: "https://www.cbd.int/gbf"
 
 about_section: 
   about_title: "Join CAN BON"
   about_text: | # NEEDED to preserve the line breaks
-    Interested in joining CAN BON? There are many ways you can contribute to the cause :
+    Interested in joining CAN BON?
     <ol>
       <li>Contribute nature data</li>
       <li>Join as an advisor</li>
       <li>Invest in our mission</li>
     </ol>
-  about_button_text : "Learn more"
-  about_button_link : "about/"
+  about_button_text : "Get in touch"
+  about_button_link : "mailto:charlotte.lombardi@mcgill.ca"

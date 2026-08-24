@@ -5,11 +5,24 @@
     <h1 class="page-title">{{ $d.title }}</h1>
     <div class="columns">
         <div class="about-page-introduction column-left">
-            <img class="about-page-introduction column-img" src="{{ "images/canadian-geese.png" | relURL }}">
-        </div>
-        <div class="about-page-introduction column-right">
             <p class="about-page-introduction subtitle">{{ $d.subtitle | markdownify}}</p>
             <p>{{ $d.text | markdownify}}</p>
+            <a href="{{ $d.video_link }}">
+                <p class="call-to-action">{{ $d.video_call_to_action | markdownify}}</p>
+            </a>
+        </div>
+        <div class="about-page-introduction column-right">
+            <iframe 
+                class="video"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/Qs68bEIbJmw?si=-Vf8n9K3cSkExHvg" 
+                title="Dr. Mary O'Connor and Dr. Andrew Gonzalez - Canadian Biodiversity Observation Network | UBC" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
         </div>
     </div>
 </div>

@@ -18,14 +18,19 @@ two_columns:
   left_title: "L'initiative 30x30"
   left_text: "Protéger **30 %** des terres et des eaux canadiennes d'ici **2030**"
   right_text: | # NEEDED to preserve the line breaks
-    Le Canada met en œuvre une stratégie ambitieuse [**« Force pour la nature »**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), avec un engagement de 3,8 milliards de dollars pour l'initiative 30x30.
+    Le Canada met en œuvre une stratégie ambitieuse [**« Une force de la nature »**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), avec un engagement de 3,8 milliards de dollars pour l'initiative 30x30.
 
     Cette initiative est conforme à la Convention des Nations Unies sur la diversité biologique (CDB) et le [**cadre mondial de Kunming-Montréal pour la biodiversité (CMMBB)**](https://www.cbd.int/gbf/targets).
+  force_of_nature_text: "« Une force de la nature »"
+  force_of_nature_link: "https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html"
+  # kunming_text: "Kunming-Montreal Global Biodiversity Framework"
+  kunming_text: "KMGBF"
+  kunming_link: "https://www.cbd.int/gbf"
 
 about_section: 
   about_title: "Rejoignez ROB CAN"
   about_text: | # NEEDED to preserve the line breaks
-    Vous souhaitez rejoindre ROB CAN? Il existe de nombreuses façons de contribuer à notre cause :
+    Vous souhaitez rejoindre ROB CAN?
     <ol>
       <li>Contribuer en fournissant des données sur la nature</li>
       <li>Devenir conseiller</li>

@@ -1,13 +1,15 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $d := index hugo.Data $lang "home" "about_section" }}
 
-<div class="about-section-container" 
-    style="background-image: url('{{ "images/hexagons.png" | relURL }}');">
-    <div class="about-section main-content">
+<div class="join-section-container" 
+    style="background-image: url('{{ "images/bird-illustration.png" | relURL }}');">
+    <div class="join-section main-content">
         <h1 class="section-title">{{ $d.about_title }}</h1>
+        <!-- <div style="width: max-content;"> -->
         <p>{{ $d.about_text | markdownify }}</p>
         <div class="button-container">
             <a class="button" href="{{ $d.about_button_link | absLangURL }}">{{ $d.about_button_text }}</a>
         </div>
+        <!-- </div> -->
     </div>
 </div>

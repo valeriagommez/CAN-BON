@@ -75,9 +75,9 @@ h3 {
     font-size: 32px;
 }
 
-/* h4 {
-    color: white
-} */
+h4 {
+    font-size: 20px;
+}
 
 strong {
     font-weight: 700;
@@ -104,7 +104,7 @@ strong {
 }
 
 .hero-home {
-    min-height: 250px;
+    min-height: 324px;
     background-size: cover;
     background-position: 100% 100%;
     position: relative;
@@ -189,13 +189,52 @@ strong {
 }
 
 /* 30x30 initiative --> creating two columns */
-.two-columns-red {
+.red-container {
     font-family: "Geologica", sans-serif;
     background-color: var(--red);
+    padding: 24px 15%;
+
+    h3 {
+        color: white; 
+        margin-top: 24px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .logos-container {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 12px;
+        gap: 12px;
+        /* background-color: #DB5260; */
+
+        img {
+            width: auto;
+            height: 40px;
+            /* filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25)); */
+        }
+        
+        p {
+            text-align: left;
+            /* width: 25%; */
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+}
+
+.two-columns-red {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 48px;
-    padding: 24px 15%;
     margin-top: 24px;
 }
 
@@ -230,15 +269,14 @@ strong {
 }
 
 /* about section */
-.about-section-container {
+.join-section-container {
     background-color: var(--beige);
     padding: 24px 0;
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: 110% 15%;
+    /* background-size: 100%; */
+    background-position: 0% 80%;
 }
 
-.about-section {
+.join-section {
     width: 45%;
     margin-left: 15%;
     padding-bottom: 60px;
@@ -246,6 +284,10 @@ strong {
     .button-container {
         margin-top: 32px;
     }
+}
+
+.join-section.main-content {
+    width: max-content;
 }
 
 /* button */
@@ -293,15 +335,22 @@ strong {
 
 /* ABOUT PAGE */
 .about-page-introduction {
+    .column-left, .column-right {
+        padding: 32px 0;
+    }
+
     .column-left {
-        width: 50%;
-        display: flex;
+        width: 60%;
         align-items: center;
         justify-content: center;
     }
 
     .column-right {
         width: 50%;
+
+        .video {
+            width: 100%;
+        }
     }
 
     .column-img {
@@ -312,6 +361,12 @@ strong {
         margin: auto;
     }
 
+    .call-to-action {
+        font-weight: 600;;
+        font-family: "Geologica", sans-serif; 
+        color:var(--red); 
+        text-align: center;
+    }
 }
 
 .subtitle {
@@ -322,87 +377,15 @@ strong {
     margin-bottom: 24px;;
 }
 
-.about-page-what-is {
-
-    .columns {
-        padding: 0;
-        align-items: end;
-    }
-
-    .container {
-        margin-top: 32px;
-        padding-bottom: 32px;
-        background-color: var(--beige);
-    }
-
-    .column-left {
-        margin: 0;
-        width: 65%;
-    }
-
-    .column-right {
-        width: 35%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
-
-    .column-img {
-        aspect-ratio: 5 / 4;
-        object-fit: cover;
-        border-radius: 25px;
-        width: 80%;
-        margin: 0;
-    }
-
-    .button {
-        background-color: var(--red);
-        color: var(--beige);
-        border-color: var(--beige);
-        text-align: center;
-    }
-
-    .button:hover {
-        background-color: var(--dark-red);
-    }
-
-    .button:active {
-        background-color: var(--darker-red);
-    }
-
-    .button-container {
-        margin-top: -24px;
-    }
-}
-
-.about-page-video {
-    .container {
-        margin-top: 32px;
-        padding-bottom: 32px;
-        background-color: var(--beige);
-    }
-
-    .video {
-        width: 100%;
-    }
-
-    .column-left, .column-right {
-        width: 50%;
-    }
-
-    .call-to-action {
-        font-weight: 600;;
-        font-family: "Geologica", sans-serif; 
-        color:var(--red); 
-        text-align: center;
-    }
-}
 
 .about-page-canadian-bon {
+    
+    background-color: var(--beige);
+
     .columns {
         align-items: center;
         padding-bottom: 40px;
+        padding-top: 0;
     }
 
     .column-left {
@@ -524,8 +507,8 @@ strong {
 
 .network-page-partners {
     .partner-logo {
-        max-height: 125px;
-        max-width: 350px;
+        max-height: 75px;
+        max-width: 224px;
     }
 
     .logos-container {
@@ -645,12 +628,16 @@ strong {
 
     .resource-item {
         display: flex;
-        align-items: center;
-        gap: 12px;
+        /* align-items: center; */
+        gap: 16px;
         padding: 12px 0;
         color: white;
         text-decoration: none;
         border-bottom: 3px solid #ED616F;
+
+        p {
+            margin: 0;
+        }
     }
 
     .resource-item:last-child {
@@ -805,12 +792,12 @@ these are rendered in two different pages
         }
     }
 
-    .about-section {
+    .join-section {
         width: 70%;
         margin-left: 5vw;
     }
 
-    .about-section-container {
+    .join-section-container {
         padding: 0;
         background-size : 512px;
         background-position: 170% -20%;
@@ -951,12 +938,12 @@ these are rendered in two different pages
         }
     }
 
-    .about-section.main-content {
+    .join-section.main-content {
         width: 94vw;
         margin: auto;
     }
 
-    .about-section-container {
+    .join-section-container {
         background-size: 500px;
         background-position: 32vw -20vh;
         padding: 0;

@@ -1,14 +1,16 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $d := index hugo.Data $lang "about" "canadian_bon" }}
 
-<div class="about-page-canadian-bon main-content">
-    <div class="columns">
-        <div class="column-left">
-            <img class="column-img" src="{{ "images/canmore.png" | relURL }}">
-        </div>
-        <div class="column-right">
-            <h2 class="section-title">{{ $d.title }}</h2>
-            {{ $d.text | markdownify}}
+<div class="about-page-canadian-bon container">
+    <div class="main-content">
+        <div class="columns">
+            <div class="column-left">
+                <img class="column-img" src="{{ "images/canmore.png" | relURL }}">
+            </div>
+            <div class="column-right">
+                <h2 class="section-title">{{ $d.title }}</h2>
+                {{ $d.text | markdownify}}
+            </div>
         </div>
     </div>
 </div>
