@@ -11,10 +11,11 @@ header:
   our_work_link: "our-work/"
 
 introduction : 
-  introduction_title : "Un Réseau d'Observation de la Biodiversité du Canada est essentiel"
-  introduction_text : "Il contribuera à **coordonner les efforts de suivi de la biodiversité** et à fournir aux décideurs des **informations crédibles et pertinentes en temps opportun**. ROB CAN est un outil essentiel qui éclairera les décisions et les projections à court et à long terme."
+  introduction_title : "Réseau d'observation de la biodiversité du Canada"
+  introduction_text : "Un système national coordonné pour surveiller la biodiversité sur les terres, les eaux et les côtes du Canada."
 
 two_columns:
+  title: "CAN BON contribuera aux engagements nationaux et internationaux du Canada"
   left_title: "L'initiative 30x30"
   left_text: "Protéger **30 %** des terres et des eaux canadiennes d'ici **2030**"
   right_text: | # NEEDED to preserve the line breaks

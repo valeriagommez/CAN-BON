@@ -5,14 +5,9 @@ introduction :
   title_toolkits: "Outils"
   title_webinars: "Webinaires"
 
-
 reports: 
-  - title: "GEO BON Technical Series No. 1"
-    link : ""
-  - title: "GEO BON Technical Series No. 2"
-    link : ""
-  - title: "Global Biodiversity Change Indicators"
-    link : ""
+  - title: "Un réseau d'observation de la biodiversité pour appuyer les actions de conservation et la diffusion des connaissances au Canada"
+    link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
 
 toolkits: 
   - title: "Toolkit 1"
@@ -23,9 +18,5 @@ toolkits:
     link : ""
 
 webinars: 
-  - title: "Webinar 1"
-    link : ""
-  - title: "Webinar 2"
-    link : ""
-  - title: "Webinar 3"
-    link : ""
+  - title: "Mise à jour de l'état de ROB CAN, juin 2026"
+    link : "https://mcgill-my.sharepoint.com/:v:/g/personal/charlotte_lombardi_mcgill_ca/IQDJjpEP3B4cQKXTOkR4c3EpAX38qMfrPJh6eFXUbAF_pEY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RxCZLR"

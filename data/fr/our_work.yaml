@@ -5,14 +5,14 @@ working_groups:
   title: "Groupes de travail"
   groups: 
   - title : "Conseil scientifique"
-    image_name: "beaver.png"
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+    image_name: "science-advisory.jpg"
+    description: "Le **Groupe consultatif scientifique** de ROB CAN est un groupe d'experts réuni pour fournir des orientations scientifiques et techniques indépendantes. Ce groupe a pour objectif de renforcer la crédibilité et la rigueur scientifiques de ROB CAN et de veiller à ce que le développement du réseau repose sur les meilleures données probantes, méthodes et pratiques disponibles."
     button : 
       text: "En savoir plus"
       link: ""
-  - title: "Comité d'organisation"
-    image_name: "canadian-geese-2.png"
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque."
+  - title: "Comité de pilotage intérimaire"
+    image_name: "interim-steering.jpg"
+    description: "Le **Groupe de pilotage intérimaire** de CAN BON est un organe d'experts réuni pour assurer la supervision stratégique, la coordination institutionnelle et le pouvoir décisionnel. Son objectif est de veiller à ce que le réseau représente fidèlement les besoins et les contextes des différents partenaires, parties prenantes et titulaires de droits."
     button : 
         text: "En savoir plus"
         link: ""

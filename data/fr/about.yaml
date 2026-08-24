@@ -1,27 +1,14 @@
 introduction: 
   title: "À propos"
-  subtitle: "La nature subit une transformation majeure en raison du <span style='color:var(--red)'>**changement climatique**</span>."
+  subtitle: "La perte de biodiversité s'<span style='color:var(--red)'>**accélère**</span>"
   text: |
-    La perte de biodiversité s'accélère, entraînant avec elle les nombreux avantages économiques et culturels que nous tirons d'écosystèmes sains. Parallèlement, la demande de données exploitables pour la prise de décision augmente et il est crucial de généraliser l'information afin d'éclairer les décisions d'investissement.
+    Parallèlement, la demande de données sur la nature utiles à la prise de décision est croissante.
 
-    Cependant, **l'information est fragmentée** entre les universités, les gouvernements, les ONG, les organisations autochtones et les entreprises privées, ce qui complique l'élaboration de politiques efficaces et l'atteinte des objectifs.
+    Actuellement, l'information est fragmentée entre les universités, les gouvernements, les ONG, les communautés autochtones et les organisations privées, ce qui rend difficile la compréhension de l'état de la nature au Canada.
 
-what_is: 
-  title: "Qu'est-ce qu'un BON?"
-  text: |
-    Un **réseau d'observation de la biodiversité (BON)** est un système de sites et de groupes d'observation qui produisent et utilisent des données sur la biodiversité pour répondre à différents besoins. D'autres pays (Colombie, France, Chine, Japon) et régions (Europe, Asie-Pacifique, Arctique) ont mis en place des BON pour appuyer les politiques de protection de la nature et la législation environnementale.
-
-    Le secrétariat du **Group on Earth Observations Biodiversity Observation Network (GEO BON)** est actuellement basé au Canada, ce qui lui permet de soutenir efficacement le développement du ROB CAN.
-  button_text: "En savoir plus"
-
-video: 
-  title: "En bref"
-  description: |
-    Le Réseau d'observation de la biodiversité du Canada (**ROB CAN**) est un projet de cadre national visant à surveiller systématiquement l'état de la biodiversité du Canada et à déterminer son évolution passée et présente.
-
-    ROB CAN regrouperait les observations scientifiques, personnelles et culturelles à différentes échelles. Il existe des façons de participer aux programmes de surveillance existants, qui pourraient alimenter les travaux du ROB CAN à l'avenir.
-  call_to_action: "Regardez notre vidéo pour en savoir plus!"
-
+    Un **réseau d'observation de la biodiversité du Canada** jouerait un rôle clé dans la coordination des efforts de surveillance de la biodiversité et fournirait aux décideurs des renseignements crédibles, pertinents et opportuns.
+  video_link: "https://www.youtube.com/watch?v=Qs68bEIbJmw"
+  video_call_to_action: "Visionnez notre vidéo pour plus de détails!"
 
 canadian_bon : 
   title: "Un BON canadien pourrait"
@@ -34,7 +21,7 @@ canadian_bon :
 
 development_plan:
   title: "Plan de développement"
-  text: "Un ROB CAN sera développé selon le processus ROB:"
+  text: "ROB CAN sera développé selon le processus ROB:"
   first_step: "Évaluation"
   second_step: "Engagement"
   third_step: "Conception"
