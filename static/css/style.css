@@ -108,6 +108,7 @@ strong {
     background-size: cover;
     background-position: 100% 100%;
     position: relative;
+    background-position: left;
 }
 
 .hero-right {
@@ -204,7 +205,7 @@ strong {
     .logos-container {
         display: flex;
         flex-direction: row;
-        gap: 32px;
+        gap: 0px 32px;
     }
 
     .logos {
@@ -800,8 +801,8 @@ these are rendered in two different pages
 
     .join-section-container {
         padding: 0;
-        background-size : 512px;
-        background-position: 170% -20%;
+        background-size: 100%;
+        background-position: 100% 80%;
     }
 
     .navbar-pages, .navbar-home, .footer {
@@ -810,6 +811,10 @@ these are rendered in two different pages
 
     .navbar-items.left {
         gap: 8px;
+    }
+
+    .red-container {
+        padding: 24px 5%;
     }
 
     /* ABOUT PAGE */
@@ -915,8 +920,8 @@ these are rendered in two different pages
     }
     
     .hero-home {
-        min-height: 50vh;
-        background-position: 30% 0;
+        min-height: 20vh;
+        background-position: 30%;
     }
 
     .two-columns-red {
@@ -939,14 +944,27 @@ these are rendered in two different pages
         }
     }
 
+    .red-container {
+        padding: 24px 5%;
+    }
+
     .join-section.main-content {
         width: 94vw;
         margin: auto;
     }
 
+    .red-container {
+        & .logos {
+            margin: 0;
+            img {
+                height: 32px;
+            }
+        }
+    }
+
     .join-section-container {
-        background-size: 500px;
-        background-position: 32vw -20vh;
+        background-size: 400%;
+        background-position: 20% 80%;
         padding: 0;
     }
     
