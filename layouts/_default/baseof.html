@@ -7,6 +7,33 @@
     <link rel="icon" type="image/x-icon" href="{{ "favicon.svg" | relURL }}">
     <title>{{ .Title }}</title>
 </head>
+
+<script>
+    function toggleMenu() {
+        var modal = document.getElementById("menu-modal");
+        var btn = document.getElementById("hamburger-btn");
+        if (modal.style.display === "flex") {
+            modal.style.display = "none";
+            btn.innerHTML = "&#9776;";
+        } else {
+            modal.style.display = "flex";
+            btn.innerHTML = "&#10005;";
+        }
+    }
+
+    // close when clicking outside the modal
+    document.addEventListener("click", function(e) {
+        var modal = document.getElementById("menu-modal");
+        var btn = document.getElementById("hamburger-btn");
+        if (modal.style.display === "flex" && 
+            !modal.contains(e.target) && 
+            e.target !== btn) {
+            modal.style.display = "none";
+            btn.innerHTML = "&#9776;";
+        }
+    });
+</script>
+
 <body>
     <main>
         {{ block "main" . }}{{ end }}

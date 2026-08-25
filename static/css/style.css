@@ -5,6 +5,7 @@
 /* color variables */
 :root {
     --grey: #222725; 
+    --grey-75: #212624bf; 
     --beige: #F9F3EB;
     --beige-75: #f9f3ebbf;
     --beige-50: #F9F3EB80;
@@ -904,15 +905,11 @@ these are rendered in two different pages
         gap: 20px;
     }
 
-    .hero-home {
+    /* .hero-home {
         .navbar-items.left {
             display: none;
         }
-    }
-
-    .navbar-items.right {
-        justify-content: space-around;
-    }
+    } */
 
     .navbar-logo.home {
         height: 128px;
@@ -963,8 +960,8 @@ these are rendered in two different pages
     }
 
     .join-section-container {
-        background-size: 400%;
-        background-position: 20% 80%;
+        background-size: 500px;
+        background-position: 32vw -20vh;
         padding: 0;
     }
     
@@ -1051,11 +1048,25 @@ these are rendered in two different pages
         .secretariat-card {
             width: 50%;
         }
+
+        .section-title {
+            margin-bottom: 0;
+        }
+
+        .university-logo {
+            height: 50px;
+            margin-top: 12px;
+        }
     }
 
     .network-page-partners {
+        .logos-container{
+            gap: 20px;
+        }
+
         .partner-logo {
-            max-width: 70vw ;
+            max-width: 40vw ;
+            /* max-height: 20vw ; */
         }
     }
 
@@ -1115,6 +1126,86 @@ these are rendered in two different pages
             height: 36px;
         }
     }
+}
 
+/* hamburger menu */
 
+.mobile-display {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: 3px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 3px 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#hamburger-btn {
+    img {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+.menu-modal {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 5vw;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #00000040;
+    background-color: var(--grey-75);
+    backdrop-filter: blur(4px); 
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.menu-modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.menu-modal-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu-modal-link {
+    color: white;
+    text-decoration: none;
+    font-family: "Geologica", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.menu-modal-link:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 480px) {
+    .hamburger, .mobile-display {
+        display: block;
+    }
+
+    .navbar-items.right.non-mobile  {
+        display: none;
+    }
 }
