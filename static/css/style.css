@@ -109,7 +109,7 @@ strong {
     background-size: cover;
     background-position: 100% 100%;
     position: relative;
-    background-position: left;
+    background-position: left bottom;
 }
 
 .hero-right {
@@ -952,7 +952,9 @@ these are rendered in two different pages
 
     .red-container {
         & .logos {
-            margin: 0;
+            padding: 0;
+            padding-left: 12px;
+            gap: 4px;
             img {
                 height: 32px;
             }
@@ -960,8 +962,8 @@ these are rendered in two different pages
     }
 
     .join-section-container {
-        background-size: 500px;
-        background-position: 32vw -20vh;
+        background-size: 400%;
+        background-position: 0% 30%;
         padding: 0;
     }
     
@@ -979,12 +981,17 @@ these are rendered in two different pages
 
     .about-page-introduction, .about-page-what-is {
         .columns {
-            gap: 24px;
+            gap: 0;
             align-items: center;
         }
 
         .column-left, .column-right {
             width: 100%;
+        }
+
+        .column-left {
+            padding: 12px;
+            width: auto;
         }
 
         .column-img {
@@ -1130,9 +1137,10 @@ these are rendered in two different pages
 
 /* hamburger menu */
 
-.mobile-display {
+.non-mobile {
     display: none;
 }
+
 
 .hamburger {
     display: none;

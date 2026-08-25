@@ -6,7 +6,7 @@
         <img class="navbar-logo" src="{{ "images/logo-white.png" | relURL }}">
         <p class="navbar-title">{{ $d.canbon }}</p>
     </a>
-    <div class="navbar-items right non-mobile">
+    <div class="navbar-items right">
         <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if eq .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
         <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
         <a href="{{ $d.network_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.network_link | absLangURL) }}active{{ end }}">{{ $d.network }}</a>
@@ -16,19 +16,19 @@
         {{ end }}
     </div>
 
-    <!-- hamburger btn -->
-    <div class="navbar-items right">
+    <!-- hamburger button -->
+    <!-- <div class="navbar-items right">
         {{ range .Translations }}
             <a class="lang-link mobile-display" href="{{ .Permalink }}">{{ .Language.Name }}</a>
         {{ end }}
-        <button class="hamburger" id="hamburger-btn" 
+        <button 
+            class="hamburger" id="hamburger-btn" 
             onclick="toggleMenu()" 
-            aria-label="Menu">
-                &#9776;
+            aria-label="Menu">&#9776;
         </button>
-    </div>
+    </div> -->
 
-    <!-- modal -->
+    <!-- modal overlay -->
     <div class="menu-modal" id="menu-modal">
         <nav class="menu-modal-links">
             <a href="{{ $d.home_link | absLangURL }}" class="menu-modal-link">{{ $d.home }}</a>
