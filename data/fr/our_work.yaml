@@ -6,7 +6,7 @@ working_groups:
   groups: 
   - title : "Conseil scientifique"
     image_name: "science-advisory.jpg"
-    description: "Le **Groupe consultatif scientifique** de ROB CAN est un groupe d'experts réuni pour fournir des orientations scientifiques et techniques indépendantes. Ce groupe a pour objectif de renforcer la crédibilité et la rigueur scientifiques de ROB CAN et de veiller à ce que le développement du réseau repose sur les meilleures données probantes, méthodes et pratiques disponibles."
+    description: "Le **Groupe consultatif scientifique** de CAN BON est un groupe d'experts réuni pour fournir des orientations scientifiques et techniques indépendantes. Ce groupe a pour objectif de renforcer la crédibilité et la rigueur scientifiques de CAN BON et de veiller à ce que le développement du réseau repose sur les meilleures données probantes, méthodes et pratiques disponibles."
     button : 
       text: "En savoir plus"
       link: ""
@@ -19,7 +19,7 @@ working_groups:
 
 data_tools: 
   title: "Outils de données"
-  subtitle: "Produits développés par ROB CAN et ses partenaires."
+  subtitle: "Produits développés par CAN BON et ses partenaires."
   button: 
     text: "Voir tous les produits >"
     link: "products/"

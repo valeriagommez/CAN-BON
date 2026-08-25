@@ -21,7 +21,7 @@ canadian_bon :
 
 development_plan:
   title: "Plan de développement"
-  text: "ROB CAN sera développé selon le processus ROB:"
+  text: "CAN BON sera développé selon le processus BON:"
   first_step: "Évaluation"
   second_step: "Engagement"
   third_step: "Conception"

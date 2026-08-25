@@ -1,6 +1,6 @@
 header: 
-  canbon: "ROB CAN"
-  hero_name: "hero-fr.png"
+  canbon: "CAN BON"
+  hero_name: "hero.png"
   home: "Accueil"
   about: "À propos"
   network: "Notre réseau"
@@ -29,9 +29,9 @@ two_columns:
   kunming_link: "https://www.cbd.int/gbf"
 
 about_section: 
-  about_title: "Rejoignez ROB CAN"
+  about_title: "Rejoignez CAN BON"
   about_text: | # NEEDED to preserve the line breaks
-    Vous souhaitez rejoindre ROB CAN?
+    Vous souhaitez rejoindre CAN BON?
     <ol>
       <li>Contribuer en fournissant des données sur la nature</li>
       <li>Devenir conseiller</li>
