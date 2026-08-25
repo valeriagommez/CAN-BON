@@ -13,12 +13,12 @@ reports:
   link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
 
 toolkits: 
-- title: "Toolkit 1"
+- title: "No toolkits available."
   link : ""
-- title: "Toolkit 2"
-  link : ""
-- title: "Toolkit 3"
-  link : ""
+# - title: "Toolkit 2"
+#   link : ""
+# - title: "Toolkit 3"
+#   link : ""
 
 webinars: 
 # template
