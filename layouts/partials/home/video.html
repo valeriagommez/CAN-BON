@@ -7,7 +7,9 @@
         <div class="columns">
             <div class="home-page-video column-left">
                 <p class="home-page-video subtitle">{{ $d.subtitle | markdownify}}</p>
-                <p>{{ $d.text | markdownify}}</p>
+                <div class="text">
+                    <p>{{ $d.text | markdownify}}</p>
+                </div>
             </div>
             <div class="home-page-video column-right">
                 <iframe 

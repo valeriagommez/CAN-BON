@@ -2,24 +2,20 @@
 {{ $d := index hugo.Data $lang "home" "two_columns" }}
 
 <div class="red-container">
-    <h3>{{ $d.title }}</h3>
-    <div class="two-columns-red">
-        <div class="column left">
-            <h3 style="color: white; margin-bottom: 0;">{{ $d.left_title }}</h3>
-            <p>{{ $d.left_text | markdownify }}</p>
-            <div class="logos-container">
-                <a class="logos" href="{{ $d.force_of_nature_link }}">
-                    <img src="{{ "images/logo-force-of-nature.png" | relURL }}">
-                    <p>{{ $d.force_of_nature_text | markdownify }}</p>
-                </a>
-                <a class="logos" href="{{ $d.kunming_link }}">
-                    <img src="{{ "images/logo-kunming.png" | relURL }}">
-                    <p>{{ $d.kunming_text | markdownify }}</p>
-                </a>
-            </div>
-        </div>
-        <div class="column right">
-            {{ $d.right_text | markdownify }}
+    <p class="text">{{ $d.top_text | markdownify }}</p>
+    <div class="box">
+        <h3 style="color: white; margin-bottom: 0;">{{ $d.box_title }}</h3>
+        <p>{{ $d.box_text | markdownify }}</p>
+        <div class="logos-container">
+            <a class="logos" href="{{ $d.force_of_nature_link }}">
+                <img src="{{ "images/logo-force-of-nature.png" | relURL }}">
+                <p>{{ $d.force_of_nature_text | markdownify }}</p>
+            </a>
+            <a class="logos" href="{{ $d.kunming_link }}">
+                <img src="{{ "images/logo-kunming.png" | relURL }}">
+                <p>{{ $d.kunming_text | markdownify }}</p>
+            </a>
         </div>
     </div>
+    <h3>{{ $d.headline }}</h3>
 </div>

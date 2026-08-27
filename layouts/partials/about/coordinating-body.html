@@ -1,9 +1,11 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $d := index hugo.Data $lang "network" "secretariat" }}
+{{ $intro := index hugo.Data $lang "about" "introduction" }}
+{{ $d := index hugo.Data $lang "about" "coordinating_body" }}
 
-<div class="network-page-secretariat">
+<div class="about-page-coordinating-body">
     <div class="container">
         <div class="main-content">
+            <h1 class="page-title">{{ $intro.title }}</h1>
             <div class="columns" style="padding: 0; gap: 8px;">
                 <h2 class="section-title">{{ $d.title }}</h2>
                 <div style="display: flex; gap: 24px;">
@@ -11,11 +13,11 @@
                     <img class="university-logo" src="{{ "images/logo-mcgill-university.png" | relURL }}">
                 </div>
             </div>
-            <p style="margin: 40px 0; text-align: center;">{{ $d.temp_text }}</p>
-            <div class="secretariat-cards">
+            <!-- <p style="margin: 40px 0; text-align: center;">{{ $d.temp_text }}</p> -->
+            <div class="coordinating-body-cards">
                 <!-- will loop through every member and display a card for each -->
                 {{ range $d.members }} 
-                    {{ partial "network/secretariat-card.html" . }}
+                    {{ partial "about/coordinating-body-card.html" . }}
                 {{ end }}
             </div>
         </div>
