@@ -10,7 +10,27 @@ header:
 
 introduction : 
   introduction_title : "Canada's Biodiversity Observation Network"
-  introduction_text : "A coordinated national system to monitor biodiversity across Canada’s lands, waters, and coasts."
+  introduction_text : "A coordinated national system to monitor biodiversity across Canada's lands, waters, and coasts."
+
+video: 
+  title: "About CAN BON"
+  subtitle: "Biodiversity loss is <span style='color:var(--red)'>**accelerating**</span>."
+  text: |
+    At the same time, demand for decision-useful nature data is increasing. 
+
+    Currently, information is fragmented across universities, governments, NGOs, Indigenous communities, and private organisations, making it difficult to understand the state of Canada's nature. 
+
+    A **Canadian Biodiversity Observation Network (CAN BON)** would provide a key role in coordinating biodiversity monitoring efforts and providing decision-makers with credible and timely relevant information. 
+
+canadian_bon : 
+  title: "A Canadian BON would"
+  text: |
+    - Build a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
+    - Support modelling and forecasting of biodiversity trends
+    - Improve biodiversity monitoring standards and data accessibility
+    - Generate decision-useful information for conservation policy and investment
+    - Enhance capacity to meet national priorities (30x30, species-at-risk protection, water security, and natural capital accounting,) and international commitments
+
 
 two_columns:
   title: "CAN BON will help deliver on Canada's national and international commitments"
@@ -25,6 +45,14 @@ two_columns:
   # kunming_text: "Kunming-Montreal Global Biodiversity Framework"
   kunming_text: "KMGBF"
   kunming_link: "https://www.cbd.int/gbf"
+
+development_plan:
+  title: "Development plan"
+  text: "CAN BON will be developed following the BON process:"
+  first_step: "Assessment"
+  second_step: "Engagement"
+  third_step: "Design"
+  fourth_step: "Implementation"
 
 about_section: 
   about_title: "Join CAN BON"

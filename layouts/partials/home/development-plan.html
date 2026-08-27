@@ -1,9 +1,8 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $d := index hugo.Data $lang "about" "development_plan" }}
+{{ $d := index hugo.Data $lang "home" "development_plan" }}
 
-<div class="about-page-development-plan">
-    <div class="container" 
-        style="background-image: url('{{ "images/dotted-line.png" | relURL }}');">
+<div class="home-page-development-plan">
+    <div class="container" style="background-image: url('{{ "images/dotted-line.png" | relURL }}');">
         <div class="main-content">
             <h2 class="section-title">{{ $d.title}}</h2>
             <p>{{ $d.text}}</p>
@@ -12,14 +11,17 @@
                     <img class="step-icon" src="{{ "images/1.png" | relURL }}">
                     <p class="step-name">{{ $d.first_step}}</p>
                 </div>
+                <img class="arrow" src="{{ "images/icon-arrow-red.png" | relURL }}">
                 <div class="step">
                     <img class="step-icon" src="{{ "images/2.png" | relURL }}">
                     <p class="step-name">{{ $d.second_step}}</p>
                 </div>
+                <img class="arrow" src="{{ "images/icon-arrow-red.png" | relURL }}">
                 <div class="step">
                     <img class="step-icon" src="{{ "images/3.png" | relURL }}">
                     <p class="step-name">{{ $d.third_step}}</p>
                 </div>
+                <img class="arrow" src="{{ "images/icon-arrow-red.png" | relURL }}">
                 <div class="step">
                     <img class="step-icon" src="{{ "images/4.png" | relURL }}">
                     <p class="step-name">{{ $d.fourth_step}}</p>
