@@ -1,0 +1,34 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index hugo.Data $lang "resources" "introduction" }}
+{{ $reports := index hugo.Data $lang "resources" "reports" }}
+{{ $toolkits := index hugo.Data $lang "resources" "toolkits" }}
+{{ $webinars := index hugo.Data $lang "resources" "webinars" }}
+
+<div class="resources-page-resources main-content">
+    <div class="columns">
+        <div class="column">
+            <p class="column-title">{{ $d.title_reports }}</p>
+            <div class="reports">
+                {{ range first 3 $reports }}
+                    {{ partial "resources/report-item.html" . }}
+                {{ end }}
+            </div>
+        </div>
+        <div class="column">
+            <p class="column-title">{{ $d.title_toolkits }}</p>
+            <div class="toolkits">
+                {{ range first 3 $toolkits }}
+                    {{ partial "resources/toolkit-item.html" . }}
+                {{ end }}
+            </div>
+        </div>
+        <div class="column">
+            <p class="column-title">{{ $d.title_webinars }}</p>
+            <div class="webinars">
+                {{ range first 3 $webinars }}
+                    {{ partial "resources/webinar-item.html" . }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

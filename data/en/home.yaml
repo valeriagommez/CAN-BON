@@ -2,17 +2,15 @@ header:
   canbon: "CAN BON"
   hero_name: "hero.png"
   home: "Home"
-  about: "About"
-  network: "Network"
-  our_work: "Our work"
+  about: "About us"
+  resources: "Resources"
   home_link: ""
   about_link: "about/"
-  network_link: "network/"
-  our_work_link: "our-work/"
+  resources_link: "resources/"
 
 introduction : 
   introduction_title : "Canada's Biodiversity Observation Network"
-  introduction_text : "A coordinated national system to monitor biodiversity across Canada's lands, waters, and coasts."
+  introduction_text : "A coordinated national system to monitor biodiversity across Canada’s lands, waters, and coasts."
 
 two_columns:
   title: "CAN BON will help deliver on Canada's national and international commitments"

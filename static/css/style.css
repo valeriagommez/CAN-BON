@@ -188,7 +188,13 @@ strong {
 /* HOME PAGE */
 .introduction-container {
     padding-bottom: 12px;
+    text-align: center;
+
+    .subtitle {
+        font-size: 20px;
+    }
 }
+
 
 /* 30x30 initiative --> creating two columns */
 .red-container {

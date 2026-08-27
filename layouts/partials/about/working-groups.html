@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $d := index hugo.Data $lang "our_work" "working_groups" }}
+{{ $d := index hugo.Data $lang "resources" "working_groups" }}
 
 <div class="our-work-page-working-groups">
     <div class="container">
@@ -8,7 +8,7 @@
             <div class="cards-container">
                 <!-- will loop through every working group and display a card for each -->
                 {{ range $d.groups }} 
-                    {{ partial "our-work/working-groups-card.html" . }}
+                    {{ partial "about/working-groups-card.html" . }}
                 {{ end }}
             </div>
         </div>

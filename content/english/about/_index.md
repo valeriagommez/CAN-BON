@@ -1,4 +1,4 @@
 +++
-title = "About CAN BON"
+title = "About us"
 draft = false
 +++

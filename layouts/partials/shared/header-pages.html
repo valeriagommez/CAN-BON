@@ -9,8 +9,7 @@
     <div class="navbar-items right">
         <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if eq .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
         <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
-        <a href="{{ $d.network_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.network_link | absLangURL) }}active{{ end }}">{{ $d.network }}</a>
-        <a href="{{ $d.our_work_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.our_work_link | absLangURL) }}active{{ end }}">{{ $d.our_work }}</a>
+        <a href="{{ $d.resources_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.resources_link | absLangURL) }}active{{ end }}">{{ $d.resources }}</a>
         {{ range .Translations }}
             <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
         {{ end }}
@@ -33,8 +32,7 @@
         <nav class="menu-modal-links">
             <a href="{{ $d.home_link | absLangURL }}" class="menu-modal-link">{{ $d.home }}</a>
             <a href="{{ $d.about_link | absLangURL }}" class="menu-modal-link">{{ $d.about }}</a>
-            <a href="{{ $d.network_link | absLangURL }}" class="menu-modal-link">{{ $d.network }}</a>
-            <a href="{{ $d.our_work_link | absLangURL }}" class="menu-modal-link">{{ $d.our_work }}</a>
+            <a href="{{ $d.resources_link | absLangURL }}" class="menu-modal-link">{{ $d.resources }}</a>
         </nav>
     </div>
 </div>

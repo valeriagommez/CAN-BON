@@ -1,33 +1,42 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $d := index hugo.Data $lang "resources" "introduction" }}
+{{ $d := index hugo.Data $lang "resources" "resources" }}
 {{ $reports := index hugo.Data $lang "resources" "reports" }}
 {{ $toolkits := index hugo.Data $lang "resources" "toolkits" }}
 {{ $webinars := index hugo.Data $lang "resources" "webinars" }}
 
-<div class="resources-page-resources main-content">
-    <div class="columns">
-        <div class="column">
-            <p class="column-title">{{ $d.title_reports }}</p>
-            <div class="reports">
-                {{ range first 3 $reports }}
-                    {{ partial "resources/report-item.html" . }}
-                {{ end }}
+<div class="our-work-page-resources">
+    <div class="container">
+        <div class="main-content">
+            <h2 class="section-title">{{ $d.title }}</h2>
+            <p>{{ $d.subtitle }}</p>
+            <div class="columns">
+                <div class="column">
+                    <p class="column-title">{{ $d.title_reports }}</p>
+                    <div class="reports">
+                        {{ range $reports }}
+                            {{ partial "resources/report-item.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="column">
+                    <p class="column-title">{{ $d.title_toolkits }}</p>
+                    <div class="toolkits">
+                        {{ range $toolkits }}
+                            {{ partial "resources/toolkit-item.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="column">
+                    <p class="column-title">{{ $d.title_webinars }}</p>
+                    <div class="webinars">
+                        {{ range $webinars }}
+                            {{ partial "resources/webinar-item.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="column">
-            <p class="column-title">{{ $d.title_toolkits }}</p>
-            <div class="toolkits">
-                {{ range first 3 $toolkits }}
-                    {{ partial "resources/toolkit-item.html" . }}
-                {{ end }}
-            </div>
-        </div>
-        <div class="column">
-            <p class="column-title">{{ $d.title_webinars }}</p>
-            <div class="webinars">
-                {{ range first 3 $webinars }}
-                    {{ partial "resources/webinar-item.html" . }}
-                {{ end }}
+            <div class="view-more-container">
+                <a class="view-more" href="{{ $d.button.link | absLangURL }}">{{ $d.button.text }}</a>
             </div>
         </div>
     </div>

@@ -3,12 +3,10 @@ header:
   hero_name: "hero.png"
   home: "Accueil"
   about: "À propos"
-  network: "Notre réseau"
-  our_work: "Nos projets"
+  resources: "Nos ressources"
   home_link: ""
   about_link: "about/"
-  network_link: "network/"
-  our_work_link: "our-work/"
+  resources_link: "resources/"
 
 introduction : 
   introduction_title : "Réseau d'observation de la biodiversité du Canada"
