@@ -1,8 +1,7 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $d := index hugo.Data $lang "home" "introduction" }}
 
-<div class="introduction-container"
-    style="background-image: url('{{ "images/bg-butterflies.png" | relURL }}');">
+<div class="introduction-container">
     <div class="main-content">
         <div class="introduction-box">
             <h2 style="margin-bottom: 20px;">{{ $d.introduction_title }}</h2>

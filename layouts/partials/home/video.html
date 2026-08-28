@@ -1,9 +1,9 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $d := index hugo.Data $lang "home" "video" }}
 
-<div class="home-page-video">
+<div class="home-page-video container"
+    style="background-image: url('{{ "images/bg-butterflies.png" | relURL }}');">
     <div class="main-content">
-        <h2 class="section-title">{{ $d.title }}</h2>
         <div class="columns">
             <div class="home-page-video column-left">
                 <p class="home-page-video subtitle">{{ $d.subtitle | markdownify}}</p>

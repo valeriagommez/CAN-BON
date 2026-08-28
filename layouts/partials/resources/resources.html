@@ -8,27 +8,27 @@
     <div class="columns">
         <div class="column">
             <p class="column-title">{{ $d.title_reports }}</p>
-            <div class="reports">
-                {{ range first 3 $reports }}
+            {{ range $reports }}
+                <div class="resource-item">
                     {{ partial "resources/report-item.html" . }}
+                </div>
                 {{ end }}
-            </div>
         </div>
         <div class="column">
             <p class="column-title">{{ $d.title_toolkits }}</p>
-            <div class="toolkits">
-                {{ range first 3 $toolkits }}
+            {{ range $toolkits }}
+                <div class="resource-item">
                     {{ partial "resources/toolkit-item.html" . }}
+                </div>
                 {{ end }}
-            </div>
         </div>
         <div class="column">
             <p class="column-title">{{ $d.title_webinars }}</p>
-            <div class="webinars">
-                {{ range first 3 $webinars }}
+            {{ range $webinars }}
+                <div class="resource-item">
                     {{ partial "resources/webinar-item.html" . }}
+                </div>
                 {{ end }}
-            </div>
         </div>
     </div>
 </div>

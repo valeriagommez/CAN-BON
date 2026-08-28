@@ -189,18 +189,17 @@ strong {
 
 /* HOME PAGE */
 .introduction-container {
-    padding: 72px 0;
-    text-align: center;
+    .main-content {
+        padding: 0;
+    }
 
-    /* parallax */
-    min-height: min-content;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: 100vw;
+    padding: 60px 0;
+    text-align: center;
     /* box-shadow: inset 0 -2px 16px hsla(0, 100%, 24%, 0.15); */
 
     .subtitle {
         font-size: 20px;
+        font-weight: 200;;
     }
 }
 
@@ -212,7 +211,15 @@ strong {
 
 
 .home-page-video {
-    background: var(--beige);
+    &.container {
+        background: var(--beige);
+        /* parallax */
+        min-height: min-content;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: 100vw;
+    }
+    
 
     &.main-content {
         padding: 0;
@@ -668,13 +675,15 @@ strong {
         font-family: "Geologica", sans-serif;
         font-size: 16px;
     }
-    
-    .container {
-        background-color: var(--red);
-    }
 
     .columns, .main-content{
         padding-bottom: 48px;
+    }
+
+    .column {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
     }
 
     .section-title {
@@ -694,6 +703,7 @@ strong {
         display: flex;
         /* align-items: center; */
         gap: 16px;
+        flex-direction: row;
         padding: 12px 0;
         color: white;
         text-decoration: none;

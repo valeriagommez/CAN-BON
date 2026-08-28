@@ -15,10 +15,8 @@ reports:
 toolkits: 
 - title: "BON in a Box"
   link : "https://boninabox.geobon.org/"
-# - title: "Toolkit 2"
-#   link : ""
-# - title: "Toolkit 3"
-#   link : ""
+# - title: "Toolkit"
+#   link : "https://example.com/"
 
 webinars: 
 # template
