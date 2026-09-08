@@ -7,13 +7,17 @@ coordinating_body:
   temp_text: "This section will be updated soon."
   members:
     - name: "Andrew Gonzalez"
-      position: "Position"
-      institution: "GEO BON, McGill University"
-      # image_name: "american-kestrel.jpg"
+      position: "Lead"
+      bio: |
+        Andrew Gonzalez is Professor and Liber Ero Chair in Biodiversity in the Department of Biology at McGill University, where his research focuses on the causes and consequences of biodiversity loss, including how human impacts on ecological connectivity, rapid evolution, and environmental change shape patterns of biodiversity and the resilience of ecosystems.  
+        
+        He is a Fellow of the Royal Society of Canada, founder of the Quebec Centre for Biodiversity Science, co-chair of the Group Earth Observations Biodiversity Observation Network (GEO BON), co-chair of the IPBES assessment on monitoring biodiversity, and co-founder of Habitat, a biodiversity consultancy based in Montreal. He is an ISI Highly Cited Researcher and has recently been awarded the NOMIS Distinguished Scientist and Scholar Award, presented to researchers who have made a significant contribution to their respective fields through groundbreaking, interdisciplinary research.
+      image_name: "andrew-gonzalez.png"
     - name: "Charlotte Lombardi"
       position: "Director, Strategy & Partnerships"
-      institution: "McGill University"
-      # image_name: "american-kestrel.jpg"
+      bio: |
+        Charlotte is a sustainability professional with an MBA, PMP (project management) certification, and executive training in Biodiversity & Business Sustainability. She brings prior experience developing sustainability strategies for Canadian companies across finance, technology, aerospace, consumer goods, and natural resources. In her previous role, she led flagship biodiversity finance projects at Millani, including a stakeholder engagement project with ECCC.
+      image_name: "charlotte-lombardi.jpeg"
 
 partners: 
   title: "Partners"

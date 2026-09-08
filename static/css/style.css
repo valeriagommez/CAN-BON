@@ -536,10 +536,11 @@ strong {
 
     .coordinating-body-cards {
         justify-content: space-around;
+        gap: 48px;
     }
 
     .coordinating-body-card {
-        width: max-content;
+        max-width: 45%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -549,7 +550,7 @@ strong {
         aspect-ratio: 1/1;        
         object-fit: cover; 
         border-radius: 50%; 
-        width: 144px;
+        width: 200px;
         margin-top: 24px;
         margin-bottom: 16px;
     }
@@ -560,13 +561,20 @@ strong {
         margin-bottom: 8px;
     }
 
-    .name, .position, .institution {
+    .name, .position {
         text-align: center;
         margin: 0;
     }
 
-    .institution {
-        font-style: italic;
+    .bio {
+        text-align: justify;
+        margin: 12px 0;
+        line-height: 1.5;
+
+        p {
+            margin-top: 0;
+            font-size: 16px;
+        }
     }
 
     .university-logo {
