@@ -10,21 +10,50 @@ header:
 
 introduction : 
   introduction_title : "Réseau d'observation de la biodiversité du Canada"
-  introduction_text : "Un système national coordonné pour surveiller la biodiversité sur les terres, les eaux et les côtes du Canada."
+  introduction_text : "Un système national coordonné de surveillance de la biodiversité sur l'ensemble des terres, des eaux et des côtes du Canada."
+
+video: 
+  subtitle: "La biodiversité du Canada <span style='color:var(--red)'>**évolue rapidement**</span>."
+  text: |
+    Parallèlement, la demande de données sur la nature utiles à la prise de décisions est en augmentation. 
+
+    À l'heure actuelle, les informations sont dispersées entre universités, gouvernements, ONG, communautés autochtones et organisations privées, ce qui rend difficile la compréhension de l'état de la nature au Canada. 
+
+    Un **Réseau canadien d'observation de la biodiversité (CAN BON)** jouerait un rôle clé dans la coordination des efforts de suivi de la biodiversité et fournirait aux décideurs des informations crédibles, pertinentes et actualisées.
+
+canadian_bon : 
+  title: "Un BON canadien pourrait"
+  text: |
+    - Créer un système national coordonné de surveillance de la biodiversité en connectant les systèmes d'observation, l'infrastructure de données et les connaissances autochtones.
+    - Appuyer la modélisation et la prévision des tendances de la biodiversité.
+    - Améliorer les normes de suivi de la biodiversité et l'accessibilité des données.
+    - Générer des informations utiles à la prise de décision pour les politiques et les investissements en matière de conservation.
+    - Renforcer les capacités pour répondre aux priorités nationales (30x30, protection des espèces menacées, sécurité de l'eau et comptabilité du capital naturel) et aux engagements internationaux.
 
 two_columns:
-  title: "CAN BON contribuera aux engagements nationaux et internationaux du Canada"
-  left_title: "L'initiative 30x30"
-  left_text: "Protéger **30 %** des terres et des eaux canadiennes d'ici **2030**"
-  right_text: | # NEEDED to preserve the line breaks
-    Le Canada met en œuvre une stratégie ambitieuse [**« Une force de la nature »**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), avec un engagement de 3,8 milliards de dollars pour l'initiative 30x30.
-
-    Cette initiative est conforme à la Convention des Nations Unies sur la diversité biologique (CDB) et le [**cadre mondial de Kunming-Montréal pour la biodiversité (CMMBB)**](https://www.cbd.int/gbf/targets).
+  top_text:
+    Le Canada fait progresser une stratégie ambitieuse intitulée [**« Une force de la nature »**](https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html), assortie d'un engagement de 3,8 milliards de dollars pour l'initiative « 30x30 ». 
+    Cette démarche s'inscrit dans le prolongement du [**Cadre mondial de Kunming-Montréal pour la biodiversité**](https://www.cbd.int/gbf/targets) adopté dans le cadre de la Convention sur la diversité biologique (CDB) des Nations Unies.
+  headline: "CAN BON contribuera à honorer les engagements nationaux et internationaux du Canada."
+  box_title: "L'initiative 30x30"
+  box_text: "Protéger **30 %** des terres et des eaux du Canada d'ici **2030**"
   force_of_nature_text: "« Une force de la nature »"
   force_of_nature_link: "https://www.canada.ca/fr/services/environnement/nature/strategie-nature.html"
   # kunming_text: "Kunming-Montreal Global Biodiversity Framework"
   kunming_text: "KMGBF"
   kunming_link: "https://www.cbd.int/gbf"
+
+
+development_plan:
+  title: "Plan de développement"
+  text: "CAN BON sera développé selon le processus BON:"
+  first_step: "Évaluation"
+  second_step: "Engagement"
+  third_step: "Conception"
+  fourth_step: "Mise en œuvre"
+  design_summit: "Nous préparons un Sommet du design CAN BON qui se tiendra en **juin 2027**."
+  get_in_touch: "[**Contactez-nous pour en savoir plus**](mailto:charlotte.lombardi@mcgill.ca)"
+
 
 about_section: 
   about_title: "Rejoignez CAN BON"

@@ -3,7 +3,7 @@ introduction :
   subtitle : "Our reports, toolkits, and webinars - all in one place."
   title_reports: "Reports"
   title_toolkits: "Toolkits"
-  title_webinars: "Webinars"
+  title_webinars: "Webinars & events"
 
 reports: 
 # template
@@ -22,5 +22,7 @@ webinars:
 # template
 # - title: "Title"
 #   link : "example.com"
-- title: "CAN BON Status Update"
+- title: "CAN BON Public engagement launch: 28 September 2026, <span style='font-weight: 500; color: var(--red)'>register here</span>"
+  link : "https://events.teams.microsoft.com/event/a3f61ad2-9ce2-43eb-b8d2-8f99cd40bcdc@cd319671-52e7-4a68-afa9-fcf8f89f09ea"
+- title: "CAN BON Status Update, 30 June 2026"
   link : "https://mcgill-my.sharepoint.com/:v:/g/personal/charlotte_lombardi_mcgill_ca/IQDJjpEP3B4cQKXTOkR4c3EpAX38qMfrPJh6eFXUbAF_pEY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RxCZLR"

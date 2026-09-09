@@ -1,4 +1,9 @@
-<a class="resource-item" href="{{ .link }}">
+<!-- <a class="resource-item" href="{{ .link }}">
     <img class="resource-icon" src="{{ "images/icon-webinar.png" | relURL }}" alt="">
     <p>{{ .title }}</p>
+</a> -->
+
+<a class="resource-item" href="{{ .link }}">
+    <img class="resource-icon" src="{{ "images/icon-webinar.png" | relURL }}" alt="">
+    <p>{{ .title | safeHTML }}</p>
 </a>

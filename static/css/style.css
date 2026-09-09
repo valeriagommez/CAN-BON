@@ -399,8 +399,9 @@ strong {
     }
 
     .design-summit, .get-in-touch {
+        font-family: "Geologica", sans-serif;
         font-size : 20px;
-        font-weight: 200;
+        font-weight: 400;
         line-height: 2.5;
         text-align: center;
     }
@@ -410,7 +411,6 @@ strong {
     }
     
     .get-in-touch {
-        font-family: "Geologica", sans-serif;
         color: var(--red);
     }
 }
