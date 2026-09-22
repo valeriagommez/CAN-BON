@@ -10,19 +10,74 @@ introduction:
   video_link: "https://www.youtube.com/watch?v=Qs68bEIbJmw"
   video_call_to_action: "Visionnez notre vidéo pour plus de détails!"
 
-canadian_bon : 
-  title: "Un BON canadien pourrait"
-  text: |
-    - Créer un système national coordonné de surveillance de la biodiversité en connectant les systèmes d'observation, l'infrastructure de données et les connaissances autochtones.
-    - Appuyer la modélisation et la prévision des tendances de la biodiversité.
-    - Améliorer les normes de suivi de la biodiversité et l'accessibilité des données.
-    - Générer des informations utiles à la prise de décision pour les politiques et les investissements en matière de conservation.
-    - Renforcer les capacités pour répondre aux priorités nationales (30x30, protection des espèces menacées, sécurité de l'eau et comptabilité du capital naturel) et aux engagements internationaux.
+coordinating_body:
+  title: "Coordinating body :"
+  hosted_at: "Hosted at"
+  temp_text: "This section will be updated soon."
+  members:
+    - name: "Andrew Gonzalez"
+      position: "Chef"
+      bio: |
+        Andrew Gonzalez est professeur et titulaire de la Chaire Liber Ero sur la biodiversité au Département de biologie de l’Université McGill. Ses recherches portent sur les causes et les conséquences de l’érosion de la biodiversité, notamment sur la façon dont les répercussions humaines — telles que les effets sur la connectivité écologique, l’évolution rapide et les changements environnementaux — façonnent la répartition de la biodiversité et la résilience des écosystèmes.
 
-development_plan:
-  title: "Plan de développement"
-  text: "CAN BON sera développé selon le processus BON:"
-  first_step: "Évaluation"
-  second_step: "Engagement"
-  third_step: "Conception"
-  fourth_step: "Mise en œuvre"
+        Il est membre de la Société royale du Canada, fondateur du Centre de la science de la biodiversité du Québec, coprésident du réseau GEO BON (Group on Earth Observations Biodiversity Observation Network), coprésident de l’évaluation de l’IPBES sur le suivi de la biodiversité et cofondateur de Habitat, une société de conseil en biodiversité établie à Montréal. Chercheur hautement cité (classement ISI), il a récemment reçu le prix « NOMIS Distinguished Scientist and Scholar Award », décerné aux chercheurs ayant apporté une contribution majeure à leur domaine grâce à des travaux interdisciplinaires novateurs. 
+      image_name: "andrew-gonzalez.png"
+    - name: "Charlotte Lombardi"
+      position: "Directrice, Stratégie et partenariats"
+      bio: |
+        Charlotte est une professionnelle du développement durable titulaire d'un MBA et d'une certification PMP (gestion de projet), ayant suivi une formation de haut niveau sur la biodiversité et la durabilité des entreprises. Elle possède une expérience dans l'élaboration de stratégies de développement durable pour des entreprises canadiennes opérant dans les secteurs de la finance, de la technologie, de l'aérospatiale, des biens de consommation et des ressources naturelles. Dans le cadre de ses fonctions précédentes chez Millani, elle a piloté des projets phares liés au financement de la biodiversité, notamment une initiative de mobilisation des parties prenantes menée avec Environnement et Changement climatique Canada (ECCC).
+      image_name: "charlotte-lombardi.jpeg"
+
+working_groups: 
+  title: "Groupes de travail"
+  groups: 
+  - title : "Groupe consultatif scientifique"
+    image_name: "science-advisory.jpg"
+    description: "Le **Groupe consultatif scientifique** de CAN BON est une instance d'experts réunie pour fournir des orientations scientifiques et techniques indépendantes. Ce groupe a pour mission de renforcer la crédibilité et la rigueur scientifiques de CAN BON et de veiller à ce que le développement du réseau repose sur les meilleures données probantes, méthodes et pratiques disponibles."
+    button : 
+      text: "Learn more"
+      link: ""
+  - title: "Groupe de pilotage provisoire"
+    image_name: "interim-steering.jpg"
+    description: "Le **groupe de pilotage provisoire** du CAN BON est une instance d'experts réunie pour assurer la supervision stratégique, la coordination institutionnelle et la prise de décision. Ce groupe a pour mission d'exercer une fonction de supervision et de veiller à ce que le réseau reflète fidèlement les besoins et les contextes des différents partenaires, parties prenantes et détenteurs de droits."
+    button : 
+        text: "Learn more"
+        link: ""
+
+
+partners: 
+  title: "Partenaires"
+  logos: 
+  - name: "GEO BON"
+    image_name: "logo-geobon.png"
+    link: "https://geobon.org/"
+  - name: "Marine BON"
+    image_name: "logo-bon-in-a-box.png"
+    link: "https://boninabox.geobon.org/"
+  - name: "CSBQ - QCBS"
+    image_name: "logo-qcbs.png"
+    link: "https://qcbs.ca/"
+  # - name: "Biodiversité Québec"
+  #   image_name: "logo-biodiversite-qc.png"
+  #   link: "https://biodiversite-quebec.ca/en/"
+  # - name: "Canadian Soil Biodiversity Observatory"
+  #   image_name: "logo-biodiversity-observatory.png"
+  #   link: "https://sis.agr.gc.ca/cansis/biome/index.html"
+  - name: "BC Biodiversity Network"
+    image_name: "logo-bcbn.png"
+    link: "https://science-bcbiodiversitynetwork-2025.sites.olt.ubc.ca/"
+  - name: "CanAvian"
+    image_name: "logo-canavian.png"
+    link: "https://canavian.ca/"
+  - name: "RESNET - NSERC"
+    image_name: "logo-nature-investement.png"
+    link: "https://natureinvestmenthub.ca/"
+  # - name: "Environment and Climate Change Canada"
+  #   image_name: "logo-eccc.png"
+  #   link: "https://www.canada.ca/en/environment-climate-change.html"
+  # - name: "Parks Canada"
+  #   image_name: "logo-parks-canada.png"
+  #   link: "https://parks.canada.ca/"
+  - name: "Agence spatiale canadienne"
+    image_name: "logo-csa.png"
+    link: "https://www.asc-csa.gc.ca/fra/"
