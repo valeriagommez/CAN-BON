@@ -6,20 +6,17 @@ introduction :
   title_webinars: "Webinaires"
 
 reports: 
-  - title: "FACETS, 2025, _« Un réseau d'observation de la biodiversité pour soutenir les mesures de conservation et intégrer les connaissances au Canada »_"
-    link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
+- title: "Gonzalez, A. et al. (2025) _Un réseau d'observation de la biodiversité pour soutenir les mesures de conservation et intégrer les connaissances au Canada (Volume 10, 2025)_. FACETS."
+  link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
+- title: "Gonzalez, A. et al. (2023) _Un système mondial d'observation de la biodiversité pour unifier le suivi et orienter l'action_ (7) Nature Ecology & Evolution."
+  link : "https://www.nature.com/articles/s41559-023-02171-0"
 
 toolkits: 
   - title: "BON in a Box"
     link : "https://boninabox.geobon.org/"
-  # - title: "Toolkit 2"
-  #   link : ""
-  # - title: "Toolkit 3"
-  #   link : ""
+  - title: "GEO BON"
+    link : "https://geobon.org/"
 
 webinars: 
-  - title: "Lancement de la consultation publique CAN BON : 28 septembre 2026, <span style='font-weight: 500; color: var(--red)'>inscrivez-vous ici</span>"
-    link : "https://events.teams.microsoft.com/event/a3f61ad2-9ce2-43eb-b8d2-8f99cd40bcdc@cd319671-52e7-4a68-afa9-fcf8f89f09ea"
-  - title: "Mise à jour de l'état de CAN BON, 30 juin 2026"
-    link : "https://mcgill-my.sharepoint.com/:v:/g/personal/charlotte_lombardi_mcgill_ca/IQDJjpEP3B4cQKXTOkR4c3EpAX38qMfrPJh6eFXUbAF_pEY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RxCZLR"
-  
+  - title: "CAN BON - Public engagement phase launch - Lancement de la phase de participation publique"
+    link : "https://events.teams.microsoft.com/event/a3f61ad2-9ce2-43eb-b8d2-8f99cd40bcdc@cd319671-52e7-4a68-afa9-fcf8f89f09ea?vod&attendeeId=964f0a63-bbd8-46a2-8014-1428c653b679&source=email"
