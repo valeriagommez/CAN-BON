@@ -6,8 +6,8 @@
     <div class="container">
         <div class="main-content">
             <h1 class="page-title">{{ $intro.title }}</h1>
-            <div class="columns" style="padding: 0; gap: 8px;">
-                <h2 class="section-title">{{ $d.title }}</h2>
+            <div class="columns" style="padding: 0; flex-direction: column; gap: 0;">
+                <h2 class="section-title" style="margin-bottom: 0;">{{ $d.title }}</h2>
                 <div style="display: flex; gap: 24px;">
                     <h2 class="section-title">{{ $d.hosted_at }}</h2>
                     <img class="university-logo" src="{{ "images/logo-mcgill-university.png" | relURL }}">

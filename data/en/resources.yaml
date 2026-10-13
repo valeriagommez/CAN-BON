@@ -3,7 +3,7 @@ introduction :
   subtitle : "Our reports, toolkits, and webinars - all in one place."
   title_reports: "Reports"
   title_toolkits: "Toolkits"
-  title_webinars: "Webinars & events"
+  title_webinars: "Webinars & videos"
 
 reports: 
 # template
@@ -24,5 +24,7 @@ webinars:
 # template
 # - title: "Title"
 #   link : "example.com"
+- title: "What is a CAN BON?"
+  link : "https://www.youtube.com/watch?v=Qs68bEIbJmw"
 - title: "CAN BON Public engagement phase launch: 28 September 2026"
   link : "https://events.teams.microsoft.com/event/a3f61ad2-9ce2-43eb-b8d2-8f99cd40bcdc@cd319671-52e7-4a68-afa9-fcf8f89f09ea?vod&attendeeId=964f0a63-bbd8-46a2-8014-1428c653b679&source=email"

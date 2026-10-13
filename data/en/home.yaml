@@ -9,7 +9,7 @@ header:
   resources_link: "resources/"
 
 introduction : 
-  introduction_title : "Canada's Biodiversity Observation Network"
+  introduction_title : "Canada Biodiversity Observation Network"
   introduction_text : "A coordinated national system to monitor biodiversity across Canada's lands, waters, and coasts."
 
 video: 
@@ -19,10 +19,10 @@ video:
 
     Currently, information is fragmented across universities, governments, NGOs, Indigenous communities, and private organisations, making it difficult to understand the state of Canada's nature.
 
-    A **Canadian Biodiversity Observation Network (CAN BON)** would provide a key role in coordinating biodiversity monitoring efforts and providing decision-makers with credible and timely relevant information.
+    A **Canada Biodiversity Observation Network (CAN BON)** would provide a key role in coordinating biodiversity monitoring efforts and providing decision-makers with credible and timely relevant information.
 
 canadian_bon : 
-  title: "A Canadian BON would"
+  title: "A Canada BON would"
   text: |
     - Build a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
     - Support modelling and forecasting of biodiversity trends
@@ -46,7 +46,7 @@ two_columns:
 
 development_plan:
   title: "Development plan"
-  text: "CAN BON will be developed following the BON process:"
+  text: "CAN BON will be developed following four action phases:"
   first_step: "Assessment"
   second_step: "Engagement"
   third_step: "Design"
@@ -55,13 +55,12 @@ development_plan:
   get_in_touch: "[**Get in touch to learn more**](mailto:charlotte.lombardi@mcgill.ca)"
 
 about_section: 
-  about_title: "Join CAN BON"
-  about_text: | # NEEDED to preserve the line breaks
-    Interested in joining CAN BON?
-    <ol>
-      <li>Contribute nature data</li>
-      <li>Join as an advisor</li>
-      <li>Invest in our mission</li>
-    </ol>
+  about_title: "Interested in joining CAN BON?"
+  column_1_title : "Contribute"
+  column_1_text : "Contribute your biodiversity monitoring data to the network or pitch a pilot project"
+  column_2_title : "Advise"
+  column_2_text : "Add your expertise to CAN BON's working groups"
+  column_3_title : "Invest"
+  column_3_text : "Sponsor the Summit or donate funds to CAN BON's mission"
   about_button_text : "Get in touch"
   about_button_link : "mailto:charlotte.lombardi@mcgill.ca"

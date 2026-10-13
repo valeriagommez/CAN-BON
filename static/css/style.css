@@ -240,7 +240,7 @@ strong {
     }
 
     .column-left {
-        width: 60%;
+        width: 100%;
         align-items: center;
         justify-content: center;
     }
@@ -436,6 +436,15 @@ strong {
         font-size: 18px;
         font-weight: 200;
     }
+
+    .column {
+        width: 33%;
+        text-align: center;
+
+        .title {
+            font-weight: 500;
+        }
+    }
 }
 
 .join-section {
@@ -585,7 +594,7 @@ strong {
 
 .about-page-partners {
     .partner-logo {
-        max-height: 75px;
+        max-height: 100px;
         max-width: 240px;
     }
 

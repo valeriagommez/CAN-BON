@@ -2,7 +2,7 @@ introduction:
   title: "About us"
 
 coordinating_body:
-  title: "Coordinating body :"
+  title: "Coordinating body"
   hosted_at: "Hosted at"
   temp_text: "This section will be updated soon."
   members:
@@ -40,9 +40,6 @@ partners:
   - name: "BC Biodiversity Network"
     image_name: "logo-bcbn.png"
     link: "https://science-bcbiodiversitynetwork-2025.sites.olt.ubc.ca/"
-  - name: "CanAvian"
-    image_name: "logo-canavian.png"
-    link: "https://canavian.ca/"
   - name: "RESNET - NSERC"
     image_name: "logo-nature-investement.png"
     link: "https://natureinvestmenthub.ca/"
@@ -52,10 +49,6 @@ partners:
   # - name: "Parks Canada"
   #   image_name: "logo-parks-canada.png"
   #   link: "https://parks.canada.ca/"
-  - name: "Canadian Space Agency"
-    image_name: "logo-csa.png"
-    link: "https://www.asc-csa.gc.ca/eng/"
-
 working_groups: 
   title: "Working groups"
   groups: 

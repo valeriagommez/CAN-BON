@@ -5,8 +5,20 @@
     style="background-image: url('{{ "images/bird-illustration.png" | relURL }}');">
     <div class="join-section main-content">
         <h1 class="section-title">{{ $d.about_title }}</h1>
-        <!-- <div style="width: max-content;"> -->
-        <p>{{ $d.about_text | markdownify }}</p>
+        <div class="columns">
+            <div class="column">
+                <p class="title">{{ $d.column_1_title }}</p>
+                <p>{{ $d.column_1_text }}</p>
+            </div>
+            <div class="column">
+                <p class="title">{{ $d.column_2_title }}</p>
+                <p>{{ $d.column_2_text }}</p>
+            </div>
+            <div class="column">
+                <p class="title">{{ $d.column_3_title }}</p>
+                <p>{{ $d.column_3_text }}</p>
+            </div>
+        </div>
         <div class="button-container">
             <a class="button" href="{{ $d.about_button_link | absLangURL }}">{{ $d.about_button_text }}</a>
         </div>
