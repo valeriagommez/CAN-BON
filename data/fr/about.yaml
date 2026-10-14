@@ -11,8 +11,8 @@ introduction:
   video_call_to_action: "Visionnez notre vidéo pour plus de détails!"
 
 coordinating_body:
-  title: "Coordinating body :"
-  hosted_at: "Hosted at"
+  title: "Organisme de coordination"
+  hosted_at: "Hébergé à"
   temp_text: "This section will be updated soon."
   members:
     - name: "Andrew Gonzalez"
@@ -25,7 +25,9 @@ coordinating_body:
     - name: "Charlotte Lombardi"
       position: "Directrice, Stratégie et partenariats"
       bio: |
-        Charlotte est une professionnelle du développement durable titulaire d'un MBA et d'une certification PMP (gestion de projet), ayant suivi une formation de haut niveau sur la biodiversité et la durabilité des entreprises. Elle possède une expérience dans l'élaboration de stratégies de développement durable pour des entreprises canadiennes opérant dans les secteurs de la finance, de la technologie, de l'aérospatiale, des biens de consommation et des ressources naturelles. Dans le cadre de ses fonctions précédentes chez Millani, elle a piloté des projets phares liés au financement de la biodiversité, notamment une initiative de mobilisation des parties prenantes menée avec Environnement et Changement climatique Canada (ECCC).
+        Charlotte est une professionnelle du développement durable titulaire d'un MBA et d'une certification PMP (gestion de projet), ayant suivi une formation de haut niveau sur la biodiversité et la durabilité des entreprises. Elle possède une expérience dans l'élaboration de stratégies de développement durable pour des entreprises canadiennes opérant dans les secteurs de la finance, de la technologie, de l'aérospatiale, des biens de consommation et des ressources naturelles.
+        
+        Dans le cadre de ses fonctions précédentes chez Millani, elle a piloté des projets phares liés au financement de la biodiversité, notamment une initiative de mobilisation des parties prenantes menée avec Environnement et Changement climatique Canada (ECCC).
       image_name: "charlotte-lombardi.jpeg"
 
 working_groups: 
@@ -35,13 +37,13 @@ working_groups:
     image_name: "science-advisory.jpg"
     description: "Le **Groupe consultatif scientifique** de CAN BON est une instance d'experts réunie pour fournir des orientations scientifiques et techniques indépendantes. Ce groupe a pour mission de renforcer la crédibilité et la rigueur scientifiques de CAN BON et de veiller à ce que le développement du réseau repose sur les meilleures données probantes, méthodes et pratiques disponibles."
     button : 
-      text: "Learn more"
+      text: "En savoir plus"
       link: ""
   - title: "Groupe de pilotage provisoire"
     image_name: "interim-steering.jpg"
     description: "Le **groupe de pilotage provisoire** du CAN BON est une instance d'experts réunie pour assurer la supervision stratégique, la coordination institutionnelle et la prise de décision. Ce groupe a pour mission d'exercer une fonction de supervision et de veiller à ce que le réseau reflète fidèlement les besoins et les contextes des différents partenaires, parties prenantes et détenteurs de droits."
     button : 
-        text: "Learn more"
+        text: "En savoir plus"
         link: ""
 
 
@@ -57,18 +59,9 @@ partners:
   - name: "CSBQ - QCBS"
     image_name: "logo-qcbs.png"
     link: "https://qcbs.ca/"
-  # - name: "Biodiversité Québec"
-  #   image_name: "logo-biodiversite-qc.png"
-  #   link: "https://biodiversite-quebec.ca/en/"
-  # - name: "Canadian Soil Biodiversity Observatory"
-  #   image_name: "logo-biodiversity-observatory.png"
-  #   link: "https://sis.agr.gc.ca/cansis/biome/index.html"
   - name: "BC Biodiversity Network"
     image_name: "logo-bcbn.png"
     link: "https://science-bcbiodiversitynetwork-2025.sites.olt.ubc.ca/"
-  - name: "CanAvian"
-    image_name: "logo-canavian.png"
-    link: "https://canavian.ca/"
   - name: "RESNET - NSERC"
     image_name: "logo-nature-investement.png"
     link: "https://natureinvestmenthub.ca/"
@@ -78,6 +71,15 @@ partners:
   # - name: "Parks Canada"
   #   image_name: "logo-parks-canada.png"
   #   link: "https://parks.canada.ca/"
-  - name: "Agence spatiale canadienne"
-    image_name: "logo-csa.png"
-    link: "https://www.asc-csa.gc.ca/fra/"
+  # - name: "Agence spatiale canadienne"
+  #   image_name: "logo-csa.png"
+  #   link: "https://www.asc-csa.gc.ca/fra/"
+  # - name: "CanAvian"
+  #   image_name: "logo-canavian.png"
+  #   link: "https://canavian.ca/"
+  # - name: "Biodiversité Québec"
+  #   image_name: "logo-biodiversite-qc.png"
+  #   link: "https://biodiversite-quebec.ca/en/"
+  # - name: "Canadian Soil Biodiversity Observatory"
+  #   image_name: "logo-biodiversity-observatory.png"
+  #   link: "https://sis.agr.gc.ca/cansis/biome/index.html"

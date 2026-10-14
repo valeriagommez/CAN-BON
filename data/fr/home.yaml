@@ -46,7 +46,7 @@ two_columns:
 
 development_plan:
   title: "Plan de développement"
-  text: "CAN BON sera développé selon le processus BON:"
+  text: "CAN BON sera développé selon quatre phases d'action :"
   first_step: "Évaluation"
   second_step: "Engagement"
   third_step: "Conception"
@@ -56,13 +56,12 @@ development_plan:
 
 
 about_section: 
-  about_title: "Rejoignez CAN BON"
-  about_text: | # NEEDED to preserve the line breaks
-    Vous souhaitez rejoindre CAN BON?
-    <ol>
-      <li>Contribuer en fournissant des données sur la nature</li>
-      <li>Devenir conseiller</li>
-      <li>Soutenir notre mission</li>
-    </ol>
-  about_button_text : "En savoir plus"
-  about_button_link : "about/"
+  about_title: "Vous souhaitez rejoindre CAN BON?"
+  column_1_title : "Contribuez"
+  column_1_text : "Contribuez au réseau avec vos données de suivi de la biodiversité ou proposez un projet pilote"
+  column_2_title : "Conseillez"
+  column_2_text : "Apportez votre expertise aux groupes de travail de CAN BON"
+  column_3_title : "Investissez"
+  column_3_text : "Parrainez le sommet ou faites un don pour soutenir la mission de CAN BON"
+  about_button_text : "Contactez-nous"
+  about_button_link : "mailto:charlotte.lombardi@mcgill.ca"

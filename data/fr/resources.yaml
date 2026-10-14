@@ -3,7 +3,7 @@ introduction :
   subtitle : "Nos rapports, nos outils et nos webinaires - tout au même endroit."
   title_reports: "Rapports"
   title_toolkits: "Outils"
-  title_webinars: "Webinaires"
+  title_webinars: "Webinaires et vidéos"
 
 reports: 
 - title: "Gonzalez, A. et al. (2025) _Un réseau d'observation de la biodiversité pour soutenir les mesures de conservation et intégrer les connaissances au Canada (Volume 10, 2025)_. FACETS."
@@ -18,5 +18,7 @@ toolkits:
     link : "https://geobon.org/"
 
 webinars: 
-  - title: "CAN BON - Public engagement phase launch - Lancement de la phase de participation publique"
+  - title: "Qu'est-ce que CAN BON?"
+    link : "https://www.youtube.com/watch?v=Qs68bEIbJmw"
+  - title: "CAN BON - Lancement de la phase de participation publique"
     link : "https://events.teams.microsoft.com/event/a3f61ad2-9ce2-43eb-b8d2-8f99cd40bcdc@cd319671-52e7-4a68-afa9-fcf8f89f09ea?vod&attendeeId=964f0a63-bbd8-46a2-8014-1428c653b679&source=email"

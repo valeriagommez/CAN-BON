@@ -4,4 +4,7 @@
         <p>{{ .title }}</p>
     </div>
     <p class="group-description">{{ .description | markdownify }}</p>
+    <div class="button-container">
+        <a class="button" href="{{ $.button.link | absLangURL }}">{{ $.button.text }}</a>
+    </div>
 </div>
