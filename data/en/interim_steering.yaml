@@ -1,0 +1,20 @@
+introduction : 
+  introduction_title : "Interim Steering Group"
+  introduction_text : "CAN BON's **Interim Steering Group** is an expert body convened to provide strategic oversight, institutional coordination, and decision-making authority. The Group’s purpose is to provide oversight and ensure the network well represents the needs and contexts of different partners, stakeholders and rightsholders."
+
+members:
+  - name: "xyz"
+    position: "xyz"
+    bio: |
+      Lorem ipsum
+    # image_name: "andrew-gonzalez.png"
+  - name: "abc"
+    position: "abc"
+    bio: |
+      Lorem ipsum
+    # image_name: "charlotte-lombardi.jpeg"
+  - name: "abc"
+    position: "abc"
+    bio: |
+      Lorem ipsum
+    # image_name: "charlotte-lombardi.jpeg"

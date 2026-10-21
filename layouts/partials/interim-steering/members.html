@@ -1,0 +1,11 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index hugo.Data $lang "interim_steering"}}
+
+<div class="main-content">
+    <div class="coordinating-body-cards">
+        <!-- will loop through every member and display a card for each -->
+        {{ range $d.members }} 
+            {{ partial "about/coordinating-body-card.html" . }}
+        {{ end }}
+    </div>
+</div>

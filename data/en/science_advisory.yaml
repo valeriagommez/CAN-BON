@@ -1,0 +1,20 @@
+introduction : 
+  introduction_title : "Science Advisory Group"
+  introduction_text : "CAN BON's **Science Advisory Group** is an expert body convened to provide independent scientific and technical guidance. The Group’s purpose is to strengthen the scientific credibility and rigour of CAN BON, and ensure the development of the network is grounded in the best available evidence, methods, and practice."
+
+members:
+  - name: "xyz"
+    position: "xyz"
+    bio: |
+      Lorem ipsum
+    # image_name: "andrew-gonzalez.png"
+  - name: "abc"
+    position: "abc"
+    bio: |
+      Lorem ipsum
+    # image_name: "charlotte-lombardi.jpeg"
+  - name: "abc"
+    position: "abc"
+    bio: |
+      Lorem ipsum
+    # image_name: "charlotte-lombardi.jpeg"

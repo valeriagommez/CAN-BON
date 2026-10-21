@@ -533,29 +533,41 @@ strong {
     row-gap: 24px;
 }
 
-.about-page-coordinating-body {
-    .main-content{ 
-        padding: 12px 0;
-    }
+.coordinating-body-cards {
+    justify-content: space-around;
+    gap: 48px;
+}
 
-    .container {
-        margin-top: 24px;
-        padding-bottom: 24px;
-    }
+.coordinating-body-card {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .coordinating-body-cards {
-        justify-content: space-around;
-        gap: 48px;
-    }
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
 
-    .coordinating-body-card {
-        max-width: 45%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.name, .position {
+    text-align: center;
+    margin: 0;
+}
 
-    .avatar {
+.bio {
+    text-align: justify;
+    margin: 12px 0;
+    line-height: 1.5;
+
+    p {
+        margin-top: 0;
+        font-size: 16px;
+    }
+}
+
+.avatar {
         aspect-ratio: 1/1;        
         object-fit: cover; 
         border-radius: 50%; 
@@ -564,26 +576,14 @@ strong {
         margin-bottom: 16px;
     }
 
-    .name {
-        font-weight: 600;
-        font-size: 20px;
-        margin-bottom: 8px;
+.about-page-coordinating-body {
+    .main-content{ 
+        padding: 12px 0;
     }
 
-    .name, .position {
-        text-align: center;
-        margin: 0;
-    }
-
-    .bio {
-        text-align: justify;
-        margin: 12px 0;
-        line-height: 1.5;
-
-        p {
-            margin-top: 0;
-            font-size: 16px;
-        }
+    .container {
+        margin-top: 24px;
+        padding-bottom: 24px;
     }
 
     .university-logo {
@@ -1137,13 +1137,13 @@ these are rendered in two different pages
             align-items: center;
         }
     }
+    
+    .coordinating-body-card {
+        width: 50%;
+    }
 
     /* NETWORK PAGE */
     .about-page-coordinating-body {
-        .coordinating-body-card {
-            width: 50%;
-        }
-
         .section-title {
             margin-bottom: 0;
         }
