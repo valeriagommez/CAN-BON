@@ -532,24 +532,12 @@ strong {
     flex-wrap: wrap;
     row-gap: 24px;
 }
-/* 
-.coordinating-body-cards {
-    justify-content: space-around;
-    gap: 48px;
-} */
 
 .coordinating-body-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
-
-/* .coordinating-body-card {
-    max-width: 45%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
 .coordinating-body-card {
     width: 100%;
