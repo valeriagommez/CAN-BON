@@ -57,11 +57,11 @@ working_groups:
     description: "CAN BON's **Science Advisory Group** is an expert body convened to provide independent scientific and technical guidance. The Group's purpose is to strengthen the scientific credibility and rigour of CAN BON, and ensure the development of the network is grounded in the best available evidence, methods, and practice."
     button : 
       text: "Learn more"
-      link: ""
+      link: "science-advisory/"
   - title: "Interim Steering Group"
     image_name: "interim-steering.jpg"
     description: "CAN BON's **Interim Steering Group** is an expert body convened to provide strategic oversight, institutional coordination, and decision-making authority. The Group’s purpose is to provide oversight and ensure the network well represents the needs and contexts of different partners, stakeholders and rightsholders."
     button : 
         text: "Learn more"
-        link: ""
+        link: "interim-steering/"
 

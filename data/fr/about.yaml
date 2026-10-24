@@ -38,13 +38,13 @@ working_groups:
     description: "Le **Groupe consultatif scientifique** de CAN BON est une instance d'experts réunie pour fournir des orientations scientifiques et techniques indépendantes. Ce groupe a pour mission de renforcer la crédibilité et la rigueur scientifiques de CAN BON et de veiller à ce que le développement du réseau repose sur les meilleures données probantes, méthodes et pratiques disponibles."
     button : 
       text: "En savoir plus"
-      link: ""
+      link: "science-advisory/"
   - title: "Groupe de pilotage provisoire"
     image_name: "interim-steering.jpg"
     description: "Le **groupe de pilotage provisoire** du CAN BON est une instance d'experts réunie pour assurer la supervision stratégique, la coordination institutionnelle et la prise de décision. Ce groupe a pour mission d'exercer une fonction de supervision et de veiller à ce que le réseau reflète fidèlement les besoins et les contextes des différents partenaires, parties prenantes et détenteurs de droits."
     button : 
         text: "En savoir plus"
-        link: ""
+        link: "interim-steering/"
 
 
 partners: 
