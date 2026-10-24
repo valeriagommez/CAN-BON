@@ -523,7 +523,18 @@ strong {
     margin-bottom: 24px;;
 }
 
-/* OUR NETWORK */
+.about-page-coordinating-body {
+    .coordinating-body-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 48px;
+
+        .bio {
+            text-align: justify;
+        }
+    }
+}
 
 .logos-container, .cards-container {
     display: flex;
@@ -537,6 +548,8 @@ strong {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    gap: 48px;
+    margin-bottom: 72px;
 }
 
 .coordinating-body-card {
@@ -558,7 +571,7 @@ strong {
 }
 
 .bio {
-    text-align: justify;
+    text-align: center;
     margin: 12px 0;
     line-height: 1.5;
 
@@ -569,13 +582,13 @@ strong {
 }
 
 .avatar {
-        aspect-ratio: 1/1;        
-        object-fit: cover; 
-        border-radius: 50%; 
-        width: 200px;
-        margin-top: 24px;
-        margin-bottom: 16px;
-    }
+    aspect-ratio: 1/1;        
+    object-fit: cover; 
+    border-radius: 50%; 
+    width: 172px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
 
 .about-page-coordinating-body {
     .main-content{ 
