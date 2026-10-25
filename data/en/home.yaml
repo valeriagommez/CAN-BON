@@ -1,34 +1,32 @@
 header: 
   canbon: "CAN BON"
-  hero_name: "hero.png"
+  hero_name: "hero.jpg"
   home: "Home"
   about: "About us"
   resources: "Resources"
   home_link: ""
   about_link: "about/"
   resources_link: "resources/"
-
-introduction : 
   introduction_title : "Canada Biodiversity Observation Network"
   introduction_text : "A coordinated national system to monitor biodiversity across Canada's lands, waters, and coasts."
 
-video: 
-  subtitle: "Canada's biodiversity is <span style='color:var(--red)'>**changing rapidly**</span>."
-  text: |
-    At the same time, demand for decision-useful nature data is increasing.
+canada_bon_columns : 
+  left :
+    title : "Canada's biodiversity is <span style='color:var(--red)'>**changing rapidly**</span>."
+    text: |
+        At the same time, demand for decision-useful nature data is increasing.
 
-    Currently, information is fragmented across universities, governments, NGOs, Indigenous communities, and private organisations, making it difficult to understand the state of Canada's nature.
+        Currently, information is fragmented across universities, governments, NGOs, Indigenous communities, and private organisations, making it difficult to understand the state of Canada's nature.
 
-    A **Canada Biodiversity Observation Network (CAN BON)** would provide a key role in coordinating biodiversity monitoring efforts and providing decision-makers with credible and timely relevant information.
-
-canadian_bon : 
-  title: "A Canada BON would"
-  text: |
-    - Build a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
-    - Support modelling and forecasting of biodiversity trends
-    - Improve biodiversity monitoring standards and data accessibility
-    - Generate decision-useful information for conservation policy and investment
-    - Enhance capacity to meet national priorities (30x30, species-at-risk protection, water security, and natural capital accounting) and international commitments
+        A **Canada Biodiversity Observation Network (CAN BON)** would provide a key role in coordinating biodiversity monitoring efforts and providing decision-makers with credible, timely, and relevant information.
+  right : 
+    title: "A Canada BON would"
+    text: |
+      - **Build** a coordinated national system for biodiversity monitoring by connecting observation systems, data infrastructure, and Indigenous knowledge
+      - **Support** modelling and forecasting of biodiversity trends
+      - **Improve** biodiversity monitoring standards and data accessibility
+      - **Generate** decision-useful information for conservation policy and investment
+      - **Enhance** capacity to meet national priorities (30x30, species-at-risk protection, water security, and natural capital accounting) and international commitments
 
 two_columns:
   top_text:

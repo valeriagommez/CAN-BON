@@ -1,34 +1,33 @@
 header: 
   canbon: "CAN BON"
-  hero_name: "hero.png"
+  hero_name: "hero.jpg"
   home: "Accueil"
   about: "À propos"
   resources: "Nos ressources"
   home_link: ""
   about_link: "about/"
   resources_link: "resources/"
-
-introduction : 
   introduction_title : "Réseau d'observation de la biodiversité du Canada"
   introduction_text : "Un système national coordonné de surveillance de la biodiversité sur l'ensemble des terres, des eaux et des côtes du Canada."
 
-video: 
-  subtitle: "La biodiversité du Canada <span style='color:var(--red)'>**évolue rapidement**</span>."
-  text: |
-    Parallèlement, la demande de données sur la nature utiles à la prise de décisions est en augmentation. 
 
-    À l'heure actuelle, les informations sont dispersées entre universités, gouvernements, ONG, communautés autochtones et organisations privées, ce qui rend difficile la compréhension de l'état de la nature au Canada. 
+canada_bon_columns : 
+  left :
+    title : "La biodiversité du Canada <span style='color:var(--red)'>**évolue rapidement**</span>."
+    text: |
+        Parallèlement, la demande de données sur la nature utiles à la prise de décisions est en augmentation. 
 
-    Un **Réseau canadien d'observation de la biodiversité (CAN BON)** jouerait un rôle clé dans la coordination des efforts de suivi de la biodiversité et fournirait aux décideurs des informations crédibles, pertinentes et actualisées.
+        À l'heure actuelle, les informations sont dispersées entre universités, gouvernements, ONG, communautés autochtones et organisations privées, ce qui rend difficile la compréhension de l'état de la nature au Canada. 
 
-canadian_bon : 
-  title: "Un BON canadien pourrait"
-  text: |
-    - Créer un système national coordonné de surveillance de la biodiversité en connectant les systèmes d'observation, l'infrastructure de données et les connaissances autochtones.
-    - Appuyer la modélisation et la prévision des tendances de la biodiversité.
-    - Améliorer les normes de suivi de la biodiversité et l'accessibilité des données.
-    - Générer des informations utiles à la prise de décision pour les politiques et les investissements en matière de conservation.
-    - Renforcer les capacités pour répondre aux priorités nationales (30x30, protection des espèces menacées, sécurité de l'eau et comptabilité du capital naturel) et aux engagements internationaux.
+        Un **Réseau canadien d'observation de la biodiversité (CAN BON)** jouerait un rôle clé dans la coordination des efforts de suivi de la biodiversité et fournirait aux décideurs des informations crédibles, pertinentes et actualisées.
+  right : 
+    title: "Un BON canadien pourrait"
+    text: |
+      - **Créer** un système national coordonné de surveillance de la biodiversité en connectant les systèmes d'observation, l'infrastructure de données et les connaissances autochtones.
+      - **Appuyer** la modélisation et la prévision des tendances de la biodiversité.
+      - **Améliorer** les normes de suivi de la biodiversité et l'accessibilité des données.
+      - **Générer** des informations utiles à la prise de décision pour les politiques et les investissements en matière de conservation.
+      - **Renforcer** les capacités pour répondre aux priorités nationales (30x30, protection des espèces menacées, sécurité de l'eau et comptabilité du capital naturel) et aux engagements internationaux.
 
 two_columns:
   top_text:

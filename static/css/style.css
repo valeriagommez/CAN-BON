@@ -1,6 +1,7 @@
 
 /* for the Geologica + Crimson Text fonts */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Geologica:wght,CRSV@100..900,0&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Geologica:wght,CRSV@100..900,0&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Geologica:wght,CRSV@100..900,0&display=swap');
 
 /* color variables */
 :root {
@@ -19,7 +20,8 @@
 }
 
 body {
-    font-family: "Crimson Text", serif;
+    /* font-family: "Crimson Text", serif; */
+    font-family: "Commissioner", sans-serif;
     color: var(--grey);
     margin: 0;
     display: flex;
@@ -38,20 +40,21 @@ a {
 }
 
 li {
-    font-size: 20px;
-    line-height: 20pt;
+    font-size: 16px;
+    line-height: 1.75;
 }
 
 .main-content {
-    max-width: 70%;
+    /* max-width: 70%; */
+    max-width: 80vw;
     margin: auto;
     padding-top: 32px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     margin: 12px 0;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,19 +102,56 @@ strong {
     font-family: "Geologica", sans-serif;
 }
 
-.navbar-pages {
+.navbar-pages, .navbar-home {
     background-color: var(--red);
     position: sticky;
     top: 0;
     box-shadow: 0 0 15px #00000060;
 }
 
+/* navbar home */
+.navbar-home {
+    background-color: white;
+    color: var(--red);
+
+    .navbar-title {
+        color: var(--red);
+    }
+
+    .lang-link {
+        border: 3px var(--red) solid;
+        color: var(--red);
+    }
+
+    .lang-link:hover {
+        background-color: var(--red-50);
+    }
+}
+
 .hero-home {
-    min-height: 324px;
+    height: 60vh;
     background-size: cover;
-    background-position: 100% 100%;
-    position: relative;
-    background-position: left bottom;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    .hero-text {
+        width: 70vw;
+        padding-top: 0;
+        margin: auto;
+    }
+    
+    h2 {
+        font-size: 48px;
+        margin-bottom: 0;
+        text-align: left;
+        color: white;
+    }
+
+    .hero-subtitle {
+        text-align: left;
+        font-size: 18px;
+    }
 }
 
 .hero-right {
@@ -120,15 +160,6 @@ strong {
     align-items: end;
     /* testing stuff out */
     gap: 100px; 
-}
-
-.hero-title {
-    font-size: 7vw;
-    color: white;
-    font-family: "Geologica", sans-serif;
-    font-weight: 700;
-    margin: 0;
-    line-height: 10px;
 }
 
 .navbar-items {
@@ -209,6 +240,10 @@ strong {
     padding: 24px;
 }
 
+ul{
+    padding-inline-start: 8px;
+}
+
 
 .home-page-video {
     &.container {
@@ -219,10 +254,14 @@ strong {
         background-position: top;
         background-size: 100vw;
     }
-    
 
-    &.main-content {
-        padding: 0;
+    h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 72px 0;
     }
 
     .text {
@@ -230,27 +269,17 @@ strong {
     }
 
     .columns {
-        padding-top: 0;
-        padding-bottom: 24px;
-        align-items: center;
+        padding: 0;
+        align-items: top;
     }
 
     .column-left, .column-right {
-        padding-bottom: 32px;
+        border: var(--red) 4px solid;
+        padding : 12px 24px;
     }
 
-    .column-left {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .column-right {
+    .column-left, .column-right {
         width: 50%;
-
-        .video {
-            width: 100%;
-        }
     }
 }
 
@@ -258,7 +287,7 @@ strong {
 /* 30x30 initiative */
 .red-container {
     background-color: var(--red);
-    padding: 32px 15%;
+    padding: 32px 10vw;
     
     font-family: "Geologica", sans-serif;
     color: white;
@@ -427,19 +456,26 @@ strong {
     background-position: top;
     background-size: 100vw;
 
-    p, ol, .section-title {
+    p, .section-title {
         color: white;
-        font-family: "Geologica", sans-serif;
     }
 
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
     p, li {
-        font-size: 18px;
+        font-family: "Commissioner", sans-serif;
+        font-size: 16px;
         font-weight: 200;
     }
 
     .column {
         width: 33%;
         text-align: center;
+        border: var(--beige-50) 4px solid;
+        padding: 12px 24px;
 
         .title {
             font-weight: 500;
@@ -448,8 +484,6 @@ strong {
 }
 
 .join-section {
-    width: 45%;
-    margin-left: 15%;
     padding-bottom: 60px;
 
     .button {
@@ -574,11 +608,8 @@ strong {
     text-align: center;
     margin: 12px 0;
     line-height: 1.5;
-
-    p {
-        margin-top: 0;
-        font-size: 16px;
-    }
+    font-size: 13px;
+    margin-top: 0;
 }
 
 .avatar {
@@ -832,7 +863,7 @@ these are rendered in two different pages
     /* font-family: "Crimson Text", serif; */
     background-color: var(--grey);
     color: white;
-    font-family: "Geologica", sans-serif;
+    font-family: "Commissioner", sans-serif;
     color: var(--beige);
     padding: 0 10vw;
     min-height: 128px;
@@ -898,7 +929,7 @@ these are rendered in two different pages
     }
 
     .join-section {
-        width: 70%;
+        width: 80vw;
         margin-left: 5vw;
     }
 
