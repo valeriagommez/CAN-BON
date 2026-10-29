@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Geologica:wght,CRSV@100..900,0&display=swap');
+
+/* color variables */
+:root {
+    --grey: #222725; 
+    --grey-75: #212624bf; 
+
+    --beige: #F9F3EB;
+    --beige-75: #f9f3ebbf;
+    --beige-50: #F9F3EB80;
+
+    --red: #B82F3D;
+    --red-50: #d72b3c80;
+    --dark-red: #931214;
+    --darker-red: #760415;
+
+    --dark-blue: #245575;
+    --blue: #91C9DF;
+    --blue-50: #91C9DF80;
+
+    --dark-green: #356C59;
+    --green: #9EC989;
+    --green-50: #9EC98966;
+}

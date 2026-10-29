@@ -1,11 +1,11 @@
 introduction : 
   title: "Nos ressources"
-  subtitle : "Nos rapports, nos outils et nos webinaires - tout au même endroit."
-  title_reports: "Rapports"
+  subtitle : "Nos publications, nos outils et nos webinaires - tout au même endroit."
+  title_publications: "Publications"
   title_toolkits: "Outils"
   title_webinars: "Webinaires et vidéos"
 
-reports: 
+publications: 
 - title: "Gonzalez, A. et al. (2025) _Un réseau d'observation de la biodiversité pour soutenir les mesures de conservation et intégrer les connaissances au Canada (Volume 10, 2025)_. FACETS."
   link : "https://www.facetsjournal.com/doi/10.1139/facets-2024-0206"
 - title: "Gonzalez, A. et al. (2023) _Un système mondial d'observation de la biodiversité pour unifier le suivi et orienter l'action_ (7) Nature Ecology & Evolution."

@@ -1,11 +1,11 @@
 introduction : 
   title: "Our resources"
-  subtitle : "Our reports, toolkits, and webinars - all in one place."
-  title_reports: "Reports"
+  subtitle : "Our publications, toolkits, and webinars - all in one place."
+  title_publications: "Publications"
   title_toolkits: "Toolkits"
   title_webinars: "Webinars & videos"
 
-reports: 
+publications: 
 # template
 # - title: "Title"
 #   link : "example.com"

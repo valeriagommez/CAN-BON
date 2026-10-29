@@ -1,14 +1,14 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $d := index hugo.Data $lang "resources" "introduction" }}
-{{ $reports := index hugo.Data $lang "resources" "reports" }}
+{{ $publications := index hugo.Data $lang "resources" "publications" }}
 {{ $toolkits := index hugo.Data $lang "resources" "toolkits" }}
 {{ $webinars := index hugo.Data $lang "resources" "webinars" }}
 
 <div class="resources-page-resources main-content">
     <div class="columns">
         <div class="column">
-            <p class="column-title">{{ $d.title_reports }}</p>
-            {{ range $reports }}
+            <p class="column-title">{{ $d.title_publications }}</p>
+            {{ range $publications }}
                 <div class="resource-item">
                     {{ partial "resources/report-item.html" . }}
                 </div>

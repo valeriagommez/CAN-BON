@@ -21,7 +21,7 @@ coordinating_body:
         Andrew Gonzalez est professeur et titulaire de la Chaire Liber Ero sur la biodiversité au Département de biologie de l’Université McGill. Ses recherches portent sur les causes et les conséquences de l’érosion de la biodiversité, notamment sur la façon dont les répercussions humaines — telles que les effets sur la connectivité écologique, l’évolution rapide et les changements environnementaux — façonnent la répartition de la biodiversité et la résilience des écosystèmes.
 
         Il est membre de la Société royale du Canada, fondateur du Centre de la science de la biodiversité du Québec, coprésident du réseau GEO BON (Group on Earth Observations Biodiversity Observation Network), coprésident de l’évaluation de l’IPBES sur le suivi de la biodiversité et cofondateur de Habitat, une société de conseil en biodiversité établie à Montréal. Chercheur hautement cité (classement ISI), il a récemment reçu le prix « NOMIS Distinguished Scientist and Scholar Award », décerné aux chercheurs ayant apporté une contribution majeure à leur domaine grâce à des travaux interdisciplinaires novateurs. 
-      image_name: "andrew-gonzalez.png"
+      image_name: "andrew-gonzalez.jpg"
     - name: "Charlotte Lombardi"
       position: "Directrice, Stratégie et partenariats"
       bio: |
@@ -65,6 +65,15 @@ partners:
   - name: "RESNET - NSERC"
     image_name: "logo-nature-investement.png"
     link: "https://natureinvestmenthub.ca/"
+  - name: "Université McGill"
+    image_name: "logo-mcgill-university.png"
+    link: "https://www.mcgill.ca/"
+  - name: "Liber Ero"
+    image_name: "logo-liberero.png"
+    link: "https://liberero.ca/"
+  - name: "Environment and Climate Change Canada"
+    image_name: "logo-eccc.png"
+    link: "https://www.canada.ca/en/environment-climate-change.html"
   # - name: "Environment and Climate Change Canada"
   #   image_name: "logo-eccc.png"
   #   link: "https://www.canada.ca/en/environment-climate-change.html"

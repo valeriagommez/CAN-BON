@@ -1,0 +1,71 @@
+@import "variables.css";
+
+body {
+    /* font-family: "Crimson Text", serif; */
+    font-family: "Commissioner", sans-serif;
+    color: var(--grey);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.main-content {
+    /* max-width: 70%; */
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 32px;
+}
+
+p {
+    font-size: 16px;
+    margin: 12px 0;
+    line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Geologica", sans-serif;
+    color: var(--red)
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.no-drag {
+    -webkit-user-drag: none;
+    user-select: none;    
+    -webkit-user-select: none; 
+    -moz-user-select: none;  
+}

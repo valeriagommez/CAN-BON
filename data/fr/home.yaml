@@ -15,7 +15,7 @@ header:
 
 canada_bon_columns : 
   left :
-    title : "La biodiversité du Canada <span style='color:var(--red)'>**évolue rapidement**</span>."
+    title : "La biodiversité du Canada évolue rapidement"
     text: |
         Parallèlement, la demande de données sur la nature utiles à la prise de décisions est en augmentation. 
 

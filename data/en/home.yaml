@@ -14,7 +14,7 @@ header:
 
 canada_bon_columns : 
   left :
-    title : "Canada's biodiversity is <span style='color:var(--red)'>**changing rapidly**</span>."
+    title : "Canada's biodiversity is changing rapidly"
     text: |
         At the same time, demand for decision-useful nature data is increasing.
 

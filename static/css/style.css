@@ -1,93 +1,6 @@
 
-/* for the Geologica + Crimson Text fonts */
-/* @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Geologica:wght,CRSV@100..900,0&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Geologica:wght,CRSV@100..900,0&display=swap');
-
-/* color variables */
-:root {
-    --grey: #222725; 
-    --grey-75: #212624bf; 
-    --beige: #F9F3EB;
-    --beige-75: #f9f3ebbf;
-    --beige-50: #F9F3EB80;
-    --bright-red: #df001e;
-    --red: #B82F3D;
-    --red-50: #d72b3c80;
-    --dark-red: #931214;
-    --darker-red: #760415;
-    --blue: #1D3D64;
-    --blue-50: #1D3D6480;
-}
-
-body {
-    /* font-family: "Crimson Text", serif; */
-    font-family: "Commissioner", sans-serif;
-    color: var(--grey);
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main {
-  flex: 1;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-    font-weight: 200;
-}
-
-li {
-    font-size: 16px;
-    line-height: 1.75;
-}
-
-.main-content {
-    /* max-width: 70%; */
-    max-width: 80vw;
-    margin: auto;
-    padding-top: 32px;
-}
-
-p {
-    font-size: 16px;
-    margin: 12px 0;
-    line-height: 1.75;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Geologica", sans-serif;
-    color: var(--red)
-}
-
-h1 {
-    font-size: 48px;
-}
-
-h2 {
-    font-size: 40px
-}
-
-h3 {
-    font-size: 32px;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-strong {
-    font-weight: 700;
-}
-
-.no-drag {
-    -webkit-user-drag: none;
-    user-select: none;    
-    -webkit-user-select: none; 
-    -moz-user-select: none;  
-}
+@import "variables.css";
+@import "global.css";
 
 /* navigation bar for the pages (red) */
 .navbar-pages, .navbar-home, .footer {
@@ -274,12 +187,16 @@ ul{
     }
 
     .column-left, .column-right {
-        border: var(--red) 4px solid;
-        padding : 12px 24px;
-    }
-
-    .column-left, .column-right {
+        border-top: var(--dark-green) 4px solid;
+        border-radius: 12px;
+        background-color: var(--green-50);
+        backdrop-filter: blur(4px);
+        padding : 12px 36px;
         width: 50%;
+
+        h2 {
+            color: var(--dark-green);
+        }
     }
 }
 
