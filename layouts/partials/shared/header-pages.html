@@ -10,6 +10,7 @@
         <a href="{{ $d.home_link | absLangURL }}" class="navbar-link {{ if eq .Permalink ($d.home_link | absLangURL) }}active{{ end }}">{{ $d.home }}</a>
         <a href="{{ $d.about_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.about_link | absLangURL) }}active{{ end }}">{{ $d.about }}</a>
         <a href="{{ $d.resources_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.resources_link | absLangURL) }}active{{ end }}">{{ $d.resources }}</a>
+        <a href="{{ $d.summit_link | absLangURL }}" class="navbar-link {{ if hasPrefix .Permalink ($d.summit_link | absLangURL) }}active{{ end }}">{{ $d.summit }}</a>
         {{ range .Translations }}
             <a class="lang-link" href="{{ .Permalink }}">{{ .Language.Name }}</a>
         {{ end }}

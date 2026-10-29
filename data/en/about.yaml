@@ -67,3 +67,13 @@ working_groups:
         text: "Learn more"
         link: "interim-steering/"
 
+about_section: 
+  about_title: "Interested in joining CAN BON?"
+  column_1_title : "Contribute"
+  column_1_text : "Contribute your biodiversity monitoring data to the network or pitch a pilot project"
+  column_2_title : "Advise"
+  column_2_text : "Add your expertise to CAN BON's working groups"
+  column_3_title : "Invest"
+  column_3_text : "Sponsor the Summit or donate funds to CAN BON's mission"
+  about_button_text : "Get in touch"
+  about_button_link : "mailto:charlotte.lombardi@mcgill.ca"

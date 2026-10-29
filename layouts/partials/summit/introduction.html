@@ -1,0 +1,7 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $d := index hugo.Data $lang "summit" "introduction" }}
+
+<div class="summit-introduction main-content">
+    <h2 style="margin-bottom: 20px;">{{ $d.introduction_title }}</h2>
+    <p>{{ $d.introduction_text | markdownify }}</p>
+</div>

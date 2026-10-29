@@ -2,11 +2,13 @@ header:
   canbon: "CAN BON"
   hero_name: "hero.jpg"
   home: "Accueil"
-  about: "À propos"
-  resources: "Nos ressources"
   home_link: ""
+  about: "À propos"
   about_link: "about/"
+  resources: "Nos ressources"
   resources_link: "resources/"
+  summit: "Sommet du design"
+  summit_link: "summit/"
   introduction_title : "Réseau d'observation de la biodiversité du Canada"
   introduction_text : "Un système national coordonné de surveillance de la biodiversité sur l'ensemble des terres, des eaux et des côtes du Canada."
 
@@ -52,15 +54,3 @@ development_plan:
   fourth_step: "Mise en œuvre"
   design_summit: "Nous préparons un Sommet du design CAN BON qui se tiendra en **juin 2027**."
   get_in_touch: "[**Contactez-nous pour en savoir plus**](mailto:charlotte.lombardi@mcgill.ca)"
-
-
-about_section: 
-  about_title: "Vous souhaitez rejoindre CAN BON?"
-  column_1_title : "Contribuez"
-  column_1_text : "Contribuez au réseau avec vos données de suivi de la biodiversité ou proposez un projet pilote"
-  column_2_title : "Conseillez"
-  column_2_text : "Apportez votre expertise aux groupes de travail de CAN BON"
-  column_3_title : "Investissez"
-  column_3_text : "Parrainez le sommet ou faites un don pour soutenir la mission de CAN BON"
-  about_button_text : "Contactez-nous"
-  about_button_link : "mailto:charlotte.lombardi@mcgill.ca"
